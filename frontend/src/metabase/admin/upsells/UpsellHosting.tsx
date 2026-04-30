@@ -26,7 +26,7 @@ export const UpsellHostingBanner = ({ location }: { location: string }) => {
       location={location}
     >
       {jt`${(
-        <strong key="migrate">{t`Migrate to Metabase Cloud`}</strong>
+        <strong key="migrate">{t`Migrate to TenvioX Cloud`}</strong>
       )} for fast, reliable, and secure deployment.`}
     </UpsellBanner>
   );

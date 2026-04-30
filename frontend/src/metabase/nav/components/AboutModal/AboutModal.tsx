@@ -60,7 +60,7 @@ export const AboutModal = ({
               <Stack align="center" gap={0}>
                 <Text fz="sm" fw="bold" c="text-secondary" lh="sm">
                   {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- This only shows on OSS instance */}
-                  {t`Metabase is a Trademark of Metabase, Inc`}
+                  {t`TenvioX is a Trademark of TenvioX, Inc`}
                 </Text>
                 <Text
                   fz="sm"

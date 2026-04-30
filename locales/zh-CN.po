@@ -1,12 +1,12 @@
 # #-#-#-#-#  metabase-backend.pot (1.0)  #-#-#-#-#
-# Copyright (C) 2022 Metabase <docs@metabase.com>
-# This file is distributed under the same license as the Metabase package
+# Copyright (C) 2022 TenvioX <support@data-os.cn>
+# This file is distributed under the same license as the TenvioX package
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Project-Id-Version: metabase-i18n\n"
-"Report-Msgid-Bugs-To: docs@metabase.com\n"
+"Report-Msgid-Bugs-To: docs@data-os.cn\n"
 "POT-Creation-Date: 2026-04-22 03:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -814,8 +814,8 @@ msgstr "已启用：当用户通过 {0} 登录时，如果他们还没有账号�
 
 #: enterprise/frontend/src/metabase-enterprise/auth/utils.ts:38
 #, javascript-format
-msgid "Disabled: Only users with active Metabase accounts can log in using {0}."
-msgstr "已禁用：只有拥有有效 Metabase 账号的用户才能使用 {0} 登录。"
+msgid "Disabled: Only users with active TenvioX accounts can log in using {0}."
+msgstr "已禁用：只有拥有有效 天伟数科 账号的用户才能使用 {0} 登录。"
 
 #: enterprise/frontend/src/metabase-enterprise/caching/constants.ts:24
 msgid "A cron expression is required"
@@ -1227,8 +1227,8 @@ msgid "Database replication"
 msgstr "数据库复制"
 
 #: enterprise/frontend/src/metabase-enterprise/database_replication/DatabaseReplicationSection.tsx:56
-msgid "Continuously sync the tables from this database with Metabase Cloud Storage - a fast managed database. Then query the copied tables instead of the originals."
-msgstr "持续将此数据库中的表同步到 Metabase Cloud Storage（一个快速的托管数据库）。然后查询复制后的表，而不是原始表。"
+msgid "Continuously sync the tables from this database with TenvioX Cloud Storage - a fast managed database. Then query the copied tables instead of the originals."
+msgstr "持续将此数据库中的表同步到 天伟数科 Cloud Storage（一个快速的托管数据库）。然后查询复制后的表，而不是原始表。"
 
 #: enterprise/frontend/src/metabase-enterprise/database_replication/DatabaseReplicationSection.tsx:63
 msgid "Stopping…"
@@ -1259,12 +1259,12 @@ msgid "This will take just a minute or so"
 msgstr "这大概只需要一分钟左右"
 
 #: enterprise/frontend/src/metabase-enterprise/database_replication/DatabaseReplicationStatusInfo.tsx:21
-msgid "Replicating to Metabase Cloud Storage"
-msgstr "正在复制到 Metabase Cloud Storage"
+msgid "Replicating to TenvioX Cloud Storage"
+msgstr "正在复制到 天伟数科 Cloud Storage"
 
 #: enterprise/frontend/src/metabase-enterprise/database_replication/DatabaseReplicationStatusInfo.tsx:23
-msgid "Not replicating to Metabase Cloud Storage"
-msgstr "未复制到 Metabase Cloud Storage"
+msgid "Not replicating to TenvioX Cloud Storage"
+msgstr "未复制到 天伟数科 Cloud Storage"
 
 #: enterprise/frontend/src/metabase-enterprise/database_replication/DatabaseReplicationSuccess.tsx:18
 msgid "Replication in progress"
@@ -1371,8 +1371,8 @@ msgid "Slug"
 msgstr "Slug"
 
 #: enterprise/frontend/src/metabase-enterprise/database_routing/index.tsx:28
-msgid "Metabase will route queries to this database when the user attribute value matches this slug."
-msgstr "当用户属性值与此 slug 匹配时，Metabase 会将查询路由到该数据库。"
+msgid "TenvioX will route queries to this database when the user attribute value matches this slug."
+msgstr "当用户属性值与此 slug 匹配时，天伟数科 会将查询路由到该数据库。"
 
 #: enterprise/frontend/src/metabase-enterprise/database_routing/index.tsx:29
 msgid "For example, pro-users"
@@ -1905,8 +1905,8 @@ msgid "To add a new Google Drive folder, the existing one needs to be disconnect
 msgstr "要添加新的 Google Drive 文件夹，需要先断开现有连接"
 
 #: enterprise/frontend/src/metabase-enterprise/google_drive/GdriveConnectionModal.strings.ts:30
-msgid "Only one folder can be synced with Metabase at a time. Your tables and Google Sheets will remain in place."
-msgstr "Metabase 一次只能同步一个文件夹。你的表和 Google Sheets 会保留原样。"
+msgid "Only one folder can be synced with TenvioX at a time. Your tables and Google Sheets will remain in place."
+msgstr "天伟数科 一次只能同步一个文件夹。你的表和 Google Sheets 会保留原样。"
 
 #: enterprise/frontend/src/metabase-enterprise/google_drive/GdriveConnectionModal.strings.ts:31
 msgid "Your existing tables and Google Sheets will remain in place but they will no longer be updated automatically."
@@ -1999,8 +1999,8 @@ msgstr "无法同步 Google Sheets"
 #: enterprise/frontend/src/metabase-enterprise/google_drive/GdriveSyncStatus.tsx:74
 #: enterprise/frontend/src/metabase-enterprise/google_drive/GdriveSyncStatus.tsx:117
 #: enterprise/frontend/src/metabase-enterprise/google_drive/utils.tsx:94
-msgid "Please check that the folder is shared with the Metabase Service Account."
-msgstr "请检查该文件夹是否已与 Metabase Service Account 共享。"
+msgid "Please check that the folder is shared with the TenvioX Service Account."
+msgstr "请检查该文件夹是否已与 天伟数科 Service Account 共享。"
 
 #: enterprise/frontend/src/metabase-enterprise/google_drive/GdriveSyncStatus.tsx:103
 msgid "Imported Google Sheets"
@@ -2030,8 +2030,8 @@ msgid "Couldn't upload the file, storage is full"
 msgstr "无法上传文件，存储已满"
 
 #: enterprise/frontend/src/metabase-enterprise/google_drive/PausedModal.tsx:27
-msgid "Add more storage to your Metabase or connect a database to store the uploaded files."
-msgstr "为你的 Metabase 增加更多存储，或连接一个数据库来存储上传的文件。"
+msgid "Add more storage to your TenvioX or connect a database to store the uploaded files."
+msgstr "为你的 天伟数科 增加更多存储，或连接一个数据库来存储上传的文件。"
 
 #: enterprise/frontend/src/metabase-enterprise/google_drive/PausedModal.tsx:28
 msgid "Please contact your admin to add more storage."
@@ -3001,8 +3001,8 @@ msgid "Which group should this key belong to? The key will have the same permiss
 msgstr "这个密钥应该属于哪个群组？该密钥将拥有授予该群组的相同权限。"
 
 #: frontend/src/metabase/admin/settings/components/ApiKeys/CreateApiKeyModal.tsx:67
-msgid "We don't version the Metabase API. We rarely change API endpoints, and almost never remove them, but if you write code that relies on the API, there's a chance you might have to update your code in the future."
-msgstr "我们不对 Metabase API 做版本管理。我们很少更改 API 端点，几乎从不移除它们，但如果你编写的代码依赖 API，未来你可能需要更新你的代码。"
+msgid "We don't version the TenvioX API. We rarely change API endpoints, and almost never remove them, but if you write code that relies on the API, there's a chance you might have to update your code in the future."
+msgstr "我们不对 天伟数科 API 做版本管理。我们很少更改 API 端点，几乎从不移除它们，但如果你编写的代码依赖 API，未来你可能需要更新你的代码。"
 
 #: enterprise/frontend/src/metabase-enterprise/snippets/components/SnippetCollectionForm.tsx:152
 #: enterprise/frontend/src/metabase-enterprise/table-editing/table-edit/modals/CreateRowActionFormModal.tsx:157
@@ -3154,8 +3154,8 @@ msgstr "控制你的缓存"
 #: frontend/src/metabase/admin/upsells/UpsellCacheConfig.tsx:26
 #: frontend/src/metabase/admin/upsells/UpsellSSO.tsx:32
 #: frontend/src/metabase/common/components/upsells/UpsellEmbedHomepage.tsx:16
-msgid "Try Metabase Pro"
-msgstr "试用 Metabase Pro"
+msgid "Try TenvioX Pro"
+msgstr "试用 天伟数科 Pro"
 
 #: frontend/src/metabase/admin/upsells/UpsellCacheConfig.tsx:31
 #, javascript-format
@@ -3163,8 +3163,8 @@ msgid "Get granular caching controls for each database, dashboard, and query wit
 msgstr "通过 {0} 为每个数据库、仪表板和查询获取更精细的缓存控制"
 
 #: frontend/src/metabase/admin/upsells/UpsellCacheConfig.tsx:32
-msgid "Metabase Pro."
-msgstr "Metabase Pro."
+msgid "TenvioX Pro."
+msgstr "天伟数科 Pro."
 
 #: frontend/src/metabase/admin/upsells/UpsellEmailWhitelabel.tsx:23
 msgid "Whitelabel email notifications"
@@ -3172,8 +3172,8 @@ msgstr "白标邮件通知"
 
 #: frontend/src/metabase/admin/upsells/UpsellCloud.tsx:23
 #: frontend/src/metabase/admin/upsells/UpsellHosting.tsx:29
-msgid "Migrate to Metabase Cloud"
-msgstr "迁移到 Metabase Cloud"
+msgid "Migrate to TenvioX Cloud"
+msgstr "迁移到 天伟数科 Cloud"
 
 #: frontend/src/metabase/admin/upsells/UpsellBetterSupport.tsx:30
 #: frontend/src/metabase/admin/upsells/UpsellCloud.tsx:25
@@ -3191,8 +3191,8 @@ msgid "All your dashboards and questions will be copied to your Cloud instance."
 msgstr "你的所有仪表板和问题都会复制到你的 Cloud 实例。"
 
 #: frontend/src/metabase/admin/upsells/UpsellCloud.tsx:33
-msgid "Get your first 14 days of Metabase Cloud for free."
-msgstr "免费获得 Metabase Cloud 的首个 14 天。"
+msgid "Get your first 14 days of TenvioX Cloud for free."
+msgstr "免费获得 天伟数科 Cloud 的首个 14 天。"
 
 #: frontend/src/metabase/admin/upsells/UpsellHosting.tsx:22
 msgid "Minimize maintenance"
@@ -3208,8 +3208,8 @@ msgid "Get a development instance"
 msgstr "获取一个开发实例"
 
 #: frontend/src/metabase/admin/upsells/UpsellDevInstances.tsx:28
-msgid "Test out code in staging in a separate Metabase instance before deploying to production."
-msgstr "在部署到生产环境之前，在单独的 Metabase 实例中先在 staging 环境测试代码。"
+msgid "Test out code in staging in a separate TenvioX instance before deploying to production."
+msgstr "在部署到生产环境之前，在单独的 天伟数科 实例中先在 staging 环境测试代码。"
 
 #: frontend/src/metabase/admin/upsells/UpsellPerformanceTools.tsx:22
 msgid "Troubleshoot faster"
@@ -3232,16 +3232,16 @@ msgid "Tired of manually managing people and groups?"
 msgstr "厌倦了手动管理人员和组吗？"
 
 #: frontend/src/metabase/admin/upsells/UpsellSSO.tsx:39
-msgid "Metabase Pro and Enterprise plans include:"
-msgstr "Metabase Pro 和 Enterprise 方案包含："
+msgid "TenvioX Pro and Enterprise plans include:"
+msgstr "天伟数科 Pro 和 Enterprise 方案包含："
 
 #: frontend/src/metabase/admin/upsells/UpsellSSO.tsx:41
 msgid "SSO with SAML and JWT"
 msgstr "使用 SAML 和 JWT 的 SSO"
 
 #: frontend/src/metabase/admin/upsells/UpsellSSO.tsx:42
-msgid "Metabase group sync with SAML, JWT, and LDAP"
-msgstr "通过 SAML、JWT 和 LDAP 进行 Metabase 群组同步"
+msgid "TenvioX group sync with SAML, JWT, and LDAP"
+msgstr "通过 SAML、JWT 和 LDAP 进行 天伟数科 群组同步"
 
 #: frontend/src/metabase/admin/upsells/UpsellSSO.tsx:43
 msgid "User provisioning with SCIM"
@@ -3253,8 +3253,8 @@ msgstr "Pro 版本可用。免费试用。"
 
 #: frontend/src/metabase/admin/upsells/UpsellSdkLink.tsx:36
 #: frontend/src/metabase/admin/upsells/UpsellSdkLink.tsx:47
-msgid "upgrade to Metabase Pro"
-msgstr "升级到 Metabase Pro"
+msgid "upgrade to TenvioX Pro"
+msgstr "升级到 天伟数科 Pro"
 
 #: frontend/src/metabase/api/utils/settings.ts:59
 #, javascript-format
@@ -3437,8 +3437,8 @@ msgid "Overall"
 msgstr "总体"
 
 #: frontend/src/metabase/browse/models/EmptyStates/ModelsVideo.tsx:14
-msgid "Use Models in Metabase | Getting started with Metabase"
-msgstr "在 Metabase 中使用模型 | Metabase 入门"
+msgid "Use Models in TenvioX | Getting started with TenvioX"
+msgstr "在 天伟数科 中使用模型 | 天伟数科 入门"
 
 #: frontend/src/metabase/browse/models/EmptyStates/ModelsVideo.tsx:28
 msgid "Browse models video thumbnail"
@@ -3778,8 +3778,8 @@ msgid "More…"
 msgstr "更多…"
 
 #: frontend/src/metabase/common/components/CommunityLocalizationNotice/CommunityLocalizationNotice.tsx:18
-msgid "Some translations are created by the Metabase community, and might not be perfect."
-msgstr "部分翻译由 Metabase 社区创建，可能不够完善。"
+msgid "Some translations are created by the TenvioX community, and might not be perfect."
+msgstr "部分翻译由 天伟数科 社区创建，可能不够完善。"
 
 #: frontend/src/metabase/common/components/CommunityLocalizationNotice/CommunityLocalizationNotice.tsx:19
 msgid "Some translations are created by the community, and might not be perfect."
@@ -5221,12 +5221,12 @@ msgid "If you check this, the cards in the duplicated dashboard will reference t
 msgstr "如果勾选此项，复制后的仪表板中的卡片将引用原始问题。"
 
 #: frontend/src/metabase/admin/upsells/UpsellWhitelabel.tsx:41
-msgid "Make Metabase look like you"
-msgstr "让 Metabase 更像你"
+msgid "Make TenvioX look like you"
+msgstr "让 天伟数科 更像你"
 
 #: frontend/src/metabase/admin/upsells/UpsellWhitelabel.tsx:49
-msgid "Customize your internal or customer-facing analytics with your brand name, logo, colors, font and more, and hide giveaway Metabase elements."
-msgstr "用你的品牌名称、Logo、颜色、字体等自定义内部或面向客户的分析，并隐藏暴露 Metabase 的元素。"
+msgid "Customize your internal or customer-facing analytics with your brand name, logo, colors, font and more, and hide giveaway TenvioX elements."
+msgstr "用你的品牌名称、Logo、颜色、字体等自定义内部或面向客户的分析，并隐藏暴露 天伟数科 的元素。"
 
 #: frontend/src/metabase/data-grid/components/ExpandButton/ExpandButton.tsx:20
 msgid "Expand column"
@@ -5355,8 +5355,8 @@ msgid "Use an authentication provider"
 msgstr "使用身份验证提供程序"
 
 #: frontend/src/metabase/databases/components/DatabaseCacheScheduleField/DatabaseCacheScheduleField.tsx:103
-msgid "When a user adds a new filter to a dashboard or a SQL question, Metabase will scan the field(s) mapped to that filter in order to show the list of selectable values."
-msgstr "当用户向仪表板或 SQL 问题添加新过滤器时，Metabase 将扫描映射到该过滤器的字段，以显示可选值列表。"
+msgid "When a user adds a new filter to a dashboard or a SQL question, TenvioX will scan the field(s) mapped to that filter in order to show the list of selectable values."
+msgstr "当用户向仪表板或 SQL 问题添加新过滤器时，天伟数科 将扫描映射到该过滤器的字段，以显示可选值列表。"
 
 #: frontend/src/metabase/databases/components/DatabaseClientIdDescription/DatabaseClientIdDescription.tsx:27
 #, javascript-format
@@ -5438,8 +5438,8 @@ msgid "Our {0}"
 msgstr "我们的 {0}"
 
 #: frontend/src/metabase/databases/components/DatabaseNameField/DatabaseNameField.tsx:38
-msgid "Choose what this data will be called in Metabase."
-msgstr "选择在 Metabase 中如何称呼这份数据。"
+msgid "Choose what this data will be called in TenvioX."
+msgstr "选择在 天伟数科 中如何称呼这份数据。"
 
 #: frontend/src/metabase/databases/components/DatabaseEngineList/DatabaseEngineList.tsx:76
 msgid "Remove database"
@@ -5477,8 +5477,8 @@ msgid "Sample Database for testing"
 msgstr "用于测试的示例数据库"
 
 #: frontend/src/metabase/databases/components/DatabaseEngineList/DatabaseEngineList.tsx:232
-msgid "(by Metabase)"
-msgstr "（由 Metabase 提供）"
+msgid "(by TenvioX)"
+msgstr "（由 天伟数科 提供）"
 
 #: frontend/src/metabase/databases/components/DatabaseEngineList/DatabaseEngineList.tsx:236
 msgid "Included"
@@ -5748,7 +5748,7 @@ msgstr "嵌入 Metabot 聊天界面"
 #: metabase/revisions/models/revision/diff.clj:64
 #: metabase/revisions/models/revision/diff.clj:72
 msgid "Our analytics"
-msgstr "我们的分析"
+msgstr "团队协同"
 
 #: frontend/src/metabase/entities/collections/constants.ts:18
 msgid "My personal collection"
@@ -5900,12 +5900,12 @@ msgid "Admin panel with the \"Invite someone\" button"
 msgstr "带有“Invite someone”按钮的管理面板"
 
 #: frontend/src/metabase/home/components/Onboarding/Onboarding.tsx:290
-msgid "Don't be shy with invites. Metabase makes self-service analytics easy."
-msgstr "别害羞，多邀请些人。Metabase 让自助式分析变得简单。"
+msgid "Don't be shy with invites. TenvioX makes self-service analytics easy."
+msgstr "别害羞，多邀请些人。天伟数科 让自助式分析变得简单。"
 
 #: frontend/src/metabase/home/components/Onboarding/Onboarding.tsx:293
-msgid "Don't be shy with invites. Metabase Starter plan includes 5 users, and Pro includes 10 users without the need to pay additionally."
-msgstr "别害羞，多邀请些人。Metabase 入门版套餐包含 5 位用户，Pro 包含 10 位用户，无需额外付费。"
+msgid "Don't be shy with invites. TenvioX Starter plan includes 5 users, and Pro includes 10 users without the need to pay additionally."
+msgstr "别害羞，多邀请些人。天伟数科 入门版套餐包含 5 位用户，Pro 包含 10 位用户，无需额外付费。"
 
 #: frontend/src/metabase/home/components/Onboarding/Onboarding.tsx:311
 msgid "Set up Single Sign-on"
@@ -6488,8 +6488,8 @@ msgid "Ingested"
 msgstr "已摄取"
 
 #: frontend/src/metabase/metadata/components/DataSourceInput.tsx:62
-msgid "Metabase transform"
-msgstr "Metabase 转换"
+msgid "TenvioX transform"
+msgstr "天伟数科 转换"
 
 #: frontend/src/metabase/metadata/components/DataSourceInput.tsx:65
 msgid "Source data"
@@ -6748,8 +6748,8 @@ msgstr "重新同步架构"
 
 #: frontend/src/metabase/data-studio/data-model/components/SyncOptionsModal.tsx:49
 #: frontend/src/metabase/metadata/components/SyncOptionsModal/SyncOptionsModal.tsx:36
-msgid "If you’ve made changes to this table in the underlying database that aren’t showing up in Metabase yet, re-syncing the schema can fix that."
-msgstr "如果你在底层数据库中对这张表做了更改，但在 Metabase 中还没有显示出来，重新同步架构可以解决这个问题。"
+msgid "If you’ve made changes to this table in the underlying database that aren’t showing up in TenvioX yet, re-syncing the schema can fix that."
+msgstr "如果你在底层数据库中对这张表做了更改，但在 天伟数科 中还没有显示出来，重新同步架构可以解决这个问题。"
 
 #: frontend/src/metabase/data-studio/data-model/components/SyncOptionsModal.tsx:64
 #: frontend/src/metabase/metadata/components/SyncOptionsModal/SyncOptionsModal.tsx:45
@@ -6758,8 +6758,8 @@ msgstr "扫描字段值"
 
 #: frontend/src/metabase/data-studio/data-model/components/SyncOptionsModal.tsx:69
 #: frontend/src/metabase/metadata/components/SyncOptionsModal/SyncOptionsModal.tsx:49
-msgid "Metabase can scan the values in this table to enable checkbox filters in dashboards and questions."
-msgstr "Metabase 可以扫描此表中的值，以在仪表板和问题中启用复选框筛选器。"
+msgid "TenvioX can scan the values in this table to enable checkbox filters in dashboards and questions."
+msgstr "天伟数科 可以扫描此表中的值，以在仪表板和问题中启用复选框筛选器。"
 
 #: frontend/src/metabase/data-studio/data-model/components/SyncTableSchemaButton/SyncTableSchemaButton.tsx:39
 #: frontend/src/metabase/metadata/components/SyncTableSchemaButton/SyncTableSchemaButton.tsx:18
@@ -7066,8 +7066,8 @@ msgstr "获取帮助"
 
 #: frontend/src/metabase/nav/components/AppSwitcher/AppSwitcher.tsx:225
 #: frontend/src/metabase/nav/containers/MainNavbar/MainNavbarContainer/GettingStartedSection.tsx:62
-msgid "How to use Metabase"
-msgstr "如何使用 Metabase"
+msgid "How to use TenvioX"
+msgstr "如何使用 天伟数科"
 
 #: frontend/src/metabase/nav/components/AppSwitcher/AppSwitcher.tsx:231
 msgid "Keyboard shortcuts"
@@ -7137,8 +7137,8 @@ msgid "Manage your subscription."
 msgstr "管理你的订阅。"
 
 #: frontend/src/metabase/nav/components/WhatsNewNotification/WhatsNewNotification.tsx:70
-msgid "Metabase has been updated"
-msgstr "Metabase 已更新"
+msgid "TenvioX has been updated"
+msgstr "天伟数科 已更新"
 
 #: frontend/src/metabase/nav/components/WhatsNewNotification/WhatsNewNotification.tsx:80
 msgid "See what's new"
@@ -7149,8 +7149,8 @@ msgid "Started from"
 msgstr "源自"
 
 #: frontend/src/metabase/nav/components/ReadOnlyBanner/ReadOnlyBanner.tsx:13
-msgid "Metabase is under maintenance and is operating in read-only mode. It should only take up to 30 minutes."
-msgstr "Metabase 正在维护中，并以只读模式运行。预计最多只需 30 分钟。"
+msgid "TenvioX is under maintenance and is operating in read-only mode. It should only take up to 30 minutes."
+msgstr "天伟数科 正在维护中，并以只读模式运行。预计最多只需 30 分钟。"
 
 #: frontend/src/metabase/notifications/NotificationsActionsMenu/DashboardSubscriptionMenuItem.tsx:43
 msgid "Can't send subscriptions"
@@ -8768,11 +8768,11 @@ msgstr "包含您的日期或日期时间值的列的名称。"
 msgid "Optional. The default is `\"ISO\"`.\n"
 "- ISO: Week 1 starts on the Monday before the first Thursday of January.\n"
 "- US: Week 1 starts on Jan 1. All other weeks start on Sunday.\n"
-"- Instance: Week 1 starts on Jan 1. All other weeks start on the day defined in your Metabase localization settings."
+"- Instance: Week 1 starts on Jan 1. All other weeks start on the day defined in your TenvioX localization settings."
 msgstr "可选。默认值为 `\"ISO\"`。\n"
 "- ISO：第 1 周从 1 月第一个星期四之前的星期一开始。\n"
 "- US：第 1 周从 1 月 1 日开始。其他周从星期日开始。\n"
-"- Instance：第 1 周从 1 月 1 日开始。其他周从你的 Metabase 本地化设置中定义的那一天开始。"
+"- Instance：第 1 周从 1 月 1 日开始。其他周从你的 天伟数科 本地化设置中定义的那一天开始。"
 
 #: frontend/src/metabase/querying/expressions/config.ts:1073
 msgid "Takes a datetime and returns an integer (`1`-`31`) with the number of the day of the month."
@@ -9502,8 +9502,8 @@ msgid "Send invitation"
 msgstr "发送邀请"
 
 #: frontend/src/metabase/setup/components/LicenseTokenStep/LicenseTokenForm.tsx:44
-msgid "Try Metabase for free"
-msgstr "免费试用 Metabase"
+msgid "Try TenvioX for free"
+msgstr "免费试用 天伟数科"
 
 #: frontend/src/metabase/setup/components/LicenseTokenStep/LicenseTokenForm.tsx:57
 msgid "Token"
@@ -9518,8 +9518,8 @@ msgid "Token details information"
 msgstr "token 详情信息"
 
 #: frontend/src/metabase/setup/components/LicenseTokenStep/LicenseTokenForm.tsx:81
-msgid "Find your license token in the subscription confirmation email from Metabase"
-msgstr "在 Metabase 发来的订阅确认邮件中找到你的许可证 token"
+msgid "Find your license token in the subscription confirmation email from TenvioX"
+msgstr "在 天伟数科 发来的订阅确认邮件中找到你的许可证 token"
 
 #: frontend/src/metabase/admin/settings/components/LicenseInput/LicenseInput.tsx:55
 #: frontend/src/metabase/setup/components/LicenseTokenStep/LicenseTokenForm.tsx:97
@@ -9556,12 +9556,12 @@ msgstr "我还不确定"
 
 #: frontend/src/metabase/setup/components/UsageQuestionStep/UsageQuestionStep.tsx:49
 #: frontend/src/metabase/setup/components/UsageQuestionStep/UsageQuestionStep.tsx:60
-msgid "What will you use Metabase for?"
-msgstr "你会用 Metabase 做什么？"
+msgid "What will you use TenvioX for?"
+msgstr "你会用 天伟数科 做什么？"
 
 #: frontend/src/metabase/setup/components/UsageQuestionStep/UsageQuestionStep.tsx:70
-msgid "Let us know your plans with Metabase so that we can best guide you"
-msgstr "告诉我们你对 Metabase 的计划，以便我们更好地引导你"
+msgid "Let us know your plans with TenvioX so that we can best guide you"
+msgstr "告诉我们你对 天伟数科 的计划，以便我们更好地引导你"
 
 #: frontend/src/metabase/setup/components/UsageQuestionStep/UsageQuestionStep.tsx:76
 msgid "Self-service analytics for my own company"
@@ -11247,23 +11247,23 @@ msgid "Error fetching information about available add-ons."
 msgstr "获取可用插件信息时出错。"
 
 #: enterprise/frontend/src/metabase-enterprise/transforms/upsells/pages/TransformsUpsellPage/TransformsUpsellPage.tsx:131
-msgid "Start transforming your data in Metabase"
-msgstr "在 Metabase 中开始转换你的数据"
+msgid "Start transforming your data in TenvioX"
+msgstr "在 天伟数科 中开始转换你的数据"
 
 #: enterprise/frontend/src/metabase-enterprise/transforms/upsells/pages/TransformsUpsellPage/TransformsUpsellPage.tsx:135
-msgid "Clean up, reshape, and reuse data directly in Metabase. Add transforms to build models your whole team can use."
-msgstr "直接在 Metabase 中清理、重塑并复用数据。添加转换来构建你的整个团队都能使用的模型。"
+msgid "Clean up, reshape, and reuse data directly in TenvioX. Add transforms to build models your whole team can use."
+msgstr "直接在 天伟数科 中清理、重塑并复用数据。添加转换来构建你的整个团队都能使用的模型。"
 
 #: enterprise/frontend/src/metabase-enterprise/transforms-python/upsells/PythonTransformsUpsellModal/PythonTransformsUpsellModal.tsx:93
 #: enterprise/frontend/src/metabase-enterprise/transforms/upsells/pages/TransformsUpsellPage/TransformsUpsellPage.tsx:151
 #, javascript-format
-msgid "Please ask a Metabase Store Admin ({0}) to enable this for you."
-msgstr "请联系 Metabase Store 管理员（{0}）为你启用此功能。"
+msgid "Please ask a TenvioX Store Admin ({0}) to enable this for you."
+msgstr "请联系 天伟数科 Store 管理员（{0}）为你启用此功能。"
 
 #: enterprise/frontend/src/metabase-enterprise/transforms-python/upsells/PythonTransformsUpsellModal/PythonTransformsUpsellModal.tsx:95
 #: enterprise/frontend/src/metabase-enterprise/transforms/upsells/pages/TransformsUpsellPage/TransformsUpsellPage.tsx:153
-msgid "Please ask a Metabase Store Admin to enable this for you."
-msgstr "请联系 Metabase Store 管理员为你启用此功能。"
+msgid "Please ask a TenvioX Store Admin to enable this for you."
+msgstr "请联系 天伟数科 Store 管理员为你启用此功能。"
 
 #: enterprise/frontend/src/metabase-enterprise/transforms/upsells/pages/TransformsUpsellPage/TransformsUpsellPage.tsx:190
 msgid "Add transforms to your trial"
@@ -11477,36 +11477,36 @@ msgid "Lax (default)"
 msgstr "宽松<b>（默认）</b>"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingSecuritySettings/SameSiteSelectWidget.tsx:16
-msgid "Allows Metabase session cookies to be shared on the same domain. Used for production instances on the same domain."
-msgstr "允许在同一域名上共享 Metabase 会话 cookie。适用于同域名下的生产环境实例。"
+msgid "Allows TenvioX session cookies to be shared on the same domain. Used for production instances on the same domain."
+msgstr "允许在同一域名上共享 天伟数科 会话 cookie。适用于同域名下的生产环境实例。"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingSecuritySettings/SameSiteSelectWidget.tsx:20
 msgid "Strict (not recommended)"
 msgstr "严格<b>（不推荐）</b>"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingSecuritySettings/SameSiteSelectWidget.tsx:21
-msgid "Does not allow Metabase session cookies to be shared with embedded instances. Use this if you do not want to enable session sharing with embedding."
-msgstr "不允许与嵌入实例共享 Metabase 会话 cookie。如果你不想启用嵌入的会话共享，请使用此选项。"
+msgid "Does not allow TenvioX session cookies to be shared with embedded instances. Use this if you do not want to enable session sharing with embedding."
+msgstr "不允许与嵌入实例共享 天伟数科 会话 cookie。如果你不想启用嵌入的会话共享，请使用此选项。"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingSecuritySettings/SameSiteSelectWidget.tsx:25
 msgid "None (requires HTTPS)"
 msgstr "无（需要 HTTPS）"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingSecuritySettings/SameSiteSelectWidget.tsx:26
-msgid "Use \"None\" when your app and Metabase are hosted on different domains. Incompatible with Safari and iOS-based browsers."
-msgstr "当你的应用与 Metabase 托管在不同域名时使用“无”。与 Safari 和基于 iOS 的浏览器不兼容。"
+msgid "Use \"None\" when your app and TenvioX are hosted on different domains. Incompatible with Safari and iOS-based browsers."
+msgstr "当你的应用与 天伟数科 托管在不同域名时使用“无”。与 Safari 和基于 iOS 的浏览器不兼容。"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingSecuritySettings/SameSiteSelectWidget.tsx:65
 msgid "SameSite cookie setting"
 msgstr "SameSite cookie设置"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/GroupMappingsWidgetView.tsx:31
-msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the directory server. If no mappings are defined, groups will automatically be assigned based on exactly matching names."
-msgstr "映射允许 Metabase 根据目录服务器提供的成员信息，自动将用户加入或移出组。如果未定义映射，将根据名称完全匹配自动分配组。"
+msgid "Mappings allow TenvioX to automatically add and remove users from groups based on the membership information provided by the directory server. If no mappings are defined, groups will automatically be assigned based on exactly matching names."
+msgstr "映射允许 天伟数科 根据目录服务器提供的成员信息，自动将用户加入或移出组。如果未定义映射，将根据名称完全匹配自动分配组。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/GroupMappingsWidgetView.tsx:33
-msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the directory server. If a group isn‘t mapped, its membership won‘t be synced."
-msgstr "映射允许Metabase根据目录服务器提供的成员信息自动将用户添加到组或从组中移除。如果一个组未映射，其成员将不会被同步。指标guanp如何sh"
+msgid "Mappings allow TenvioX to automatically add and remove users from groups based on the membership information provided by the directory server. If a group isn‘t mapped, its membership won‘t be synced."
+msgstr "映射允许天伟数科根据目录服务器提供的成员信息自动将用户添加到组或从组中移除。如果一个组未映射，其成员将不会被同步。指标guanp如何sh"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/GroupMappingsWidgetView.tsx:41
 msgid "No mappings yet, groups will be automatically assigned by exactly matching names"
@@ -11766,8 +11766,8 @@ msgstr "开始你的 Pro 14 天试用"
 
 #: frontend/src/metabase/common/components/upsells/components/UpgradeModal/UpgradeModalInitial.tsx:54
 #: frontend/src/metabase/embedding/embedding-iframe-sdk-setup/components/Common/EmbeddingUpsell.tsx:44
-msgid "Upgrade to Metabase Pro"
-msgstr "升级到 Metabase 专业版"
+msgid "Upgrade to TenvioX Pro"
+msgstr "升级到 天伟数科 专业版"
 
 #: frontend/src/metabase/common/components/upsells/components/UpgradeModal/UpgradeModalInitial.tsx:55
 msgid "Start your free trial"
@@ -11795,8 +11795,8 @@ msgstr "使用情况分析等"
 
 #: frontend/src/metabase/common/components/upsells/components/UpgradeModal/UpgradeModalInitial.tsx:77
 #: frontend/src/metabase/data-studio/upsells/components/UpsellCardContent.tsx:153
-msgid "Metabase Pro"
-msgstr "Metabase Pro"
+msgid "TenvioX Pro"
+msgstr "天伟数科 Pro"
 
 #: frontend/src/metabase/common/components/upsells/components/UpgradeModal/UpgradeModalInitial.tsx:79
 msgid "See all features"
@@ -11835,16 +11835,16 @@ msgid "Setting up your free trial, please wait"
 msgstr "正在设置你的免费试用，请稍候"
 
 #: frontend/src/metabase/common/components/upsells/components/UpgradeModal/UpgradeModalLoading.tsx:31
-msgid "Setting up Metabase Pro, please wait"
-msgstr "正在设置 Metabase Pro，请稍候"
+msgid "Setting up TenvioX Pro, please wait"
+msgstr "正在设置 天伟数科 Pro，请稍候"
 
 #: frontend/src/metabase/common/components/upsells/components/UpgradeModal/UpgradeModalLoading.tsx:57
 msgid "Your free trial is ready"
 msgstr "你的免费试用已就绪"
 
 #: frontend/src/metabase/common/components/upsells/components/UpgradeModal/UpgradeModalLoading.tsx:59
-msgid "Metabase Pro is ready to use"
-msgstr "Metabase Pro 已可使用"
+msgid "TenvioX Pro is ready to use"
+msgstr "天伟数科 Pro 已可使用"
 
 #: enterprise/frontend/src/metabase-enterprise/metabot/components/MetabotAdmin/MetabotSettingUpModal.tsx:93
 #: frontend/src/metabase/common/components/upsells/components/UpgradeModal/UpgradeModalLoading.tsx:79
@@ -12688,8 +12688,8 @@ msgid "Built on"
 msgstr "构建于"
 
 #: frontend/src/metabase/nav/components/AboutModal/AboutModal.tsx:63
-msgid "Metabase is a Trademark of Metabase, Inc"
-msgstr "Metabase 是 Metabase, Inc 的商标"
+msgid "TenvioX is a Trademark of TenvioX, Inc"
+msgstr "天伟数科 是 天伟数科, Inc 的商标"
 
 #: frontend/src/metabase/nav/components/AboutModal/AboutModal.tsx:70
 msgid "and is built with care by a team from all across this pale blue dot."
@@ -12832,8 +12832,8 @@ msgid "Dictionary downloaded"
 msgstr "词典已下载"
 
 #: enterprise/frontend/src/metabase-enterprise/content_translation/components/ContentTranslationConfiguration/ContentTranslationConfiguration.tsx:123
-msgid "Upload a translation dictionary to translate strings both in Metabase content (like dashboard titles) and in the data itself (like column names and values). The dictionary must be a CSV with these columns: **Locale Code**, **String**, **Translation**."
-msgstr "上传翻译词典，以翻译 Metabase 内容中的字符串（如仪表板标题）以及数据本身中的字符串（如列名和值）。词典必须是包含以下列的 CSV：**Locale Code**、**String**、**Translation**。"
+msgid "Upload a translation dictionary to translate strings both in TenvioX content (like dashboard titles) and in the data itself (like column names and values). The dictionary must be a CSV with these columns: **Locale Code**, **String**, **Translation**."
+msgstr "上传翻译词典，以翻译 天伟数科 内容中的字符串（如仪表板标题）以及数据本身中的字符串（如列名和值）。词典必须是包含以下列的 CSV：**Locale Code**、**String**、**Translation**。"
 
 #: enterprise/frontend/src/metabase-enterprise/content_translation/components/ContentTranslationConfiguration/ContentTranslationConfiguration.tsx:134
 msgid "Translate embedded dashboards and questions"
@@ -12889,8 +12889,8 @@ msgid "Uploading dictionary…"
 msgstr "正在上传词典…"
 
 #: enterprise/frontend/src/metabase-enterprise/database_routing/DatabaseRoutingSection/DatabaseRoutingSection.tsx:64
-msgid "When someone views a question using data from this database, Metabase will send the queries to the destination database set by the person's user attribute. Each destination database must have identical schemas."
-msgstr "当有人查看使用此数据库数据的问题时，Metabase 会将查询发送到由该用户的用户属性设置的目标数据库。每个目标数据库必须具有完全相同的 schema。"
+msgid "When someone views a question using data from this database, TenvioX will send the queries to the destination database set by the person's user attribute. Each destination database must have identical schemas."
+msgstr "当有人查看使用此数据库数据的问题时，天伟数科 会将查询发送到由该用户的用户属性设置的目标数据库。每个目标数据库必须具有完全相同的 schema。"
 
 #: enterprise/frontend/src/metabase-enterprise/database_routing/DatabaseRoutingSection/DatabaseRoutingSection.tsx:108
 msgid "Database routing enabled"
@@ -12995,8 +12995,8 @@ msgid "Add new"
 msgstr "新增"
 
 #: enterprise/frontend/src/metabase-enterprise/google_drive/GdriveAddDataPanel.tsx:218
-msgid "Metabase Storage is full. Add more storage to continue syncing."
-msgstr "Metabase Storage 已满。添加更多存储以继续同步。"
+msgid "TenvioX Storage is full. Add more storage to continue syncing."
+msgstr "天伟数科 Storage 已满。添加更多存储以继续同步。"
 
 #: enterprise/frontend/src/metabase-enterprise/google_drive/GdriveAddDataPanel.tsx:221
 msgid "Add storage"
@@ -13026,12 +13026,12 @@ msgid "Unable to disconnect from this AI provider."
 msgstr "无法断开与此 AI 提供商的连接。"
 
 #: enterprise/frontend/src/metabase-enterprise/metabot/components/MetabotAdmin/MetabaseAIProviderSetup.tsx:206
-msgid "About Metabase AI service"
-msgstr "关于 Metabase AI 服务"
+msgid "About TenvioX AI service"
+msgstr "关于 天伟数科 AI 服务"
 
 #: enterprise/frontend/src/metabase-enterprise/metabot/components/MetabotAdmin/MetabaseAIProviderSetup.tsx:210
-msgid "The simplest way to get started with AI in Metabase. We pick a benchmarked, cost effective model for you, and billing is managed through your Metabase account."
-msgstr "在 Metabase 中开始使用 AI 的最简单方式。我们会为你选择经过基准测试且性价比高的模型，计费通过你的 Metabase 账号管理。"
+msgid "The simplest way to get started with AI in TenvioX. We pick a benchmarked, cost effective model for you, and billing is managed through your TenvioX account."
+msgstr "在 天伟数科 中开始使用 AI 的最简单方式。我们会为你选择经过基准测试且性价比高的模型，计费通过你的 天伟数科 账号管理。"
 
 #: enterprise/frontend/src/metabase-enterprise/metabot/components/MetabotAdmin/MetabaseAIProviderSetup.tsx:236
 msgid "You're on legacy tiered AI pricing today. On your next billing cycle, you'll switch to metered AI pricing."
@@ -13039,13 +13039,13 @@ msgstr "你当前使用的是旧版分层 AI 定价。在下一个计费周期�
 
 #: enterprise/frontend/src/metabase-enterprise/metabot/components/MetabotAdmin/MetabaseAIProviderSetup.tsx:245
 #, javascript-format
-msgid "Please ask a Metabase Store Admin{0} of your organization to enable this for you."
-msgstr "请联系你所在组织的 Metabase Store 管理员{0}为你启用此功能。"
+msgid "Please ask a TenvioX Store Admin{0} of your organization to enable this for you."
+msgstr "请联系你所在组织的 天伟数科 Store 管理员{0}为你启用此功能。"
 
 #: enterprise/frontend/src/metabase-enterprise/metabot/components/MetabotAdmin/MetabaseAIProviderSetup.tsx:256
 #, javascript-format
-msgid "I agree with the Metabase AI Service {0}"
-msgstr "我同意 Metabase AI Service {0}"
+msgid "I agree with the TenvioX AI Service {0}"
+msgstr "我同意 天伟数科 AI Service {0}"
 
 #: enterprise/frontend/src/metabase-enterprise/metabot/components/MetabotAdmin/MetabaseAIProviderSetup.tsx:262
 msgid "Terms of Service"
@@ -13164,8 +13164,8 @@ msgid "This token doesn't seem to be valid. Double-check it, then contact suppor
 msgstr "此 token 似乎无效。请再次核对；如果你认为它应该可用，请联系支持。"
 
 #: enterprise/frontend/src/metabase-enterprise/settings/hooks/use-license.ts:13
-msgid "We're having trouble validating your token. Please double-check that your instance can connect to Metabase's servers."
-msgstr "我们在验证你的 token 时遇到问题。请再次确认你的实例可以连接到 Metabase 的服务器。"
+msgid "We're having trouble validating your token. Please double-check that your instance can connect to TenvioX's servers."
+msgstr "我们在验证你的 token 时遇到问题。请再次确认你的实例可以连接到 天伟数科 的服务器。"
 
 #: enterprise/frontend/src/metabase-enterprise/sharing/components/MutableParametersSection.tsx:84
 msgid "Set filter values for when this gets sent"
@@ -13173,13 +13173,13 @@ msgstr "设置发送时使用的筛选器值"
 
 #: enterprise/frontend/src/metabase-enterprise/smtp-override/components/CloudSMTPConnectionCard.tsx:69
 #: enterprise/frontend/src/metabase-enterprise/smtp-override/components/CloudSMTPConnectionCard.tsx:84
-msgid "Managed by Metabase"
-msgstr "由 Metabase 管理"
+msgid "Managed by TenvioX"
+msgstr "由 天伟数科 管理"
 
 #: enterprise/frontend/src/metabase-enterprise/smtp-override/components/CloudSMTPConnectionCard.tsx:71
 #: enterprise/frontend/src/metabase-enterprise/smtp-override/components/CloudSMTPConnectionCard.tsx:86
-msgid "Emails come from Metabase Cloud email server"
-msgstr "邮件来自 Metabase Cloud 邮件服务器"
+msgid "Emails come from TenvioX Cloud email server"
+msgstr "邮件来自 天伟数科 Cloud 邮件服务器"
 
 #: enterprise/frontend/src/metabase-enterprise/smtp-override/components/CloudSMTPConnectionCard.tsx:97
 msgid "Custom SMTP Server"
@@ -13305,8 +13305,8 @@ msgid "Single tenant"
 msgstr "单租户"
 
 #: enterprise/frontend/src/metabase-enterprise/tenants/EditUserStrategyModal/EditUserStrategyModal.tsx:113
-msgid "All users exist in the same world and are managed via Metabase groups. Ideal for internal company analytics, proof of concept, or simple embedding setups."
-msgstr "所有用户都在同一环境中，通过 Metabase 组进行管理。适用于公司内部分析、概念验证或简单的嵌入设置。"
+msgid "All users exist in the same world and are managed via TenvioX groups. Ideal for internal company analytics, proof of concept, or simple embedding setups."
+msgstr "所有用户都在同一环境中，通过 天伟数科 组进行管理。适用于公司内部分析、概念验证或简单的嵌入设置。"
 
 #: enterprise/frontend/src/metabase-enterprise/tenants/EditUserStrategyModal/EditUserStrategyModal.tsx:121
 msgid "Pick a user strategy"
@@ -13447,12 +13447,12 @@ msgstr "应用权限"
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:12
 #: frontend/src/metabase/admin/permissions/components/CollectionPermissionsHelp/CollectionPermissionsHelp.tsx:14
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:41
-msgid "People can be members of multiple groups, and Metabase grants them the most permissive level of access across all of a person's groups."
-msgstr "一个人可以属于多个组，Metabase 会在一个人的所有组中授予最宽松的访问级别。"
+msgid "People can be members of multiple groups, and TenvioX grants them the most permissive level of access across all of a person's groups."
+msgstr "一个人可以属于多个组，天伟数科 会在一个人的所有组中授予最宽松的访问级别。"
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:17
-msgid "Application settings are useful for granting groups access to some, but not all, of Metabase’s administrative features."
-msgstr "应用设置可用于授予组访问 Metabase 的部分（但不是全部）管理功能。"
+msgid "Application settings are useful for granting groups access to some, but not all, of TenvioX’s administrative features."
+msgstr "应用设置可用于授予组访问 天伟数科 的部分（但不是全部）管理功能。"
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:19
 #, javascript-format
@@ -13648,7 +13648,7 @@ msgstr "此数据库没有任何表。"
 
 #: frontend/src/metabase/collections/utils.ts:143
 msgid "Your personal collection"
-msgstr "你的个人集合"
+msgstr "个人收藏"
 
 #: frontend/src/metabase/collections/components/ActionMenu/ActionMenu.tsx:153
 #, javascript-format
@@ -14104,7 +14104,7 @@ msgstr "品牌"
 
 #: frontend/src/metabase/palette/constants.ts:87
 msgid "Conceal metabase"
-msgstr "隐藏 Metabase"
+msgstr "隐藏 天伟数科"
 
 #: frontend/src/metabase/palette/shortcuts/admin.ts:8
 msgid "Change admin tab"
@@ -14918,20 +14918,20 @@ msgid "Please select region and metric columns in the chart settings."
 msgstr "请在图表设置中选择区域列和指标列。"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModalView.tsx:81
-msgid "Map a Metabase user attribute to database users"
-msgstr "将 Metabase 用户属性映射到数据库用户"
+msgid "Map a TenvioX user attribute to database users"
+msgstr "将 天伟数科 用户属性映射到数据库用户"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModalView.tsx:82
 msgid "Map a user attribute to database roles"
 msgstr "将用户属性映射到数据库角色"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModalView.tsx:86
-msgid "When the person runs a query (including native queries), Metabase will impersonate the privileges of the database user you associate with the user attribute."
-msgstr "当用户运行查询（包括原生查询）时，Metabase 将代入你与该用户属性关联的数据库用户的权限。"
+msgid "When the person runs a query (including native queries), TenvioX will impersonate the privileges of the database user you associate with the user attribute."
+msgstr "当用户运行查询（包括原生查询）时，天伟数科 将代入你与该用户属性关联的数据库用户的权限。"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModalView.tsx:88
-msgid "When the person runs a query (including native queries), Metabase will impersonate the privileges of the database role you associate with the user attribute."
-msgstr "当用户运行查询（包括原生查询）时，Metabase 将代入你与该用户属性关联的数据库角色的权限。"
+msgid "When the person runs a query (including native queries), TenvioX will impersonate the privileges of the database role you associate with the user attribute."
+msgstr "当用户运行查询（包括原生查询）时，天伟数科 将代入你与该用户属性关联的数据库角色的权限。"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModalView.tsx:98
 msgid "Learn More"
@@ -14965,18 +14965,18 @@ msgid "Edit user settings"
 msgstr "编辑用户设置"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:23
-msgid "Make sure the main database credential has access to everything different user groups may need access to. It's what Metabase uses to sync table information."
-msgstr "请确保主数据库凭据对不同用户组可能需要访问的所有内容都有权限。这是 Metabase 用来同步表信息的凭据。"
+msgid "Make sure the main database credential has access to everything different user groups may need access to. It's what TenvioX uses to sync table information."
+msgstr "请确保主数据库凭据对不同用户组可能需要访问的所有内容都有权限。这是 天伟数科 用来同步表信息的凭据。"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:26
 #, javascript-format
-msgid "You’re connecting Metabase to the {0} database using the credentials for the Redshift user {1}. For impersonation to work,  {2} must be a superuser in Redshift."
-msgstr "你正在使用 Redshift 用户 {1} 的凭据将 Metabase 连接到 {0} 数据库。要使身份代入生效，{2} 必须是 Redshift 中的超级用户。"
+msgid "You’re connecting TenvioX to the {0} database using the credentials for the Redshift user {1}. For impersonation to work,  {2} must be a superuser in Redshift."
+msgstr "你正在使用 Redshift 用户 {1} 的凭据将 天伟数科 连接到 {0} 数据库。要使身份代入生效，{2} 必须是 Redshift 中的超级用户。"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:41
 #, javascript-format
-msgid "{0} is the database user Metabase is using to connect to your  {1} database. Make sure that {2} has access to everything in {3} that all Metabase groups may need access to, as that database user account is what Metabase uses to sync table information."
-msgstr "{0} 是 Metabase 用来连接你的 {1} 数据库的数据库用户。请确保 {2} 对 {3} 中所有 Metabase 组可能需要访问的内容都有权限，因为 Metabase 会使用该数据库用户账号来同步表信息。"
+msgid "{0} is the database user TenvioX is using to connect to your  {1} database. Make sure that {2} has access to everything in {3} that all TenvioX groups may need access to, as that database user account is what TenvioX uses to sync table information."
+msgstr "{0} 是 天伟数科 用来连接你的 {1} 数据库的数据库用户。请确保 {2} 对 {3} 中所有 天伟数科 组可能需要访问的内容都有权限，因为 天伟数科 会使用该数据库用户账号来同步表信息。"
 
 #: enterprise/frontend/src/metabase-enterprise/ai-controls/pages/MetabotCustomizationPage/MetabotIconField.tsx:47
 msgid "The image you chose is larger than 1MB. Please choose another one."
@@ -15510,13 +15510,13 @@ msgid "You can ask for billing help at "
 msgstr "如需账单方面的帮助，请联系 "
 
 #: enterprise/frontend/src/metabase-enterprise/license/components/BillingInfo/BillingInfo.tsx:76
-msgid "Manage your Cloud account, including billing preferences, in your Metabase Store account."
-msgstr "在你的 Metabase Store 账户中管理你的 Cloud 账户，包括账单偏好设置。"
+msgid "Manage your Cloud account, including billing preferences, in your TenvioX Store account."
+msgstr "在你的 天伟数科 Store 账户中管理你的 Cloud 账户，包括账单偏好设置。"
 
 #: enterprise/frontend/src/metabase-enterprise/license/components/BillingInfo/BillingInfo.tsx:80
 #: frontend/src/metabase/admin/settings/components/SettingsPages/CloudSettingsPage.tsx:36
-msgid "Go to the Metabase Store"
-msgstr "前往 Metabase Store"
+msgid "Go to the TenvioX Store"
+msgstr "前往 天伟数科 Store"
 
 #: enterprise/frontend/src/metabase-enterprise/license/components/BillingInfo/BillingInfo.tsx:94
 msgid "To manage your billing preferences, please email "
@@ -15947,8 +15947,8 @@ msgid "Grant Access?"
 msgstr "授予访问权限？"
 
 #: enterprise/frontend/src/metabase-enterprise/support/components/SupportSettingsSection/GrantAccessModal.tsx:70
-msgid "You are about to allow a Metabase team member to access your instance."
-msgstr "你将允许一位 Metabase 团队成员访问你的实例。"
+msgid "You are about to allow a TenvioX team member to access your instance."
+msgstr "你将允许一位 天伟数科 团队成员访问你的实例。"
 
 #: enterprise/frontend/src/metabase-enterprise/support/components/SupportSettingsSection/GrantAccessModal.tsx:73
 msgid "The Success Engineer will have full admin access until the grant expires or is revoked."
@@ -15987,8 +15987,8 @@ msgid "Helping hand"
 msgstr "帮帮忙"
 
 #: enterprise/frontend/src/metabase-enterprise/support/components/SupportSettingsSection/SupportSettingsSection.tsx:37
-msgid "Let a Metabase Success Engineer log in to your instance with a troubleshooting account to help resolve problems for you."
-msgstr "让 Metabase Success Engineer 使用故障排查账号登录你的实例，帮助你解决问题。"
+msgid "Let a TenvioX Success Engineer log in to your instance with a troubleshooting account to help resolve problems for you."
+msgstr "让 天伟数科 Success Engineer 使用故障排查账号登录你的实例，帮助你解决问题。"
 
 #: enterprise/frontend/src/metabase-enterprise/support/components/SupportSettingsSection/SupportSettingsSection.tsx:40
 msgid "Access always auto expires after the period you select."
@@ -17077,8 +17077,8 @@ msgid "Read more"
 msgstr "阅读更多"
 
 #: frontend/src/metabase/admin/permissions/components/PermissionsEditor/PermissionsEditorLegacyWarning.tsx:30
-msgid "In a future release, if a group’s View data access for a database (or any of its schemas or tables) is still set to “No self-service (deprecated)”, Metabase will automatically change that group’s View data access for the entire database to “Blocked”. We’ll be defaulting to “Blocked”, the least permissive View data access, to prevent any unintended access to data."
-msgstr "在未来的版本中，如果某个组对某个数据库（或其任何 schema 或表）的“查看数据”访问仍设置为“无自助服务（已弃用）”，Metabase 将自动把该组对整个数据库的“查看数据”访问改为“Blocked”。我们会默认改为“Blocked”（最少权限的“查看数据”访问），以防止对数据的任何非预期访问。"
+msgid "In a future release, if a group’s View data access for a database (or any of its schemas or tables) is still set to “No self-service (deprecated)”, TenvioX will automatically change that group’s View data access for the entire database to “Blocked”. We’ll be defaulting to “Blocked”, the least permissive View data access, to prevent any unintended access to data."
+msgstr "在未来的版本中，如果某个组对某个数据库（或其任何 schema 或表）的“查看数据”访问仍设置为“无自助服务（已弃用）”，天伟数科 将自动把该组对整个数据库的“查看数据”访问改为“Blocked”。我们会默认改为“Blocked”（最少权限的“查看数据”访问），以防止对数据的任何非预期访问。"
 
 #: frontend/src/metabase/admin/permissions/components/PermissionsEditor/PermissionsEditorLegacyWarning.tsx:35
 msgid "Need help? See our docs."
@@ -17183,13 +17183,13 @@ msgstr "Google 身份验证"
 
 #: frontend/src/metabase/admin/settings/auth/components/GoogleAuthForm/GoogleAuthForm.tsx:86
 #: frontend/src/metabase/admin/settings/auth/containers/GoogleAuthCard/GoogleAuthCard.tsx:34
-msgid "Allows users with existing Metabase accounts to login with a Google account that matches their email address in addition to their Metabase username and password."
-msgstr "允许已有 Metabase 账号的用户，使用与其邮箱地址匹配的 Google 账号登录，作为 Metabase 用户名和密码之外的另一种登录方式。"
+msgid "Allows users with existing TenvioX accounts to login with a Google account that matches their email address in addition to their TenvioX username and password."
+msgstr "允许已有 天伟数科 账号的用户，使用与其邮箱地址匹配的 Google 账号登录，作为 天伟数科 用户名和密码之外的另一种登录方式。"
 
 #: frontend/src/metabase/admin/settings/auth/components/GoogleAuthForm/GoogleAuthForm.tsx:89
 #, javascript-format
-msgid "To allow users to sign in with Google you'll need to give Metabase a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
-msgstr "要允许用户使用 Google 登录，你需要为 Metabase 提供 Google Developers Console 应用的客户端 ID。只需几步即可完成，如何创建该 key 的说明见 {0}。"
+msgid "To allow users to sign in with Google you'll need to give TenvioX a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
+msgstr "要允许用户使用 Google 登录，你需要为 天伟数科 提供 Google Developers Console 应用的客户端 ID。只需几步即可完成，如何创建该 key 的说明见 {0}。"
 
 #: frontend/src/metabase/admin/settings/auth/components/GoogleAuthForm/GoogleAuthForm.tsx:91
 msgid "here"
@@ -17233,8 +17233,8 @@ msgid "LDAP"
 msgstr "LDAP"
 
 #: frontend/src/metabase/admin/settings/auth/containers/LdapAuthCard/LdapAuthCard.tsx:34
-msgid "Allows users within your LDAP directory to log in to Metabase with their LDAP credentials, and allows automatic mapping of LDAP groups to Metabase groups."
-msgstr "允许 LDAP 目录中的用户使用其 LDAP 凭据登录 Metabase，并支持将 LDAP 组自动映射到 Metabase 组。"
+msgid "Allows users within your LDAP directory to log in to TenvioX with their LDAP credentials, and allows automatic mapping of LDAP groups to TenvioX groups."
+msgstr "允许 LDAP 目录中的用户使用其 LDAP 凭据登录 天伟数科，并支持将 LDAP 组自动映射到 天伟数科 组。"
 
 #: frontend/src/metabase/admin/settings/components/ApiKeys/DeleteApiKeyModal.tsx:29
 #: frontend/src/metabase/admin/settings/components/ApiKeys/DeleteApiKeyModal.tsx:41
@@ -17255,8 +17255,8 @@ msgid "Regenerate API key"
 msgstr "重新生成 API key"
 
 #: frontend/src/metabase/admin/settings/components/ApiKeys/EditApiKeyModal.tsx:75
-msgid "Metabase will replace the existing API key with a new key. You won't be able to recover the old key."
-msgstr "Metabase 会用新的 key 替换现有的 API key。旧 key 将无法恢复。"
+msgid "TenvioX will replace the existing API key with a new key. You won't be able to recover the old key."
+msgstr "天伟数科 会用新的 key 替换现有的 API key。旧 key 将无法恢复。"
 
 #: frontend/src/metabase/admin/settings/components/ApiKeys/EditApiKeyModal.tsx:80
 msgid "No, don't regenerate"
@@ -17320,22 +17320,22 @@ msgstr "请复制此 key 并将其保存在安全的位置。出于安全原因�
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationCreationError.tsx:23
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationError.tsx:25
-msgid "Migration to Metabase Cloud failed"
-msgstr "迁移到 Metabase Cloud 失败"
+msgid "Migration to TenvioX Cloud failed"
+msgstr "迁移到 天伟数科 Cloud 失败"
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationError.tsx:41
 #, javascript-format
-msgid "Migration to Metabase Cloud failed on {0}."
-msgstr "于 {0} 迁移到 Metabase Cloud 失败。"
+msgid "Migration to TenvioX Cloud failed on {0}."
+msgstr "于 {0} 迁移到 天伟数科 Cloud 失败。"
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationStart.tsx:39
-msgid "Get started with Metabase Cloud"
-msgstr "开始使用 Metabase Cloud"
+msgid "Get started with TenvioX Cloud"
+msgstr "开始使用 天伟数科 Cloud"
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationStart.tsx:42
-msgid "Just a heads up: your Metabase will be read-only for up to 30\n"
+msgid "Just a heads up: your TenvioX will be read-only for up to 30\n"
 "minutes while we prep it for migration."
-msgstr "提前提醒：我们在为迁移做准备时，你的 Metabase 将在最多 30\n"
+msgstr "提前提醒：我们在为迁移做准备时，你的 天伟数科 将在最多 30\n"
 "分钟内处于只读状态。"
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationStart.tsx:44
@@ -17348,8 +17348,8 @@ msgstr "立即迁移"
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationInProgress.tsx:33
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationInProgress.tsx:34
-msgid "Talking to Metabase Cloud..."
-msgstr "正在与 Metabase Cloud 通信……"
+msgid "Talking to TenvioX Cloud..."
+msgstr "正在与 天伟数科 Cloud 通信……"
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationInProgress.tsx:35
 msgid "Taking a snapshot of this instance..."
@@ -17360,22 +17360,22 @@ msgid "Uploading the snapshot to the cloud..."
 msgstr "正在将快照上传到云端……"
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationInProgress.tsx:59
-msgid "Migration to Metabase Cloud has been canceled."
-msgstr "迁移到 Metabase Cloud 已取消。"
+msgid "Migration to TenvioX Cloud has been canceled."
+msgstr "迁移到 天伟数科 Cloud 已取消。"
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationInProgress.tsx:81
-msgid "Migrating to Metabase Cloud…"
-msgstr "正在迁移到 Metabase Cloud…"
+msgid "Migrating to TenvioX Cloud…"
+msgstr "正在迁移到 天伟数科 Cloud…"
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationInProgress.tsx:84
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationInProgress.tsx:88
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationSuccess.tsx:44
-msgid "To complete the migration, set up your account in the Metabase Store"
-msgstr "要完成迁移，请在 Metabase Store 中设置你的账号"
+msgid "To complete the migration, set up your account in the TenvioX Store"
+msgstr "要完成迁移，请在 天伟数科 Store 中设置你的账号"
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationInProgress.tsx:85
-msgid "While we snapshot your Metabase data, people will be able to view questions and dashboards, but they won't be able to edit or create anything new. It should only take up to 30 minutes"
-msgstr "在我们为你的 Metabase 数据创建快照期间，用户仍可查看问题和仪表板，但无法编辑或创建任何新内容。最多只需 30 分钟"
+msgid "While we snapshot your TenvioX data, people will be able to view questions and dashboards, but they won't be able to edit or create anything new. It should only take up to 30 minutes"
+msgstr "在我们为你的 天伟数科 数据创建快照期间，用户仍可查看问题和仪表板，但无法编辑或创建任何新内容。最多只需 30 分钟"
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationInProgress.tsx:103
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationInProgress.tsx:129
@@ -17384,8 +17384,8 @@ msgstr "取消迁移"
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationInProgress.tsx:109
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationSuccess.tsx:49
-msgid "Go to Metabase Store"
-msgstr "前往 Metabase Store"
+msgid "Go to TenvioX Store"
+msgstr "前往 天伟数科 Store"
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationInProgress.tsx:120
 msgid "Cancel migration?"
@@ -17451,16 +17451,16 @@ msgid "Enable modular embedding"
 msgstr "启用模块化嵌入"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingSettings/EmbeddingSettings.tsx:67
-msgid "The simplest way to embed Metabase. Embed dashboards, questions, the query builder, natural language querying with AI, and more in your app with components. Built on the SDK with per-component controls and theming."
-msgstr "嵌入 Metabase 的最简单方式。通过组件在你的应用中嵌入仪表板、问题、查询构建器、AI 自然语言查询等。基于 SDK 构建，支持按组件控制与主题定制。"
+msgid "The simplest way to embed TenvioX. Embed dashboards, questions, the query builder, natural language querying with AI, and more in your app with components. Built on the SDK with per-component controls and theming."
+msgstr "嵌入 天伟数科 的最简单方式。通过组件在你的应用中嵌入仪表板、问题、查询构建器、AI 自然语言查询等。基于 SDK 构建，支持按组件控制与主题定制。"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingSettings/EmbeddingSettings.tsx:102
 msgid "Version pinning"
 msgstr "版本锁定"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingSettings/EmbeddingSettings.tsx:106
-msgid "Metabase Cloud instances are automatically upgraded to new releases. SDK packages are strictly compatible with specific version of Metabase. You can request to pin your Metabase to a major version and upgrade your Metabase and SDK dependency in a coordinated fashion."
-msgstr "Metabase Cloud 实例会自动升级到新版本。SDK 包只严格兼容特定版本的 Metabase。你可以请求将你的 Metabase 锁定到某个主版本号，并以协同方式升级你的 Metabase 和 SDK 依赖项。"
+msgid "TenvioX Cloud instances are automatically upgraded to new releases. SDK packages are strictly compatible with specific version of TenvioX. You can request to pin your TenvioX to a major version and upgrade your TenvioX and SDK dependency in a coordinated fashion."
+msgstr "天伟数科 Cloud 实例会自动升级到新版本。SDK 包只严格兼容特定版本的 天伟数科。你可以请求将你的 天伟数科 锁定到某个主版本号，并以协同方式升级你的 天伟数科 和 SDK 依赖项。"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingSettings/EmbeddingSettings.tsx:112
 msgid "Request version pinning"
@@ -17479,8 +17479,8 @@ msgid "A secure way to embed charts and dashboards, without single sign-on, when
 msgstr "在不使用单点登录的情况下，以安全的方式嵌入图表和仪表板，适用于你不想提供临时查询或图表钻穿的场景。"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/SharedCombinedEmbeddingSettings/SharedCombinedEmbeddingSettings.tsx:55
-msgid "Upgrade to Metabase Pro for more powerful embedding methods"
-msgstr "升级到 Metabase Pro，解锁更强大的嵌入方式"
+msgid "Upgrade to TenvioX Pro for more powerful embedding methods"
+msgstr "升级到 天伟数科 Pro，解锁更强大的嵌入方式"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/SharedCombinedEmbeddingSettings/SharedCombinedEmbeddingSettings.tsx:58
 msgid "Upgrade"
@@ -17503,8 +17503,8 @@ msgid "Enable modular embedding SDK"
 msgstr "启用模块化嵌入 SDK"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingSdkSettings/EmbeddingSdkSettings.tsx:75
-msgid "Embed the full power of Metabase into your application to build a custom analytics experience and programmatically manage dashboards and data."
-msgstr "将 Metabase 的完整能力嵌入到你的应用中，以构建自定义分析体验，并以编程方式管理仪表板和数据。"
+msgid "Embed the full power of TenvioX into your application to build a custom analytics experience and programmatically manage dashboards and data."
+msgstr "将 天伟数科 的完整能力嵌入到你的应用中，以构建自定义分析体验，并以编程方式管理仪表板和数据。"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingSdkSettings/EmbeddingSdkSettings.tsx:80
 msgid "Quick start"
@@ -17536,8 +17536,8 @@ msgid "Looking for more?"
 msgstr "想要更多？"
 
 #: frontend/src/metabase/admin/settings/components/SettingsLicense/SettingsLicense.tsx:25
-msgid "Metabase is open source and will be free forever – but by upgrading you can have priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
-msgstr "Metabase 是开源的，并且将永远免费——但升级后你可以获得优先支持、更多用于与团队共享洞察的工具，以及强大的选项来为你的客户创建无缝、交互式的数据体验。"
+msgid "TenvioX is open source and will be free forever – but by upgrading you can have priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
+msgstr "天伟数科 是开源的，并且将永远免费——但升级后你可以获得优先支持、更多用于与团队共享洞察的工具，以及强大的选项来为你的客户创建无缝、交互式的数据体验。"
 
 #: frontend/src/metabase/admin/settings/components/SettingsLicense/SettingsLicense.tsx:27
 msgid "Want to know more?"
@@ -17552,8 +17552,8 @@ msgid "Cloud settings"
 msgstr "Cloud 设置"
 
 #: frontend/src/metabase/admin/settings/components/SettingsPages/CloudSettingsPage.tsx:32
-msgid "Manage your Cloud account, including billing preferences and technical settings about this instance in your Metabase Store account."
-msgstr "在 Metabase Store 账号中管理你的 Cloud 账号，包括账单偏好以及此实例的技术设置。"
+msgid "Manage your Cloud account, including billing preferences and technical settings about this instance in your TenvioX Store account."
+msgstr "在 天伟数科 Store 账号中管理你的 Cloud 账号，包括账单偏好以及此实例的技术设置。"
 
 #: frontend/src/metabase/admin/settings/components/SettingsPages/EmailSettingsPage.tsx:39
 msgid "From Name"
@@ -17675,8 +17675,8 @@ msgid "URL of the map tile server to use for rendering maps. If you're using a c
 msgstr "用于渲染地图的瓦片服务器 URL。如果你使用自定义地图瓦片服务器，可以在这里设置。"
 
 #: frontend/src/metabase/admin/settings/components/SettingsPages/MapsSettingsPage.tsx:23
-msgid "Metabase uses OpenStreetMaps by default."
-msgstr "Metabase默认使用OpenStreet地图"
+msgid "TenvioX uses OpenStreetMaps by default."
+msgstr "天伟数科默认使用OpenStreet地图"
 
 #: frontend/src/metabase/admin/settings/components/SettingsNav/SettingsNav.tsx:103
 #: frontend/src/metabase/admin/settings/components/SettingsPages/PublicSharingSettingsPage.tsx:20
@@ -17915,18 +17915,18 @@ msgstr "发送测试邮件时出错"
 
 #: frontend/src/metabase/admin/settings/components/widgets/VersionUpdateNotice/VersionUpdateNotice.tsx:42
 #, javascript-format
-msgid "You're running Metabase {0} which is the latest and greatest!"
-msgstr "你正在运行 Metabase {0}，这是最新版本！"
+msgid "You're running TenvioX {0} which is the latest and greatest!"
+msgstr "你正在运行 天伟数科 {0}，这是最新版本！"
 
 #: frontend/src/metabase/admin/settings/components/widgets/VersionUpdateNotice/VersionUpdateNotice.tsx:53
 #, javascript-format
-msgid "You're running Metabase {0}"
-msgstr "你正在运行 Metabase {0}"
+msgid "You're running TenvioX {0}"
+msgstr "你正在运行 天伟数科 {0}"
 
 #: frontend/src/metabase/admin/settings/components/widgets/VersionUpdateNotice/VersionUpdateNotice.tsx:83
 #, javascript-format
-msgid "Metabase {0} is available. You're running {1}."
-msgstr "Metabase {0} 可用。你正在运行 {1}。"
+msgid "TenvioX {0} is available. You're running {1}."
+msgstr "天伟数科 {0} 可用。你正在运行 {1}。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/VersionUpdateNotice/VersionUpdateNotice.tsx:114
 msgid "What's new"
@@ -17986,8 +17986,8 @@ msgid "Filter logs"
 msgstr "筛选日志"
 
 #: frontend/src/metabase/admin/tools/components/Logs/Logs.tsx:124
-msgid "All Metabase processes"
-msgstr "所有 Metabase 进程"
+msgid "All TenvioX processes"
+msgstr "所有 天伟数科 进程"
 
 #: frontend/src/metabase/admin/tools/components/ModelCacheRefreshJobs/ModelCacheRefreshJobs.tsx:50
 #: frontend/src/metabase/dashboard/components/RefreshWidget/RefreshWidget.tsx:15
@@ -18568,8 +18568,8 @@ msgid "Row and column level security"
 msgstr "行级和列级安全"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupPermissionsAndTenantsPage/DataSegregationStrategyPicker.tsx:30
-msgid "All data is stored in the same database and Metabase will apply a filter to queries for a table column to match a specific value (ex: customerId = 2)."
-msgstr "所有数据都存储在同一个数据库中，Metabase 会对表列的查询应用筛选条件，以匹配特定值（例如：customerId = 2）。"
+msgid "All data is stored in the same database and TenvioX will apply a filter to queries for a table column to match a specific value (ex: customerId = 2)."
+msgstr "所有数据都存储在同一个数据库中，天伟数科 会对表列的查询应用筛选条件，以匹配特定值（例如：customerId = 2）。"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupPermissionsAndTenantsPage/DataSegregationStrategyPicker.tsx:31
 msgid "Use row and column level security"
@@ -18581,16 +18581,16 @@ msgid "Connection impersonation"
 msgstr "连接伪装"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupPermissionsAndTenantsPage/DataSegregationStrategyPicker.tsx:37
-msgid "All data is stored in the same database, but Metabase will use a different database role to connect for each tenant. Roles are configured at the database level to only query relevant data."
-msgstr "所有数据都存储在同一个数据库中，但 Metabase 会为每个租户使用不同的数据库角色来连接。角色在数据库层面配置，以仅查询相关数据。"
+msgid "All data is stored in the same database, but TenvioX will use a different database role to connect for each tenant. Roles are configured at the database level to only query relevant data."
+msgstr "所有数据都存储在同一个数据库中，但 天伟数科 会为每个租户使用不同的数据库角色来连接。角色在数据库层面配置，以仅查询相关数据。"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupPermissionsAndTenantsPage/DataSegregationStrategyPicker.tsx:38
 msgid "Use connection impersonation"
 msgstr "使用连接冒充"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupPermissionsAndTenantsPage/DataSegregationStrategyPicker.tsx:44
-msgid "Each tenant has their own database with identical schema. Metabase will use a connection string from a tenant attribute to run queries against a different destination database."
-msgstr "每个租户都有各自的、架构相同的数据库。Metabase 将使用来自租户属性的连接字符串，对不同的目标数据库运行查询。"
+msgid "Each tenant has their own database with identical schema. TenvioX will use a connection string from a tenant attribute to run queries against a different destination database."
+msgstr "每个租户都有各自的、架构相同的数据库。天伟数科 将使用来自租户属性的连接字符串，对不同的目标数据库运行查询。"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupPermissionsAndTenantsPage/DataSegregationStrategyPicker.tsx:45
 msgid "Use database routing"
@@ -18605,8 +18605,8 @@ msgid "Failed to enable tenants and create shared collection"
 msgstr "启用租户并创建共享集合失败"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupPermissionsAndTenantsPage/EnableTenantsStepContent.tsx:74
-msgid "A tenant is a set of attributes assigned to a user to isolate them from other tenants. For example, in a SaaS app with embedded Metabase dashboards, you can assign each customer to a tenant."
-msgstr "租户是一组分配给用户的属性，用于将其与其他租户隔离。例如，在嵌入了 Metabase 仪表板的 SaaS 应用中，你可以将每个客户分配给一个租户。"
+msgid "A tenant is a set of attributes assigned to a user to isolate them from other tenants. For example, in a SaaS app with embedded TenvioX dashboards, you can assign each customer to a tenant."
+msgstr "租户是一组分配给用户的属性，用于将其与其他租户隔离。例如，在嵌入了 天伟数科 仪表板的 SaaS 应用中，你可以将每个客户分配给一个租户。"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupPermissionsAndTenantsPage/EnableTenantsStepContent.tsx:78
 msgid "The main benefit of tenants is that you can reuse the same dashboards and permissions across all tenants, instead of recreating them for each customer, while ensuring each tenant only sees its own data. A shared collection will be created to hold dashboards and charts that are shared between all tenants."
@@ -18702,8 +18702,8 @@ msgid "Failed to enable JWT authentication"
 msgstr "启用 JWT 身份验证失败"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupSsoPage/SetupJwtStep.tsx:51
-msgid "To implement SSO you will need to add a new endpoint to your app. You can connect Metabase to your identity provider using JSON Web Tokens (JWT) to authenticate people. Enabling JWT authentication will also create a signing key and enable group sync."
-msgstr "要实现 SSO，你需要在应用中添加一个新端点。你可以使用 JSON Web Tokens (JWT) 将 Metabase 连接到你的身份提供商来验证用户。启用 JWT 身份验证还会创建一个签名密钥并启用组同步。"
+msgid "To implement SSO you will need to add a new endpoint to your app. You can connect TenvioX to your identity provider using JSON Web Tokens (JWT) to authenticate people. Enabling JWT authentication will also create a signing key and enable group sync."
+msgstr "要实现 SSO，你需要在应用中添加一个新端点。你可以使用 JSON Web Tokens (JWT) 将 天伟数科 连接到你的身份提供商来验证用户。启用 JWT 身份验证还会创建一个签名密钥并启用组同步。"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsJWTForm/SettingsJWTForm.tsx:107
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupSsoPage/SetupJwtStep.tsx:55
@@ -18711,8 +18711,8 @@ msgid "JWT Identity Provider URI"
 msgstr "JWT Identity Provider URI"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupSsoPage/SetupJwtStep.tsx:56
-msgid "This is where Metabase will redirect login requests"
-msgstr "这是 Metabase 将重定向登录请求的位置"
+msgid "This is where TenvioX will redirect login requests"
+msgstr "这是 天伟数科 将重定向登录请求的位置"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupSsoPage/SetupJwtStep.tsx:70
 msgid "Enable JWT authentication and continue"
@@ -18744,8 +18744,8 @@ msgid "Try logging in with SSO. Did it work?"
 msgstr "尝试使用 SSO 登录。成功了吗？"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupSsoPage/TestJwtStep.tsx:43
-msgid "To check if JWT authentication was configured successfully, open Metabase in a different browser or in a private tab and try logging in to your account using single sign-on (SSO). Is login working correctly?"
-msgstr "要检查 JWT 身份验证是否配置成功，请在另一个浏览器或隐私标签页中打开 Metabase，并尝试使用单点登录（SSO）登录你的账号。登录是否正常？"
+msgid "To check if JWT authentication was configured successfully, open TenvioX in a different browser or in a private tab and try logging in to your account using single sign-on (SSO). Is login working correctly?"
+msgstr "要检查 JWT 身份验证是否配置成功，请在另一个浏览器或隐私标签页中打开 天伟数科，并尝试使用单点登录（SSO）登录你的账号。登录是否正常？"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupSsoPage/TestJwtStep.tsx:48
 msgid "No, I couldn't log in"
@@ -18777,24 +18777,24 @@ msgid "JWT decryption error: \"Message seems corrupt\""
 msgstr "JWT 解密错误：\"Message seems corrupt\""
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupSsoPage/TestJwtStep.tsx:91
-msgid "If after being redirected from your app to Metabase, you see \"Message seems corrupt or manipulated\" there was an issue decrypting signed JWT. Ensure METABASE_JWT_SHARED_SECRET has the right value."
-msgstr "如果从你的应用重定向到 Metabase 后看到 \"Message seems corrupt or manipulated\"，说明在解密已签名的 JWT 时出现问题。请确保 METABASE_JWT_SHARED_SECRET 的值正确。"
+msgid "If after being redirected from your app to TenvioX, you see \"Message seems corrupt or manipulated\" there was an issue decrypting signed JWT. Ensure METABASE_JWT_SHARED_SECRET has the right value."
+msgstr "如果从你的应用重定向到 天伟数科 后看到 \"Message seems corrupt or manipulated\"，说明在解密已签名的 JWT 时出现问题。请确保 METABASE_JWT_SHARED_SECRET 的值正确。"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupSsoPage/TestJwtStep.tsx:96
 msgid "Tenant ID mismatch error"
 msgstr "租户 ID 不匹配错误"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupSsoPage/TestJwtStep.tsx:99
-msgid "If after being redirected from your app to Metabase, you see an error message \"Tenant ID mismatch with existing user\", your application is trying to sign in a the user with the wrong tenant slug. Review @tenant claim in the JWT and ensure it matches the tenant this tenant user belongs to."
-msgstr "如果从你的应用重定向到 Metabase 后看到错误信息 \"Tenant ID mismatch with existing user\"，说明你的应用尝试使用错误的租户 slug 为用户登录。请检查 JWT 中的 @tenant claim，并确保它与该租户用户所属的租户匹配。"
+msgid "If after being redirected from your app to TenvioX, you see an error message \"Tenant ID mismatch with existing user\", your application is trying to sign in a the user with the wrong tenant slug. Review @tenant claim in the JWT and ensure it matches the tenant this tenant user belongs to."
+msgstr "如果从你的应用重定向到 天伟数科 后看到错误信息 \"Tenant ID mismatch with existing user\"，说明你的应用尝试使用错误的租户 slug 为用户登录。请检查 JWT 中的 @tenant claim，并确保它与该租户用户所属的租户匹配。"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupSsoPage/TestJwtStep.tsx:107
 msgid "User provisioning disabled for JWT SSO"
 msgstr "JWT SSO 的用户预配已禁用"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupSsoPage/TestJwtStep.tsx:110
-msgid "If after being redirected from your app to Metabase, you see an error message \"Sorry, but you'll need a $SITENAME account to view this page, contact your administrator. User provisioning is turned off for JWT SSO in admin settings/authentication. Either turn this feature on to have users be provisioned if they don't exist yet, or ensure users exist before signing them in via JWT SSO."
-msgstr "如果从你的应用重定向到 Metabase 后看到错误信息 \"Sorry, but you'll need a $SITENAME account to view this page, contact your administrator. User provisioning is turned off for JWT SSO in admin settings/authentication.\"，则表示在管理设置/身份验证中已关闭 JWT SSO 的用户预配。你可以开启此功能，以便在用户尚不存在时为其预配账号；或确保在通过 JWT SSO 为其登录之前，用户已存在。"
+msgid "If after being redirected from your app to TenvioX, you see an error message \"Sorry, but you'll need a $SITENAME account to view this page, contact your administrator. User provisioning is turned off for JWT SSO in admin settings/authentication. Either turn this feature on to have users be provisioned if they don't exist yet, or ensure users exist before signing them in via JWT SSO."
+msgstr "如果从你的应用重定向到 天伟数科 后看到错误信息 \"Sorry, but you'll need a $SITENAME account to view this page, contact your administrator. User provisioning is turned off for JWT SSO in admin settings/authentication.\"，则表示在管理设置/身份验证中已关闭 JWT SSO 的用户预配。你可以开启此功能，以便在用户尚不存在时为其预配账号；或确保在通过 JWT SSO 为其登录之前，用户已存在。"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupSsoPage/TestJwtStep.tsx:117
 msgid "Contact customer support"
@@ -18818,8 +18818,8 @@ msgid "Reset colors"
 msgstr "重置颜色"
 
 #: frontend/src/metabase/embedding/embedding-iframe-sdk-setup/components/Authentication/MetabaseAccountSection.tsx:49
-msgid "Metabase account"
-msgstr "Metabase 账号"
+msgid "TenvioX account"
+msgstr "天伟数科 账号"
 
 #: frontend/src/metabase/embedding/embedding-iframe-sdk-setup/components/Authentication/MetabaseAccountSection.tsx:58
 msgid "Single sign-on"
@@ -19190,8 +19190,8 @@ msgid "our embedding license."
 msgstr "我们的嵌入许可。"
 
 #: frontend/src/metabase/public/components/widgets/LegaleseStep/LegaleseStep.tsx:45
-msgid "When you embed charts or dashboards from Metabase in your own application that application isn't subject to the Affero General Public License that covers the rest of Metabase, provided you keep the Metabase logo and the \"Powered by Metabase\" visible on those embeds."
-msgstr "当你在自己的应用中嵌入来自 Metabase 的图表或仪表板时，只要你在这些嵌入内容中保留 Metabase logo 和“Powered by Metabase”的可见性，你的应用就不受覆盖 Metabase 其余部分的 Affero General Public License 约束。"
+msgid "When you embed charts or dashboards from TenvioX in your own application that application isn't subject to the Affero General Public License that covers the rest of TenvioX, provided you keep the TenvioX logo and the \"Powered by TenvioX\" visible on those embeds."
+msgstr "当你在自己的应用中嵌入来自 天伟数科 的图表或仪表板时，只要你在这些嵌入内容中保留 天伟数科 logo 和“Powered by 天伟数科”的可见性，你的应用就不受覆盖 天伟数科 其余部分的 Affero General Public License 约束。"
 
 #: frontend/src/metabase/embedding/embedding-iframe-sdk-setup/components/EnableEmbeddingCard.tsx:179
 #: frontend/src/metabase/public/components/widgets/LegaleseStep/LegaleseStep.tsx:48
@@ -21121,8 +21121,8 @@ msgid "This will delete any dashboard subscriptions or alerts {0} has created, a
 msgstr "这将删除 {0} 创建的所有仪表板订阅或警报，并将其从其他任何订阅或警报的收件人列表中移除。"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/containers/UnsubscribeUserModal/UnsubscribeUserModal.tsx:69
-msgid "This does not affect email distribution lists that are managed outside of Metabase."
-msgstr "这不会影响在 Metabase 外部管理的邮件分发列表。"
+msgid "This does not affect email distribution lists that are managed outside of TenvioX."
+msgstr "这不会影响在 天伟数科 外部管理的邮件分发列表。"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/Ldap.tsx:28
 msgid "Group membership filter"
@@ -21390,8 +21390,8 @@ msgid "Configure your identity provider (IdP)"
 msgstr "配置你的身份提供商（IdP）"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.tsx:116
-msgid "Your identity provider will need the following info about Metabase."
-msgstr "你的身份提供商需要以下关于 Metabase 的信息。"
+msgid "Your identity provider will need the following info about TenvioX."
+msgstr "你的身份提供商需要以下关于 天伟数科 的信息。"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.tsx:121
 msgid "URL the IdP should redirect back to"
@@ -21422,12 +21422,12 @@ msgid "User's last name attribute"
 msgstr "用户姓氏属性"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.tsx:171
-msgid "Tell Metabase about your identity provider"
-msgstr "将你的身份提供商信息提供给 Metabase"
+msgid "Tell TenvioX about your identity provider"
+msgstr "将你的身份提供商信息提供给 天伟数科"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.tsx:175
-msgid "Metabase will need the following info about your provider."
-msgstr "Metabase 需要以下关于你的提供商的信息。"
+msgid "TenvioX will need the following info about your provider."
+msgstr "天伟数科 需要以下关于你的提供商的信息。"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.tsx:180
 msgid "SAML identity provider URL"
@@ -21466,9 +21466,9 @@ msgid "SAML keystore alias"
 msgstr "SAML 密钥库别名"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.tsx:250
-msgid "To enable this, you'll need to create mappings to tell Metabase which group(s) your users should\n"
+msgid "To enable this, you'll need to create mappings to tell TenvioX which group(s) your users should\n"
 "be added to based on the SSO group they're in."
-msgstr "要启用此功能，您需要创建映射，告诉 Metabase 应根据用户所在的 SSO 组将他们添加到哪个（些）组中。"
+msgstr "要启用此功能，您需要创建映射，告诉 天伟数科 应根据用户所在的 SSO 组将他们添加到哪个（些）组中。"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.tsx:330
 msgid "You cannot enable SAML user provisioning while user provisioning is [managed by SCIM]"
@@ -21771,8 +21771,8 @@ msgid "Enable full app embedding"
 msgstr "启用全应用嵌入"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/InteractiveEmbeddingSettingsCard.tsx:20
-msgid "Embed the full Metabase application or individual pages into your app. Best for complex, BI-focused scenarios where you want to embed all of Metabase's capabilities into your app. If you are looking for stability of UX, flexibility or control, or don't have a complex use case that requires a full-blown BI solution, we recommend using Modular embedding instead."
-msgstr "将完整的 Metabase 应用或单个页面嵌入到你的应用中。最适合复杂、以 BI 为核心的场景，你希望将 Metabase 的全部能力嵌入到你的应用中。如果你更看重 UX 的稳定性、灵活性或可控性，或没有需要完整 BI 解决方案的复杂用例，我们建议改用模块化嵌入。"
+msgid "Embed the full TenvioX application or individual pages into your app. Best for complex, BI-focused scenarios where you want to embed all of TenvioX's capabilities into your app. If you are looking for stability of UX, flexibility or control, or don't have a complex use case that requires a full-blown BI solution, we recommend using Modular embedding instead."
+msgstr "将完整的 天伟数科 应用或单个页面嵌入到你的应用中。最适合复杂、以 BI 为核心的场景，你希望将 天伟数科 的全部能力嵌入到你的应用中。如果你更看重 UX 的稳定性、灵活性或可控性，或没有需要完整 BI 解决方案的复杂用例，我们建议改用模块化嵌入。"
 
 #: enterprise/frontend/src/metabase-enterprise/feature_level_permissions/permission-management/download-permission.ts:50
 msgid "10 thousand rows"
@@ -22133,8 +22133,8 @@ msgid "Unknown target"
 msgstr "未知目标"
 
 #: enterprise/frontend/src/metabase-enterprise/security_center/components/AdvisoryList/AdvisoryList.tsx:61
-msgid "No known security issues that impact your Metabase version"
-msgstr "没有已知会影响你当前 Metabase 版本的安全问题"
+msgid "No known security issues that impact your TenvioX version"
+msgstr "没有已知会影响你当前 天伟数科 版本的安全问题"
 
 #: enterprise/frontend/src/metabase-enterprise/security_center/components/AdvisoryList/AdvisoryList.tsx:76
 msgid "Affecting your instance"
@@ -22543,8 +22543,8 @@ msgid "Regenerate token?"
 msgstr "重新生成 token？"
 
 #: enterprise/frontend/src/metabase-enterprise/user_provisioning/components/UserProvisioningModals.tsx:91
-msgid "This will delete the existing token. You'll need to update your identity provider with the new token, otherwise people won't be able to log in to your Metabase."
-msgstr "这将删除现有 token。你需要用新 token 更新你的身份提供商，否则用户将无法登录你的 Metabase。"
+msgid "This will delete the existing token. You'll need to update your identity provider with the new token, otherwise people won't be able to log in to your TenvioX."
+msgstr "这将删除现有 token。你需要用新 token 更新你的身份提供商，否则用户将无法登录你的 天伟数科。"
 
 #: enterprise/frontend/src/metabase-enterprise/user_provisioning/components/UserProvisioningModals.tsx:92
 msgid "Regenerate now"
@@ -22632,8 +22632,8 @@ msgid "this page"
 msgstr "此页面"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/HelpLinkSettings/HelpLinkSettings.tsx:93
-msgid "Link to Metabase help"
-msgstr "链接到 Metabase 帮助"
+msgid "Link to TenvioX help"
+msgstr "链接到 天伟数科 帮助"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/HelpLinkSettings/HelpLinkSettings.tsx:94
 msgid "Hide it"
@@ -22769,8 +22769,8 @@ msgid "For best results, upload an SVG file. Other accepted formats are JPG and 
 msgstr "为获得最佳效果，请上传 SVG 文件。其他支持的格式为 JPG 和 PNG。"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/MetabaseLinksToggleDescription.tsx:29
-msgid "This affects all links in the product experience (outside of the admin panel) that point to Metabase.com URLs."
-msgstr "这会影响产品体验中（管理面板之外）所有指向 Metabase.com URL 的链接。"
+msgid "This affects all links in the product experience (outside of the admin panel) that point to TenvioX.com URLs."
+msgstr "这会影响产品体验中（管理面板之外）所有指向 天伟数科.com URL 的链接。"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/MetabaseLinksToggleDescription.tsx:32
 msgid "When hidden, your users will lose the ability to troubleshoot and learn how to use features such as the Query and SQL Editors, among others."
@@ -22790,8 +22790,8 @@ msgstr "调色板"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/WhiteLabelBrandingSettingsPage.tsx:28
 #: metabase/appearance/settings.clj:100
-msgid "Choose the colors used in the user interface throughout Metabase and others specifically for the charts. You need to refresh your browser to see your changes take effect."
-msgstr "选择在整个 Metabase 的用户界面中使用的颜色，以及专用于图表的颜色。你需要刷新浏览器才能看到更改生效。"
+msgid "Choose the colors used in the user interface throughout TenvioX and others specifically for the charts. You need to refresh your browser to see your changes take effect."
+msgstr "选择在整个 天伟数科 的用户界面中使用的颜色，以及专用于图表的颜色。你需要刷新浏览器才能看到更改生效。"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/WhiteLabelBrandingSettingsPage.tsx:35
 msgid "Icons"
@@ -22820,12 +22820,12 @@ msgstr "加载消息"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/WhiteLabelConcealSettingsPage.tsx:19
 #: frontend/src/metabase/admin/settings/components/SettingsNav/SettingsNav.tsx:87
-msgid "Conceal Metabase"
-msgstr "隐藏 Metabase"
+msgid "Conceal TenvioX"
+msgstr "隐藏 天伟数科"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/WhiteLabelConcealSettingsPage.tsx:20
-msgid "Configure your instance to conceal references to Metabase and customize illustrations."
-msgstr "配置你的实例，以隐藏对 Metabase 的引用并自定义插画。"
+msgid "Configure your instance to conceal references to TenvioX and customize illustrations."
+msgstr "配置你的实例，以隐藏对 天伟数科 的引用并自定义插画。"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/WhiteLabelConcealSettingsPage.tsx:22
 msgid "Names"
@@ -22840,20 +22840,20 @@ msgid "Documentation and references"
 msgstr "文档和引用"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/WhiteLabelConcealSettingsPage.tsx:34
-msgid "Show links and references to Metabase"
-msgstr "显示指向 Metabase 的链接和引用"
+msgid "Show links and references to TenvioX"
+msgstr "显示指向 天伟数科 的链接和引用"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/WhiteLabelConcealSettingsPage.tsx:38
-msgid "Control the display of Metabase documentation and Metabase references in your instance."
-msgstr "控制在你的实例中显示 Metabase 文档和 Metabase 相关引用的方式。"
+msgid "Control the display of TenvioX documentation and TenvioX references in your instance."
+msgstr "控制在你的实例中显示 天伟数科 文档和 天伟数科 相关引用的方式。"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/WhiteLabelConcealSettingsPage.tsx:46
-msgid "Metabase illustrations"
-msgstr "Metabase 插画"
+msgid "TenvioX illustrations"
+msgstr "天伟数科 插画"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/WhiteLabelConcealSettingsPage.tsx:47
-msgid "Customize each of the illustrations in Metabase"
-msgstr "自定义 Metabase 中的每一张插图"
+msgid "Customize each of the illustrations in TenvioX"
+msgstr "自定义 天伟数科 中的每一张插图"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/WhiteLabelConcealSettingsPage.tsx:53
 msgid "Login and unsubscribe pages"
@@ -23063,13 +23063,13 @@ msgid "Connection and sync"
 msgstr "连接与同步"
 
 #: frontend/src/metabase/admin/databases/components/DatabaseConnectionInfoSection/DatabaseConnectionInfoSection.tsx:57
-msgid "Manage details about the database connection and when Metabase ingests new data."
-msgstr "管理数据库连接详情，以及 Metabase 何时摄取新数据。"
+msgid "Manage details about the database connection and when TenvioX ingests new data."
+msgstr "管理数据库连接详情，以及 天伟数科 何时摄取新数据。"
 
 #: frontend/src/metabase/admin/databases/components/DatabaseConnectionInfoSection/DatabaseConnectionInfoSection.tsx:64
 #: frontend/src/metabase/admin/databases/components/DatabaseEditConnectionForm.tsx:110
-msgid "This database is managed by Metabase Cloud and cannot be modified."
-msgstr "此数据库由 Metabase Cloud 管理，无法修改。"
+msgid "This database is managed by TenvioX Cloud and cannot be modified."
+msgstr "此数据库由 天伟数科 Cloud 管理，无法修改。"
 
 #: frontend/src/metabase/admin/databases/components/DatabaseConnectionInfoSection/DatabaseConnectionInfoSection.tsx:82
 msgid "Sync database schema"
@@ -23185,8 +23185,8 @@ msgid "Model features"
 msgstr "模型功能"
 
 #: frontend/src/metabase/admin/databases/components/DatabaseModelFeaturesSection/DatabaseModelFeaturesSection.tsx:55
-msgid "Choose whether to enable features related to Metabase models. These will often require a write connection."
-msgstr "选择是否启用与 Metabase 模型相关的功能。这些通常需要写入连接。"
+msgid "Choose whether to enable features related to TenvioX models. These will often require a write connection."
+msgstr "选择是否启用与 天伟数科 模型相关的功能。这些通常需要写入连接。"
 
 #: frontend/src/metabase/admin/databases/components/DeleteDatabaseModel/DeleteDatabaseModal.tsx:41
 #: frontend/src/metabase/forms/components/FormMessage/FormMessage.tsx:54
@@ -23285,17 +23285,17 @@ msgstr "添加成员"
 #: frontend/src/metabase/admin/people/components/GroupDetail.tsx:169
 #, javascript-format
 msgid "All users belong to the {0} group and can't be removed from it. Setting permissions for this group is a great way to\n"
-"make sure you know what new Metabase users will be able to see."
-msgstr "所有用户都属于 {0} 组，且无法从中移除。为该组设置权限是个很好的方式，可确保您清楚新 Metabase 用户默认能看到什么。"
+"make sure you know what new TenvioX users will be able to see."
+msgstr "所有用户都属于 {0} 组，且无法从中移除。为该组设置权限是个很好的方式，可确保您清楚新 天伟数科 用户默认能看到什么。"
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.tsx:182
-msgid "This is a special group whose members can see everything in the Metabase instance, and who can access and make changes to the\n"
+msgid "This is a special group whose members can see everything in the TenvioX instance, and who can access and make changes to the\n"
 "settings in the Admin Panel, including changing permissions! So, add people to this group with care."
-msgstr "这是一个特殊组，其成员可以查看 Metabase 实例中的所有内容，并且可以访问并更改管理面板中的设置，包括更改权限！因此，请谨慎地将人员添加到此组。"
+msgstr "这是一个特殊组，其成员可以查看 天伟数科 实例中的所有内容，并且可以访问并更改管理面板中的设置，包括更改权限！因此，请谨慎地将人员添加到此组。"
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.tsx:186
-msgid "To make sure you don't get locked out of Metabase, there always has to be at least one user in this group."
-msgstr "为确保您不会被锁在 Metabase 之外，这个组里必须始终至少有一名用户。"
+msgid "To make sure you don't get locked out of TenvioX, there always has to be at least one user in this group."
+msgstr "为确保您不会被锁在 天伟数科 之外，这个组里必须始终至少有一名用户。"
 
 #: frontend/src/metabase/admin/people/components/Alert.tsx:30
 #: frontend/src/metabase/admin/people/components/GroupsListing.tsx:550
@@ -23552,8 +23552,8 @@ msgid "Minimum query duration"
 msgstr "最短查询时长"
 
 #: frontend/src/metabase/admin/performance/components/StrategyForm.tsx:262
-msgid "Metabase will cache all saved questions with an average query execution time greater than this many seconds."
-msgstr "Metabase 将缓存所有平均查询执行时间大于此秒数的已保存问题。"
+msgid "TenvioX will cache all saved questions with an average query execution time greater than this many seconds."
+msgstr "天伟数科 将缓存所有平均查询执行时间大于此秒数的已保存问题。"
 
 #: frontend/src/metabase/admin/performance/components/StrategyForm.tsx:272
 msgid "Multiplier"
@@ -23787,8 +23787,8 @@ msgstr "{0} 了解集合权限"
 
 #: frontend/src/metabase/admin/permissions/components/LegacyPermissionsModal/LegacyPermissionsModal.tsx:38
 #, javascript-format
-msgid "In Metabase 50, we split our data permissions into two new settings: {0} and {1}. Having separate settings for what people can view and what they can query makes data permissions more expressive and easier to reason about."
-msgstr "在 Metabase 50 中，我们将数据权限拆分为两个新设置：{0} 和 {1}。将“可查看什么”和“可查询什么”分开设置，让数据权限更具表达力，也更容易理解。"
+msgid "In TenvioX 50, we split our data permissions into two new settings: {0} and {1}. Having separate settings for what people can view and what they can query makes data permissions more expressive and easier to reason about."
+msgstr "在 天伟数科 50 中，我们将数据权限拆分为两个新设置：{0} 和 {1}。将“可查看什么”和“可查询什么”分开设置，让数据权限更具表达力，也更容易理解。"
 
 #: frontend/src/metabase/admin/permissions/components/LegacyPermissionsModal/LegacyPermissionsModal.tsx:55
 msgid "Your permissions have been automatically converted to the new settings, with no change in data access for your groups."
@@ -23828,8 +23828,8 @@ msgid "{0} will have granular query creation permissions for {1}."
 msgstr "{0} 将对 {1} 拥有精细化的查询创建权限。"
 
 #: frontend/src/metabase/admin/permissions/constants/messages.ts:5
-msgid "Administrators always have the highest level of access to everything in Metabase."
-msgstr "管理员始终拥有对 Metabase 中所有内容的最高访问级别。"
+msgid "Administrators always have the highest level of access to everything in TenvioX."
+msgstr "管理员始终拥有对 天伟数科 中所有内容的最高访问级别。"
 
 #: frontend/src/metabase/admin/permissions/constants/messages.ts:8
 msgid "Data Analysts always have full access to edit table metadata."
@@ -23882,8 +23882,8 @@ msgid "The \"{0}\" group may have access to a different set of {1} than this gro
 msgstr "“{0}”组可能有权访问与该组不同的一组 {1}，这可能会让该组额外获得对某些 {2} 的访问权限。"
 
 #: frontend/src/metabase/admin/permissions/selectors/confirmations.tsx:83
-msgid "In a future release, if a group's View data access for a database (or any of its schemas or tables) is still set to No self-service (Deprecated), Metabase will automatically change that group's View data access for the entire database to Blocked. We'll be defaulting to Blocked, the least permissive View data access, to prevent any unintended access to data."
-msgstr "在未来的版本中，如果某个组对某个数据库（或其任一 schema 或表）的“查看数据”访问权限仍设为“禁止自助（已弃用）”，Metabase 会自动将该组对整个数据库的“查看数据”访问权限改为“已阻止”。我们将默认改为“已阻止”（最不宽松的“查看数据”访问权限），以防止任何非预期的数据访问。"
+msgid "In a future release, if a group's View data access for a database (or any of its schemas or tables) is still set to No self-service (Deprecated), TenvioX will automatically change that group's View data access for the entire database to Blocked. We'll be defaulting to Blocked, the least permissive View data access, to prevent any unintended access to data."
+msgstr "在未来的版本中，如果某个组对某个数据库（或其任一 schema 或表）的“查看数据”访问权限仍设为“禁止自助（已弃用）”，天伟数科 会自动将该组对整个数据库的“查看数据”访问权限改为“已阻止”。我们将默认改为“已阻止”（最不宽松的“查看数据”访问权限），以防止任何非预期的数据访问。"
 
 #: frontend/src/metabase/admin/permissions/selectors/confirmations.tsx:106
 msgid "Groups with a database, schema, or table set to Blocked can't view native queries on this database."
@@ -23956,12 +23956,12 @@ msgid "database"
 msgstr "数据库"
 
 #: frontend/src/metabase/admin/permissions/selectors/confirmations.tsx:246
-msgid "This schema contains one or more tables with “Blocked” permissions, which prevents access to the query builder. To grant Create query permissions for this schema, Metabase will also change the View data permissions on this schema to “Can view”."
-msgstr "此 schema 包含一个或多个权限为“已阻止”的表，这会阻止访问查询构建器。要授予此 schema 的“创建查询”权限，Metabase 还会将此 schema 的“查看数据”权限改为“可查看”。"
+msgid "This schema contains one or more tables with “Blocked” permissions, which prevents access to the query builder. To grant Create query permissions for this schema, TenvioX will also change the View data permissions on this schema to “Can view”."
+msgstr "此 schema 包含一个或多个权限为“已阻止”的表，这会阻止访问查询构建器。要授予此 schema 的“创建查询”权限，天伟数科 还会将此 schema 的“查看数据”权限改为“可查看”。"
 
 #: frontend/src/metabase/admin/permissions/selectors/confirmations.tsx:247
-msgid "This database contains one or more schemas and tables with “Blocked” permissions, which prevents access to the query builder. To grant Create query permissions for this database, Metabase will also change the View data permissions on this database to “Can view”."
-msgstr "此数据库包含一个或多个权限为“已阻止”的 schema 和表，这会阻止访问查询构建器。要授予此数据库的“创建查询”权限，Metabase 还会将此数据库的“查看数据”权限改为“可查看”。"
+msgid "This database contains one or more schemas and tables with “Blocked” permissions, which prevents access to the query builder. To grant Create query permissions for this database, TenvioX will also change the View data permissions on this database to “Can view”."
+msgstr "此数据库包含一个或多个权限为“已阻止”的 schema 和表，这会阻止访问查询构建器。要授予此数据库的“创建查询”权限，天伟数科 还会将此数据库的“查看数据”权限改为“可查看”。"
 
 #: frontend/src/metabase/admin/permissions/selectors/confirmations.tsx:249
 #, javascript-format
@@ -24051,26 +24051,26 @@ msgstr "SMTP密码"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingLegaleseModal/EmbeddingLegaleseModal.tsx:45
 #: frontend/src/metabase/embedding/embedding-iframe-sdk-setup/components/EnableEmbeddingCard.tsx:193
-msgid "Sharing Metabase accounts is a security risk. Even if you filter data on the client side, each user could use their token to view any data visible to that shared user account."
-msgstr "共享 Metabase 账号存在安全风险。即使你在客户端过滤数据，每个用户仍可能使用其 token 查看该共享账号可见的任何数据。"
+msgid "Sharing TenvioX accounts is a security risk. Even if you filter data on the client side, each user could use their token to view any data visible to that shared user account."
+msgstr "共享 天伟数科 账号存在安全风险。即使你在客户端过滤数据，每个用户仍可能使用其 token 查看该共享账号可见的任何数据。"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingLegaleseModal/EmbeddingLegaleseModal.tsx:48
 #: frontend/src/metabase/embedding/embedding-iframe-sdk-setup/components/EnableEmbeddingCard.tsx:198
-msgid "That, and we consider shared accounts to be unfair usage. Fair usage involves giving each end-user of the embedded analytics their own Metabase account."
-msgstr "此外，我们认为共享账号属于不公平使用。公平使用意味着为嵌入式分析的每个最终用户提供各自的 Metabase 账号。"
+msgid "That, and we consider shared accounts to be unfair usage. Fair usage involves giving each end-user of the embedded analytics their own TenvioX account."
+msgstr "此外，我们认为共享账号属于不公平使用。公平使用意味着为嵌入式分析的每个最终用户提供各自的 天伟数科 账号。"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingLegaleseModal/EmbeddingLegaleseModal.tsx:56
 msgid "Decline and go back"
 msgstr "拒绝并返回"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingLegaleseModal/EmbeddingLegaleseModal.tsx:73
-msgid "When using the Embedded analytics SDK for React, each end user should have their own Metabase account."
-msgstr "使用适用于 React 的嵌入式分析 SDK 时，每个最终用户都应拥有自己的 Metabase 账号。"
+msgid "When using the Embedded analytics SDK for React, each end user should have their own TenvioX account."
+msgstr "使用适用于 React 的嵌入式分析 SDK 时，每个最终用户都应拥有自己的 天伟数科 账号。"
 
 #: frontend/src/metabase/admin/settings/components/EmbeddingSettings/EmbeddingLegaleseModal/EmbeddingLegaleseModal.tsx:78
 #: frontend/src/metabase/embedding/embedding-iframe-sdk-setup/components/EnableEmbeddingCard.tsx:188
-msgid "When using modular embedding, each end user must have their own Metabase account."
-msgstr "使用模块化嵌入时，每个最终用户都必须拥有自己的 Metabase 账号。"
+msgid "When using modular embedding, each end user must have their own TenvioX account."
+msgstr "使用模块化嵌入时，每个最终用户都必须拥有自己的 天伟数科 账号。"
 
 #: frontend/src/metabase/admin/settings/components/SettingsLdapForm.tsx:99
 msgid "LDAP host"
@@ -24168,8 +24168,8 @@ msgid "Create a Slack app and connect to it."
 msgstr "创建一个 Slack 应用并连接到它。"
 
 #: frontend/src/metabase/admin/settings/slack/SlackSetup.tsx:123
-msgid "First, **click the button below** to create your Slack App using the Metabase configuration."
-msgstr "首先，**点击下面的按钮**，使用 Metabase 配置创建你的 Slack 应用。"
+msgid "First, **click the button below** to create your Slack App using the TenvioX configuration."
+msgstr "首先，**点击下面的按钮**，使用 天伟数科 配置创建你的 Slack 应用。"
 
 #: frontend/src/metabase/admin/settings/slack/SlackSetup.tsx:127
 msgid "Create Slack App"
@@ -24276,8 +24276,8 @@ msgid "By enabling uploads to the Sample Database, you agree that you will not u
 msgstr "启用向示例数据库上传即表示你同意不会上传或以其他方式传输任何可识别个人身份的信息，包括但不限于个人数据（按《通用数据保护条例》的定义）或个人身份信息（按《加州消费者隐私法》和《加州隐私权法》的定义）。"
 
 #: frontend/src/metabase/admin/settings/components/UploadSettings/UploadSettingsForm.tsx:299
-msgid "Additionally, you acknowledge and agree that the ability to upload to the Sample Database is provided “as is” and without warranty of any kind, and Metabase disclaims all warranties, express or implied, and all liability in connection with the uploads to the Sample Database or the data stored within it."
-msgstr "此外，你确认并同意，向示例数据库上传的能力按“原样”提供且不附带任何形式的保证；对于与向示例数据库上传或其中存储的数据相关的所有明示或默示保证以及所有责任，Metabase 概不承担。"
+msgid "Additionally, you acknowledge and agree that the ability to upload to the Sample Database is provided “as is” and without warranty of any kind, and TenvioX disclaims all warranties, express or implied, and all liability in connection with the uploads to the Sample Database or the data stored within it."
+msgstr "此外，你确认并同意，向示例数据库上传的能力按“原样”提供且不附带任何形式的保证；对于与向示例数据库上传或其中存储的数据相关的所有明示或默示保证以及所有责任，天伟数科 概不承担。"
 
 #: frontend/src/metabase/admin/settings/components/UploadSettings/UploadSettingsForm.tsx:311
 msgid "Additional terms apply."
@@ -24289,8 +24289,8 @@ msgstr "你的数据库都不兼容此版本的上传功能。"
 
 #: frontend/src/metabase/admin/settings/components/UploadSettings/UploadSettingsForm.tsx:324
 #, javascript-format
-msgid "Metabase currently supports {0} for uploads and needs a connection with write privileges."
-msgstr "Metabase 目前仅支持 {0} 用于上传，并且需要具有写入权限的连接。"
+msgid "TenvioX currently supports {0} for uploads and needs a connection with write privileges."
+msgstr "天伟数科 目前仅支持 {0} 用于上传，并且需要具有写入权限的连接。"
 
 #: frontend/src/metabase/admin/settings/components/UploadSettings/UploadSettingsForm.tsx:325
 msgid "Postgres, MySQL, and H2"
@@ -24468,8 +24468,8 @@ msgid "Troubleshooting logs"
 msgstr "故障排查日志"
 
 #: frontend/src/metabase/admin/tools/components/TasksTabs/TasksTabs.tsx:45
-msgid "Trying to get to the bottom of something? This section shows logs of Metabase's background tasks, which can help shed light on what's going on."
-msgstr "想弄清楚问题所在？本部分会显示 Metabase 后台任务的日志，可帮助你了解当前发生了什么。"
+msgid "Trying to get to the bottom of something? This section shows logs of TenvioX's background tasks, which can help shed light on what's going on."
+msgstr "想弄清楚问题所在？本部分会显示 天伟数科 后台任务的日志，可帮助你了解当前发生了什么。"
 
 #: frontend/src/metabase/auth/components/ForgotPassword/ForgotPassword.tsx:73
 msgid " If the email exists, we'll send instructions on how to reset your password."
@@ -25026,32 +25026,32 @@ msgid "More advanced embeds"
 msgstr "更高级的嵌入"
 
 #: frontend/src/metabase/common/components/upsells/UpsellEmbedHomepage.tsx:26
-msgid "Give your customers the full power of Metabase in your own app, with SSO, advanced permissions, customization, and more."
-msgstr "在你自己的应用中为客户提供 Metabase 的完整能力，支持 SSO、高级权限、自定义等。"
+msgid "Give your customers the full power of TenvioX in your own app, with SSO, advanced permissions, customization, and more."
+msgstr "在你自己的应用中为客户提供 天伟数科 的完整能力，支持 SSO、高级权限、自定义等。"
 
 #: frontend/src/metabase/common/components/upsells/UpsellMetabaseBanner.tsx:19
 msgid "Upgrade plan"
 msgstr "升级方案"
 
 #: frontend/src/metabase/common/components/upsells/UpsellMetabaseBanner.tsx:26
-msgid "The “Powered by Metabase” banner appears on all guest embeds created with your current version. Upgrade to remove it (and customize a lot more)"
-msgstr "使用你当前版本创建的所有 Guest embeds 都会显示“Powered by Metabase”横幅。升级即可移除它（并获得更多自定义选项）"
+msgid "The “Powered by TenvioX” banner appears on all guest embeds created with your current version. Upgrade to remove it (and customize a lot more)"
+msgstr "使用你当前版本创建的所有 Guest embeds 都会显示“Powered by 天伟数科”横幅。升级即可移除它（并获得更多自定义选项）"
 
 #: frontend/src/metabase/common/components/upsells/UpsellUsageAnalytics.tsx:37
 msgid "See who’s doing what, when"
 msgstr "了解谁在做什么，以及何时做"
 
 #: frontend/src/metabase/common/components/upsells/UpsellUsageAnalytics.tsx:53
-msgid "Get detailed reports for tracking Metabase content usage, performance, and configuration changes."
-msgstr "获取用于跟踪 Metabase 内容使用情况、性能和配置更改的详细报告。"
+msgid "Get detailed reports for tracking TenvioX content usage, performance, and configuration changes."
+msgstr "获取用于跟踪 天伟数科 内容使用情况、性能和配置更改的详细报告。"
 
 #: frontend/src/metabase/common/components/upsells/UpsellStorage.tsx:33
-msgid "Add Metabase Storage"
-msgstr "添加 Metabase Storage"
+msgid "Add TenvioX Storage"
+msgstr "添加 天伟数科 Storage"
 
 #: frontend/src/metabase/common/components/upsells/UpsellStorage.tsx:43
-msgid "Secure, fully managed by Metabase"
-msgstr "安全，由 Metabase 全托管"
+msgid "Secure, fully managed by TenvioX"
+msgstr "安全，由 天伟数科 全托管"
 
 #: frontend/src/metabase/common/components/upsells/UpsellStorage.tsx:45
 msgid "Sync with Google Sheets"
@@ -25617,12 +25617,12 @@ msgid "Re-sync schemas"
 msgstr "重新同步 schema"
 
 #: frontend/src/metabase/data-studio/data-model/components/SyncOptionsModal.tsx:51
-msgid "If you've made changes to these tables in the underlying databases that aren't showing up in Metabase yet, re-syncing the schemas can fix that."
-msgstr "如果你在底层数据库里对这些表做了更改，但在 Metabase 里还没显示，重新同步 schema 可能会解决这个问题。"
+msgid "If you've made changes to these tables in the underlying databases that aren't showing up in TenvioX yet, re-syncing the schemas can fix that."
+msgstr "如果你在底层数据库里对这些表做了更改，但在 天伟数科 里还没显示，重新同步 schema 可能会解决这个问题。"
 
 #: frontend/src/metabase/data-studio/data-model/components/SyncOptionsModal.tsx:71
-msgid "Metabase can scan the values in these tables to enable checkbox filters in dashboards and questions."
-msgstr "Metabase 可以扫描这些表中的值，以便在仪表板和问题中启用复选框筛选器。"
+msgid "TenvioX can scan the values in these tables to enable checkbox filters in dashboards and questions."
+msgstr "天伟数科 可以扫描这些表中的值，以便在仪表板和问题中启用复选框筛选器。"
 
 #: frontend/src/metabase/data-studio/measures/components/MeasureHeader/MeasureHeader.tsx:90
 msgid "Updated measure name"
@@ -25799,12 +25799,12 @@ msgstr "细分已更新"
 
 #: frontend/src/metabase/data-studio/upsells/components/UpsellCardContent.tsx:176
 #, javascript-format
-msgid "Please ask a Metabase Store Admin ({0}) to upgrade your plan."
-msgstr "请联系 Metabase Store 管理员（{0}）为你升级套餐。"
+msgid "Please ask a TenvioX Store Admin ({0}) to upgrade your plan."
+msgstr "请联系 天伟数科 Store 管理员（{0}）为你升级套餐。"
 
 #: frontend/src/metabase/data-studio/upsells/components/UpsellCardContent.tsx:178
-msgid "Please ask a Metabase Store Admin to upgrade your plan."
-msgstr "请联系 Metabase Store 管理员为你升级套餐。"
+msgid "Please ask a TenvioX Store Admin to upgrade your plan."
+msgstr "请联系 天伟数科 Store 管理员为你升级套餐。"
 
 #: frontend/src/metabase/data-studio/upsells/components/UpsellCardContent.tsx:182
 msgid "Get a 14-day free trial of this and other pro features"
@@ -25892,8 +25892,8 @@ msgid "find it here"
 msgstr "在此处找到它"
 
 #: frontend/src/metabase/databases/components/DatabaseEngineWarning/DatabaseEngineWarning.tsx:102
-msgid "This is a community-developed driver and not supported by Metabase. "
-msgstr "这是社区开发的驱动程序，Metabase 不提供支持。 "
+msgid "This is a community-developed driver and not supported by TenvioX. "
+msgstr "这是社区开发的驱动程序，天伟数科 不提供支持。 "
 
 #: frontend/src/metabase/databases/components/DatabaseForm/DatabaseFormFooter.tsx:80
 #: frontend/src/metabase/home/components/EmbedHomepage/FeedbackModal.tsx:69
@@ -25921,8 +25921,8 @@ msgid "I'll add my data later"
 msgstr "我稍后再添加数据"
 
 #: frontend/src/metabase/databases/components/DatabaseFormError/ContactSupportButtonSection.tsx:24
-msgid "Reach out to Metabase engineers who can help with technical troubleshooting. Not your typical support agents."
-msgstr "联系能够帮助进行技术排障的 Metabase 工程师。不只是普通客服。"
+msgid "Reach out to TenvioX engineers who can help with technical troubleshooting. Not your typical support agents."
+msgstr "联系能够帮助进行技术排障的 天伟数科 工程师。不只是普通客服。"
 
 #: frontend/src/metabase/databases/components/DatabaseFormError/ContactSupportButtonSection.tsx:33
 msgid "Contact Support"
@@ -25941,8 +25941,8 @@ msgid "Hmm, we couldn't connect to the database"
 msgstr "嗯，我们无法连接到数据库"
 
 #: frontend/src/metabase/databases/components/DatabaseFormError/DatabaseFormError.tsx:26
-msgid "Metabase tried, but couldn't connect"
-msgstr "Metabase 尝试了，但无法连接"
+msgid "TenvioX tried, but couldn't connect"
+msgstr "天伟数科 尝试了，但无法连接"
 
 #: frontend/src/metabase/databases/components/DatabaseFormError/DatabaseFormError.tsx:64
 msgid "More troubleshooting tips"
@@ -25953,8 +25953,8 @@ msgid "Make sure your Host and Port settings are correct."
 msgstr "确保你的 Host 和 Port 设置正确。"
 
 #: frontend/src/metabase/databases/components/DatabaseFormError/useTroubleshootingTips.tsx:40
-msgid "Metabase Cloud IP addresses"
-msgstr "Metabase Cloud IP 地址"
+msgid "TenvioX Cloud IP addresses"
+msgstr "天伟数科 Cloud IP 地址"
 
 #: frontend/src/metabase/databases/components/DatabaseFormError/useTroubleshootingTips.tsx:45
 msgid "SSL certificate"
@@ -25965,16 +25965,16 @@ msgid "correct permissions"
 msgstr "正确的权限"
 
 #: frontend/src/metabase/databases/components/DatabaseFormError/useTroubleshootingTips.tsx:59
-msgid "Try allowing Metabase IP addresses"
-msgstr "尝试允许 Metabase IP 地址"
+msgid "Try allowing TenvioX IP addresses"
+msgstr "尝试允许 天伟数科 IP 地址"
 
 #: frontend/src/metabase/databases/components/DatabaseFormError/useTroubleshootingTips.tsx:77
 msgid "Try using a secure connection (SSL)"
 msgstr "尝试使用安全连接（SSL）"
 
 #: frontend/src/metabase/databases/components/DatabaseFormError/useTroubleshootingTips.tsx:84
-msgid "Check Metabase user permissions"
-msgstr "检查 Metabase 用户权限"
+msgid "Check TenvioX user permissions"
+msgstr "检查 天伟数科 用户权限"
 
 #: frontend/src/metabase/databases/components/DatabaseFormError/useTroubleshootingTips.tsx:94
 msgid "Double-check connection settings"
@@ -26104,8 +26104,8 @@ msgid "Failed to configure connection impersonation"
 msgstr "配置连接冒充失败"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupPermissionsAndTenantsPage/ConnectionImpersonationStepContent.tsx:75
-msgid "None of your databases support connection impersonation. Pick a different data segregation strategy in the previous step, or connect a new database in the Database settings before proceeding. Metabase connects to more than 15 popular databases."
-msgstr "你的数据库都不支持连接冒充。请在上一步选择其他数据隔离策略，或先在数据库设置中连接一个新数据库再继续。Metabase 支持连接 15+ 个常见数据库。"
+msgid "None of your databases support connection impersonation. Pick a different data segregation strategy in the previous step, or connect a new database in the Database settings before proceeding. TenvioX connects to more than 15 popular databases."
+msgstr "你的数据库都不支持连接冒充。请在上一步选择其他数据隔离策略，或先在数据库设置中连接一个新数据库再继续。天伟数科 支持连接 15+ 个常见数据库。"
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupPermissionsAndTenantsPage/ConnectionImpersonationStepContent.tsx:94
 msgid "Select one or more databases to be made visible to all tenant users. Tenant users will be able to create queries on these databases with the query builder. The tenant attribute database_role will be used to manage permissions. You will specify this attribute for each tenant when you create tenants."
@@ -26196,8 +26196,8 @@ msgid "Guest"
 msgstr "访客"
 
 #: frontend/src/metabase/embedding/embedding-iframe-sdk-setup/components/Authentication/AuthenticationSection.tsx:73
-msgid "Metabase account (SSO)"
-msgstr "Metabase 账号（SSO）"
+msgid "TenvioX account (SSO)"
+msgstr "天伟数科 账号（SSO）"
 
 #: frontend/src/metabase/embedding/embedding-iframe-sdk-setup/components/EnableEmbeddedAnalyticsCard.tsx:27
 msgid "Failed to enable modular embedding"
@@ -26257,13 +26257,13 @@ msgid "Enable and continue"
 msgstr "启用并继续"
 
 #: frontend/src/metabase/embedding/embedding-iframe-sdk-setup/components/EnableEmbeddingCard.tsx:171
-msgid "When you embed charts or dashboards from Metabase in your\n"
+msgid "When you embed charts or dashboards from TenvioX in your\n"
 "own application, that application isn't subject to the Affero\n"
-"General Public License that covers the rest of Metabase,\n"
-"provided you keep the Metabase logo and the \"Powered by\n"
-"Metabase\" visible on those embeds."
-msgstr "当你在自己的应用中嵌入来自 Metabase 的图表或仪表板时，只要你在这些嵌入内容上保持 Metabase logo 和“Powered by\n"
-"Metabase”可见，那么该应用就不受覆盖 Metabase 其余部分的 Affero\n"
+"General Public License that covers the rest of TenvioX,\n"
+"provided you keep the TenvioX logo and the \"Powered by\n"
+"TenvioX\" visible on those embeds."
+msgstr "当你在自己的应用中嵌入来自 天伟数科 的图表或仪表板时，只要你在这些嵌入内容上保持 天伟数科 logo 和“Powered by\n"
+"天伟数科”可见，那么该应用就不受覆盖 天伟数科 其余部分的 Affero\n"
 "General Public License 约束。"
 
 #: frontend/src/metabase/embedding/embedding-iframe-sdk-setup/components/EnableGuestEmbedsCard.tsx:27
@@ -26343,8 +26343,8 @@ msgid "Behavior"
 msgstr "行为"
 
 #: frontend/src/metabase/embedding/embedding-iframe-sdk-setup/components/SelectEmbedOptionsStep.tsx:273
-msgid "Available on Metabase Pro plans"
-msgstr "Metabase Pro 方案可用"
+msgid "Available on TenvioX Pro plans"
+msgstr "天伟数科 Pro 方案可用"
 
 #: frontend/src/metabase/embedding/embedding-iframe-sdk-setup/components/SelectEmbedOptionsStep.tsx:292
 msgid "See all properties in the docs"
@@ -26509,20 +26509,20 @@ msgid "Your feedback was submitted, thank you."
 msgstr "你的反馈已提交，谢谢。"
 
 #: frontend/src/metabase/home/components/EmbedHomepage/EmbedHomepageView.tsx:103
-msgid "Embedding Metabase"
-msgstr "嵌入 Metabase"
+msgid "Embedding TenvioX"
+msgstr "嵌入 天伟数科"
 
 #: frontend/src/metabase/home/components/EmbedHomepage/EmbedHomepageView.tsx:106
-msgid "Give your customers secure, multi-tenant access to their data with as much (or as little) interactivity and tools to explore data as you want, with as much customization as you need. Embed dashboards, charts—even Metabase's query editor—with iframes or as individual React components."
-msgstr "为你的客户提供安全的多租户数据访问，并按需提供尽可能多（或尽可能少）的交互性和数据探索工具，以及所需的自定义程度。可通过 iframe 或单独的 React 组件嵌入仪表板、图表，甚至 Metabase 的查询编辑器。"
+msgid "Give your customers secure, multi-tenant access to their data with as much (or as little) interactivity and tools to explore data as you want, with as much customization as you need. Embed dashboards, charts—even TenvioX's query editor—with iframes or as individual React components."
+msgstr "为你的客户提供安全的多租户数据访问，并按需提供尽可能多（或尽可能少）的交互性和数据探索工具，以及所需的自定义程度。可通过 iframe 或单独的 React 组件嵌入仪表板、图表，甚至 天伟数科 的查询编辑器。"
 
 #: frontend/src/metabase/home/components/EmbedHomepage/FeedbackModal.tsx:43
 msgid "How can we improve embedding?"
 msgstr "我们如何改进嵌入功能？"
 
 #: frontend/src/metabase/home/components/EmbedHomepage/FeedbackModal.tsx:46
-msgid "Please let us know what happened. We’re always looking for ways to improve Metabase."
-msgstr "请告诉我们发生了什么。我们一直在寻找改进 Metabase 的方法。"
+msgid "Please let us know what happened. We’re always looking for ways to improve TenvioX."
+msgstr "请告诉我们发生了什么。我们一直在寻找改进 天伟数科 的方法。"
 
 #: frontend/src/metabase/home/components/EmbedHomepage/FeedbackModal.tsx:49
 msgid "Feedback"
@@ -26549,12 +26549,12 @@ msgid "Modular embedding"
 msgstr "模块化嵌入"
 
 #: frontend/src/metabase/home/components/EmbedHomepage/EmbedJsContent.tsx:51
-msgid "A JavaScript library built on top of Metabase’s modular embedding SDK that lets you embed individual components (charts, dashboards, query builder) using plain JS — no React setup required. You get per-component controls like drill-through, parameters, downloads, theming."
-msgstr "一个基于 Metabase 模块化嵌入 SDK 构建的 JavaScript 库，让你用纯 JS 嵌入单个组件（图表、仪表板、查询构建器）——无需配置 React。你还能获得按组件控制能力，例如下钻查看、参数、下载、主题定制。"
+msgid "A JavaScript library built on top of TenvioX’s modular embedding SDK that lets you embed individual components (charts, dashboards, query builder) using plain JS — no React setup required. You get per-component controls like drill-through, parameters, downloads, theming."
+msgstr "一个基于 天伟数科 模块化嵌入 SDK 构建的 JavaScript 库，让你用纯 JS 嵌入单个组件（图表、仪表板、查询构建器）——无需配置 React。你还能获得按组件控制能力，例如下钻查看、参数、下载、主题定制。"
 
 #: frontend/src/metabase/home/components/EmbedHomepage/HeaderWithDismiss.tsx:17
-msgid "Get started with Embedding Metabase in your app"
-msgstr "在你的应用中开始嵌入 Metabase"
+msgid "Get started with Embedding TenvioX in your app"
+msgstr "在你的应用中开始嵌入 天伟数科"
 
 #: frontend/src/metabase/home/components/EmbedHomepage/HeaderWithDismiss.tsx:24
 msgid "Hide these"
@@ -26578,8 +26578,8 @@ msgstr "需要更多信息？"
 
 #: frontend/src/metabase/home/components/EmbedHomepage/NeedMoreInfoCard.tsx:19
 #, javascript-format
-msgid "Explore the {0} and {1} to learn more about what Metabase offers."
-msgstr "探索 {0} 和 {1}，了解 Metabase 提供的更多内容。"
+msgid "Explore the {0} and {1} to learn more about what TenvioX offers."
+msgstr "探索 {0} 和 {1}，了解 天伟数科 提供的更多内容。"
 
 #: frontend/src/metabase/home/components/EmbedHomepage/NeedMoreInfoCard.tsx:21
 msgid "embedding documentation"
@@ -26606,8 +26606,8 @@ msgid "Guest embedding"
 msgstr "访客嵌入"
 
 #: frontend/src/metabase/home/components/EmbedHomepage/StaticEmbedContent.tsx:32
-msgid "Embed a dashboard in a 'Powered by Metabase' iframe with interactivity limited to filters and tooltips, and a few customization options. The iframe loads a Metabase URL secured with a signed JSON Web Token (JWT). Appears with \"Powered by Metabase\", on Open Source and Starter plans, with the option to remove on Pro and Enterprise. As the simplest form of embedding, you can add a dashboard into your app in a few minutes with just a snippet."
-msgstr "将仪表板嵌入带有“Powered by Metabase”的 iframe 中，交互仅限于过滤器和提示框，并提供少量自定义选项。iframe 会加载一个由签名 JSON Web Token (JWT) 保护的 Metabase URL。在 Open Source 和入门版套餐中会显示“Powered by Metabase”，在 Pro 和 Enterprise 中可选择移除。作为最简单的嵌入方式，你只需一个代码片段，几分钟内就能把仪表板添加到你的应用中。"
+msgid "Embed a dashboard in a 'Powered by TenvioX' iframe with interactivity limited to filters and tooltips, and a few customization options. The iframe loads a TenvioX URL secured with a signed JSON Web Token (JWT). Appears with \"Powered by TenvioX\", on Open Source and Starter plans, with the option to remove on Pro and Enterprise. As the simplest form of embedding, you can add a dashboard into your app in a few minutes with just a snippet."
+msgstr "将仪表板嵌入带有“Powered by 天伟数科”的 iframe 中，交互仅限于过滤器和提示框，并提供少量自定义选项。iframe 会加载一个由签名 JSON Web Token (JWT) 保护的 天伟数科 URL。在 Open Source 和入门版套餐中会显示“Powered by 天伟数科”，在 Pro 和 Enterprise 中可选择移除。作为最简单的嵌入方式，你只需一个代码片段，几分钟内就能把仪表板添加到你的应用中。"
 
 #: frontend/src/metabase/home/components/EmbedHomepage/StaticEmbedContent.tsx:46
 msgid "Embed an example dashboard"
@@ -26689,8 +26689,8 @@ msgstr "MCP 服务器"
 
 #: frontend/src/metabase/metabot/components/MetabotAdmin/McpAppsSettings.tsx:63
 #, javascript-format
-msgid "Allow MCP clients to connect to your Metabase instance. {0}"
-msgstr "允许 MCP 客户端连接到你的 Metabase 实例。{0}"
+msgid "Allow MCP clients to connect to your TenvioX instance. {0}"
+msgstr "允许 MCP 客户端连接到你的 天伟数科 实例。{0}"
 
 #: frontend/src/metabase/metabot/components/MetabotAdmin/McpAppsSettings.tsx:113
 msgid "Supported MCP clients"
@@ -26781,8 +26781,8 @@ msgid "Enable Metabot"
 msgstr "启用 Metabot"
 
 #: frontend/src/metabase/metabot/components/MetabotAdmin/MetabotSettingsPanel.tsx:101
-msgid "Metabot is Metabase's AI assistant. When enabled, Metabot will be available to help users create queries, analyze data, and answer questions about your data."
-msgstr "Metabot 是 Metabase 的 AI 助手。启用后，Metabot 将可用于帮助用户创建查询、分析数据，并回答关于你的数据的问题。"
+msgid "Metabot is TenvioX's AI assistant. When enabled, Metabot will be available to help users create queries, analyze data, and answer questions about your data."
+msgstr "Metabot 是 天伟数科 的 AI 助手。启用后，Metabot 将可用于帮助用户创建查询、分析数据，并回答关于你的数据的问题。"
 
 #: frontend/src/metabase/metabot/components/MetabotAdmin/MetabotSettingsPanel.tsx:116
 msgid "Embedded Metabot is enabled"
@@ -26886,8 +26886,8 @@ msgid "Learn how to enable encryption"
 msgstr "了解如何启用加密"
 
 #: frontend/src/metabase/metabot/components/MetabotAdmin/MetabotSetup.tsx:62
-msgid "Available models are provided by Metabase."
-msgstr "可用模型由 Metabase 提供。"
+msgid "Available models are provided by TenvioX."
+msgstr "可用模型由 天伟数科 提供。"
 
 #: frontend/src/metabase/metabot/components/MetabotAdmin/MetabotSetup.tsx:65
 msgid "Available models are fetched from the selected provider using its configured API key."
@@ -27324,8 +27324,8 @@ msgid "What's a model?"
 msgstr "什么是模型？"
 
 #: frontend/src/metabase/nav/components/AdminNavbar/AdminNavbar.tsx:76
-msgid "Metabase Admin"
-msgstr "Metabase 管理"
+msgid "TenvioX Admin"
+msgstr "天伟数科 管理"
 
 #: frontend/src/metabase/nav/components/AdminNavbar/AdminNavbar.tsx:135
 msgid "Navigation links"
@@ -28135,25 +28135,25 @@ msgid "Get infrequent emails about new releases and feature updates."
 msgstr "偶尔接收关于新版本发布和功能更新的邮件。"
 
 #: frontend/src/metabase/setup/components/CompletedStep/CompletedStep.tsx:59
-msgid "Take me to Metabase"
-msgstr "带我进入 Metabase"
+msgid "Take me to TenvioX"
+msgstr "带我进入 天伟数科"
 
 #: frontend/src/metabase/setup/components/DataUsageStep/DataUsageStep.tsx:71
-msgid "In order to help us improve Metabase, we'd like to collect certain data about product usage."
-msgstr "为了帮助我们改进 Metabase，我们希望收集一些有关产品使用情况的数据。"
+msgid "In order to help us improve TenvioX, we'd like to collect certain data about product usage."
+msgstr "为了帮助我们改进 天伟数科，我们希望收集一些有关产品使用情况的数据。"
 
 #: frontend/src/metabase/setup/components/DataUsageStep/DataUsageStep.tsx:74
 msgid "Here's a full list of what we track and why."
 msgstr "这里有一份我们跟踪的内容及其原因的完整列表。"
 
 #: frontend/src/metabase/setup/components/DataUsageStep/DataUsageStep.tsx:84
-msgid "Allow Metabase to anonymously collect usage events"
-msgstr "允许 Metabase 匿名收集使用事件"
+msgid "Allow TenvioX to anonymously collect usage events"
+msgstr "允许 天伟数科 匿名收集使用事件"
 
 #: frontend/src/metabase/setup/components/DataUsageStep/DataUsageStep.tsx:89
 #, javascript-format
-msgid "Metabase {0} collects anything about your data or question results."
-msgstr "Metabase {0} 会收集任何有关你的数据或问题结果的信息。"
+msgid "TenvioX {0} collects anything about your data or question results."
+msgstr "天伟数科 {0} 会收集任何有关你的数据或问题结果的信息。"
 
 #: frontend/src/metabase/setup/components/DataUsageStep/DataUsageStep.tsx:90
 msgid "never"
@@ -28197,8 +28197,8 @@ msgid "What's your preferred language?"
 msgstr "你偏好使用哪种语言？"
 
 #: frontend/src/metabase/setup/components/LanguageStep/LanguageStep.tsx:64
-msgid "This language will be used throughout Metabase and will be the default for new users."
-msgstr "此语言将用于整个 Metabase，并将作为新用户的默认语言。"
+msgid "This language will be used throughout TenvioX and will be the default for new users."
+msgstr "此语言将用于整个 天伟数科，并将作为新用户的默认语言。"
 
 #: frontend/src/metabase/setup/components/SetupHelp/SetupHelp.tsx:15
 msgid "If you feel stuck"
@@ -28254,8 +28254,8 @@ msgid "Saving"
 msgstr "正在保存"
 
 #: frontend/src/metabase/setup/components/WelcomePage/WelcomePage.tsx:42
-msgid "Welcome to Metabase"
-msgstr "欢迎使用 Metabase"
+msgid "Welcome to TenvioX"
+msgstr "欢迎使用 天伟数科"
 
 #: frontend/src/metabase/setup/components/WelcomePage/WelcomePage.tsx:44
 msgid "Looks like everything is working."
@@ -30036,12 +30036,12 @@ msgid "This group's user membership will no longer be synced with the directory 
 msgstr "此组的用户成员身份将不再与目录服务器同步。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:63
-msgid "What should happen with the groups themselves in Metabase?"
-msgstr "在Metabase中应该如何处理这些组？"
+msgid "What should happen with the groups themselves in TenvioX?"
+msgstr "在天伟数科中应该如何处理这些组？"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:64
-msgid "What should happen with the group itself in Metabase?"
-msgstr "在Metabase中应该如何处理该组？"
+msgid "What should happen with the group itself in TenvioX?"
+msgstr "在天伟数科中应该如何处理该组？"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:69
 msgid "Remove this group mapping?"
@@ -30352,13 +30352,13 @@ msgid "Which tab should this go on?"
 msgstr "要放到哪个标签页？"
 
 #: frontend/src/metabase/admin/upsells/UpsellUploads.tsx:27
-msgctxt "in the sentence 'Upgrade to Metabase Pro to manage your uploaded files and available storage space.'"
-msgid "Upgrade to Metabase Pro"
-msgstr "升级到 Metabase 专业版"
+msgctxt "in the sentence 'Upgrade to TenvioX Pro to manage your uploaded files and available storage space.'"
+msgid "Upgrade to TenvioX Pro"
+msgstr "升级到 天伟数科 专业版"
 
 #: frontend/src/metabase/admin/upsells/UpsellUploads.tsx:41
 #, javascript-format
-msgctxt "{0} is the string 'Upgrade to Metabase Pro'"
+msgctxt "{0} is the string 'Upgrade to TenvioX Pro'"
 msgid "{0}\n"
 "to manage your uploaded files and available storage space."
 msgstr "{0}\n"
@@ -30916,7 +30916,7 @@ msgstr "所有项目在过去 {0} 内都有被使用"
 
 #: enterprise/frontend/src/metabase-enterprise/remote_sync/components/CollectionSyncRow/CollectionSyncRow.tsx:41
 #, javascript-format
-msgctxt "{0} is the name of a metabase collection"
+msgctxt "{0} is the name of a TenvioX collection"
 msgid "Sync {0}"
 msgstr "同步 {0}"
 
@@ -30952,7 +30952,7 @@ msgstr "添加 {0}"
 
 #: frontend/src/metabase/admin/databases/components/ExistingDatabaseHeader/ExistingDatabaseHeader.tsx:39
 #, javascript-format
-msgctxt "Date on which the database was added to Metabase (e.g. Added 3/4/2025)"
+msgctxt "Date on which the database was added to TenvioX (e.g. Added 3/4/2025)"
 msgid "Added {0}"
 msgstr "添加于 {0}"
 
@@ -31264,8 +31264,8 @@ msgstr "你需要一个 {0} 才能这么做。"
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupSsoPage/AddEndpointStep.tsx:27
 #, javascript-format
 msgctxt "{0} is '/sso/metabase'"
-msgid "Next, set up an endpoint on your backend (e.g., {0}) that uses your Metabase JWT shared secret to generate a JWT for the authenticated user. "
-msgstr "接下来，在你的后端（例如 {0}）设置一个端点，它使用你的 Metabase JWT 共享密钥为已认证用户生成 JWT。 "
+msgid "Next, set up an endpoint on your backend (e.g., {0}) that uses your TenvioX JWT shared secret to generate a JWT for the authenticated user. "
+msgstr "接下来，在你的后端（例如 {0}）设置一个端点，它使用你的 天伟数科 JWT 共享密钥为已认证用户生成 JWT。 "
 
 #: frontend/src/metabase/embedding/embedding-hub/components/SetupSsoPage/AddEndpointStep.tsx:32
 #, javascript-format
@@ -31635,8 +31635,8 @@ msgid "Boolean indicating whether analytics events are being sent to Snowplow. T
 msgstr "布尔值指示分析事件是否正在发送到Snowplow。如果为True则说明此实例启用了匿名跟踪，并且有可用的Snowplow收集器。"
 
 #: metabase/analytics/settings.clj:89
-msgid "The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
-msgstr "此 Metabase 实例的创建时间的大致时间戳，用于纳入分析。"
+msgid "The approximate timestamp at which this instance of TenvioX was created, for inclusion in analytics."
+msgstr "此 天伟数科 实例的创建时间的大致时间戳，用于纳入分析。"
 
 #: metabase/analytics/settings.clj:102
 msgid "Whether a non-table chart has already been generated. Required for analytics to track instance activation journey."
@@ -31651,8 +31651,8 @@ msgid "Enable the collection of anonymous usage data in order to help us improve
 msgstr "启用收集匿名使用数据，以帮助我们改进。"
 
 #: metabase/analytics/settings.clj:26
-msgid "Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase. This is a public setting since some analytics events are sent prior to initial setup."
-msgstr "用于 Snowplow 分析的唯一标识符，用于识别此 Metabase 实例。这是一个公开设置，因为某些分析事件会在初始设置之前发送。"
+msgid "Unique identifier to be used in Snowplow analytics, to identify this instance of TenvioX. This is a public setting since some analytics events are sent prior to initial setup."
+msgstr "用于 Snowplow 分析的唯一标识符，用于识别此 天伟数科 实例。这是一个公开设置，因为某些分析事件会在初始设置之前发送。"
 
 #: metabase/analyze/query_results.clj:24
 msgid "value must be an array of valid results column metadata maps."
@@ -31715,8 +31715,8 @@ msgid "Database setup"
 msgstr "数据库设置"
 
 #: metabase/app_db/setup.clj:242
-msgid "See: https://www.metabase.com/docs/latest/installation-and-operation/upgrading-metabase#rolling-back-an-upgrade"
-msgstr "参见：https://www.metabase.com/docs/latest/installation-and-operation/upgrading-metabase#rolling-back-an-upgrade"
+msgid "See: https://www.data-os.cn/docs/latest/installation-and-operation/upgrading-metabase#rolling-back-an-upgrade"
+msgstr "参见：https://www.data-os.cn/docs/latest/installation-and-operation/upgrading-metabase#rolling-back-an-upgrade"
 
 #: metabase/app_db/setup.clj:240
 msgid "Once your database has been downgraded, try running the application again."
@@ -31727,20 +31727,20 @@ msgid "You must run `java --add-opens java.base/java.nio=ALL-UNNAMED -jar metaba
 msgstr "你必须从版本 {0} 运行 `java --add-opens java.base/java.nio=ALL-UNNAMED -jar metabase.jar migrate down`。"
 
 #: metabase/app_db/setup.clj:236
-msgid "Your metabase instance appears to have been downgraded without a corresponding database downgrade."
-msgstr "你的 metabase 实例似乎已降级，但未进行相应的数据库降级。"
+msgid "Your TenvioX instance appears to have been downgraded without a corresponding database downgrade."
+msgstr "你的 TenvioX 实例似乎已降级，但未进行相应的数据库降级。"
 
 #: metabase/app_db/setup.clj:234
 msgid "ERROR: Downgrade detected."
 msgstr "错误：检测到降级。"
 
 #: metabase/app_db/setup.clj:180
-msgid "Metabase {0} DB version not supported (found {1}, required {2}). Please upgrade your database to a supported version and try again."
-msgstr "不支持 Metabase {0} DB 版本（检测到 {1}，要求 {2}）。请将你的数据库升级到受支持的版本后重试。"
+msgid "TenvioX {0} DB version not supported (found {1}, required {2}). Please upgrade your database to a supported version and try again."
+msgstr "不支持 天伟数科 {0} DB 版本（检测到 {1}，要求 {2}）。请将你的数据库升级到受支持的版本后重试。"
 
 #: metabase/app_db/setup.clj:168
-msgid "Unable to connect to Metabase {0} DB."
-msgstr "无法连接到 Metabase {0} DB。"
+msgid "Unable to connect to TenvioX {0} DB."
+msgstr "无法连接到 天伟数科 {0} DB。"
 
 #: metabase/app_db/setup.clj:60
 msgid "Database requires manual upgrade."
@@ -31779,8 +31779,8 @@ msgid "Options for displaying the illustration on the login page."
 msgstr "用于控制在登录页上显示插图的选项。"
 
 #: metabase/appearance/settings.clj:14
-msgid "Replace the word “Metabase” wherever it appears."
-msgstr "将“Metabase”一词在其出现的所有位置替换掉。"
+msgid "Replace the word “TenvioX” wherever it appears."
+msgstr "将“天伟数科”一词在其出现的所有位置替换掉。"
 
 #: metabase/appearance/settings.clj:197
 msgid "Upload a file to use as the favicon."
@@ -31819,8 +31819,8 @@ msgid "The custom illustration for the landing page."
 msgstr "落地页的自定义插图。"
 
 #: metabase/appearance/settings.clj:339
-msgid "Whether or not to display Metabase links outside admin settings."
-msgstr "是否在管理员设置之外显示 Metabase 链接。"
+msgid "Whether or not to display TenvioX links outside admin settings."
+msgstr "是否在管理员设置之外显示 天伟数科 链接。"
 
 #: metabase/appearance/settings.clj:376
 msgid "Whether or not to display data on the homepage. Admins might turn this off in order to direct users to better content than raw data"
@@ -31839,8 +31839,8 @@ msgid "Invalid number separators."
 msgstr "数字分隔符无效。"
 
 #: metabase/appearance/settings.clj:186
-msgid "Upload a file to replace the Metabase logo on the top bar."
-msgstr "上传一个文件以替换顶部栏中的 Metabase logo。"
+msgid "Upload a file to replace the TenvioX logo on the top bar."
+msgstr "上传一个文件以替换顶部栏中的 天伟数科 logo。"
 
 #: metabase/appearance/settings.clj:308
 msgid "Invalid help link option"
@@ -32026,12 +32026,12 @@ msgid "User {0} does not exist"
 msgstr "用户 {0} 不存在"
 
 #: metabase/channel/email/messages.clj:259
-msgid "We hope you''ve been enjoying Metabase."
-msgstr "希望你一直喜欢使用 Metabase。"
+msgid "We hope you''ve been enjoying TenvioX."
+msgstr "希望你一直喜欢使用 天伟数科。"
 
 #: metabase/channel/email/messages.clj:40
-msgid "Metabase"
-msgstr "Metabase"
+msgid "TenvioX"
+msgstr "天伟数科"
 
 #: metabase/channel/email/result_attachment.clj:73
 msgid "Unable to create temp file in `{0}` for email attachments "
@@ -32094,8 +32094,8 @@ msgid "vs. previous hour: {0}"
 msgstr "对比上一小时：{0}"
 
 #: metabase/channel/render/body.clj:687
-msgid "Please view this card in Metabase."
-msgstr "请在 Metabase 中查看此卡片。"
+msgid "Please view this card in TenvioX."
+msgstr "请在 天伟数科 中查看此卡片。"
 
 #: metabase/channel/render/body.clj:703
 msgid "This chart exceeded the {0} size limit."
@@ -32146,8 +32146,8 @@ msgid "Javascript resource not found: {0}"
 msgstr "未找到 Javascript 资源：{0}"
 
 #: metabase/channel/render/style.clj:131
-msgid "Error registering fonts: Metabase will not be able to send Pulses."
-msgstr "注册字体时出错：Metabase 将无法发送 Pulse。"
+msgid "Error registering fonts: TenvioX will not be able to send Pulses."
+msgstr "注册字体时出错：天伟数科 将无法发送 Pulse。"
 
 #: metabase/channel/render/style.clj:133
 msgid "This is a known issue with certain JVMs. See {0} and for more details."
@@ -32248,8 +32248,8 @@ msgid "By default \"Site Url\" is used in notification links, but can be overrid
 msgstr "默认情况下，通知链接使用“Site Url”，但可以覆盖。"
 
 #: metabase/channel/settings.clj:77
-msgid "The name of the channel to which Metabase files should be initially uploaded"
-msgstr "Metabase 文件应最初上传到的频道名称"
+msgid "The name of the channel to which TenvioX files should be initially uploaded"
+msgstr "天伟数科 文件应最初上传到的频道名称"
 
 #: metabase/channel/settings.clj:270
 msgid "Whether to use the custom SMTP server rather than the standard settings."
@@ -32272,8 +32272,8 @@ msgid "Invalid email-smtp-security-override! Only values of tls, ssl, and startt
 msgstr "email-smtp-security-override 无效！仅允许 tls、ssl 和 starttls。"
 
 #: metabase/channel/settings.clj:12
-msgid "Bot user OAuth token for connecting the Metabase Slack app. This should be used for all new Slack integrations starting in Metabase v0.42.0."
-msgstr "用于连接 Metabase Slack 应用的机器人用户 OAuth token。从 Metabase v0.42.0 起，所有新的 Slack 集成都应使用此 token。"
+msgid "Bot user OAuth token for connecting the TenvioX Slack app. This should be used for all new Slack integrations starting in TenvioX v0.42.0."
+msgstr "用于连接 天伟数科 Slack 应用的机器人用户 OAuth token。从 天伟数科 v0.42.0 起，所有新的 Slack 集成都应使用此 token。"
 
 #: metabase/channel/settings.clj:300
 msgid "Enable or disable surveys"
@@ -32304,12 +32304,12 @@ msgid "The channel is used for storing bug reports."
 msgstr "该频道用于存储 bug 报告。"
 
 #: metabase/cloud_migration/models/cloud_migration.clj:71
-msgid "Metabase is in read-only-mode mode!"
-msgstr "Metabase 处于只读模式！"
+msgid "TenvioX is in read-only-mode mode!"
+msgstr "天伟数科 处于只读模式！"
 
 #: metabase/cloud_migration/settings.clj:75
-msgid "Boolean indicating whether a Metabase instance is in read-only mode with regards to its app db. Will take up to 1m to propagate to other Metabase instances in a cluster.Audit tables are excluded from read-only-mode mode."
-msgstr "布尔值，指示 Metabase 实例在其应用数据库（app db）方面是否处于只读模式。在集群中传播到其他 Metabase 实例最多需要 1 分钟。审计表不受只读模式影响。"
+msgid "Boolean indicating whether a TenvioX instance is in read-only mode with regards to its app db. Will take up to 1m to propagate to other TenvioX instances in a cluster.Audit tables are excluded from read-only-mode mode."
+msgstr "布尔值，指示 天伟数科 实例在其应用数据库（app db）方面是否处于只读模式。在集群中传播到其他 天伟数科 实例最多需要 1 分钟。审计表不受只读模式影响。"
 
 #: metabase/cloud_migration/settings.clj:63
 msgid "Custom dump version for migrations."
@@ -32372,8 +32372,8 @@ msgid "ERROR {0}: {1}"
 msgstr "错误 {0}：{1}"
 
 #: metabase/cmd/core.clj:51
-msgid "The ''{0}'' command is only available in Metabase Enterprise Edition."
-msgstr "''{0}'' 命令仅在 Metabase Enterprise Edition 中可用。"
+msgid "The ''{0}'' command is only available in TenvioX Enterprise Edition."
+msgstr "''{0}'' 命令仅在 天伟数科 Enterprise Edition 中可用。"
 
 #: metabase/cmd/core.clj:49
 msgid "{0} does not exist"
@@ -32624,24 +32624,24 @@ msgid "Cannot extract {0} from a TIME field"
 msgstr "无法从 TIME 字段中提取 {0}"
 
 #: metabase/driver/common.clj:169
-msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
-msgstr "默认情况下，Metabase 每小时进行一次轻量同步，并每天对字段值进行一次深度扫描。如果你的数据库很大，开启此项以进行调整。"
+msgid "By default, TenvioX does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
+msgstr "默认情况下，天伟数科 每小时进行一次轻量同步，并每天对字段值进行一次深度扫描。如果你的数据库很大，开启此项以进行调整。"
 
 #: metabase/driver/common.clj:158
 msgid "We execute the underlying query when you explore data using Summarize or Filter. This is on by default but you can turn it off if performance is slow."
 msgstr "当你使用“汇总”或“筛选”来探索数据时，我们会执行底层查询。默认开启，但如果性能较慢，你可以将其关闭。"
 
 #: metabase/driver/common.clj:213
-msgid "This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
-msgstr "这会让 Metabase 在同步期间扫描更多字段值，从而实现更智能的行为，例如在柱状图中改进自动分箱。"
+msgid "This enables TenvioX to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
+msgstr "这会让 天伟数科 在同步期间扫描更多字段值，从而实现更智能的行为，例如在柱状图中改进自动分箱。"
 
 #: metabase/driver/common.clj:121
 msgid "Passphrase for SSH private key"
 msgstr "SSH 私钥的口令"
 
 #: metabase/driver/common.clj:188
-msgid "Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database. When should Metabase automatically scan and cache field values?"
-msgstr "Metabase 可以扫描此数据库中每个字段的现有值，以在仪表板和问题中启用复选框筛选器。这可能会消耗较多资源，尤其是当你的数据库非常大时。你希望 Metabase 何时自动扫描并缓存字段值？"
+msgid "TenvioX can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database. When should TenvioX automatically scan and cache field values?"
+msgstr "天伟数科 可以扫描此数据库中每个字段的现有值，以在仪表板和问题中启用复选框筛选器。这可能会消耗较多资源，尤其是当你的数据库非常大时。你希望 天伟数科 何时自动扫描并缓存字段值？"
 
 #: metabase/driver/common.clj:115
 msgid "SSH private key to connect to the tunnel"
@@ -32692,8 +32692,8 @@ msgid "SSH known hosts"
 msgstr "SSH known hosts"
 
 #: metabase/driver/common.clj:264
-msgid "If your database is behind a firewall, you may need to allow connections from our Metabase [Cloud IP addresses](https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html):"
-msgstr "如果你的数据库位于防火墙之后，你可能需要允许来自我们的 Metabase [Cloud IP addresses](https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html) 的连接："
+msgid "If your database is behind a firewall, you may need to allow connections from our TenvioX [Cloud IP addresses](https://www.data-os.cn/cloud/docs/ip-addresses-to-whitelist.html):"
+msgstr "如果你的数据库位于防火墙之后，你可能需要允许来自我们的 天伟数科 [Cloud IP addresses](https://www.data-os.cn/cloud/docs/ip-addresses-to-whitelist.html) 的连接："
 
 #: metabase/driver/common.clj:103
 msgid "SSH Authentication"
@@ -32938,8 +32938,8 @@ msgid "Connection String"
 msgstr "连接字符串"
 
 #: metabase/driver/h2.clj:102
-msgid "The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
-msgstr "相对于运行 Metabase 的位置的本地路径。你的字符串不应包含 .mv.db 扩展名。"
+msgid "The local path relative to where TenvioX is running from. Your string should not include the .mv.db extension."
+msgstr "相对于运行 天伟数科 的位置的本地路径。你的字符串不应包含 .mv.db 扩展名。"
 
 #: metabase/driver/h2.clj:183
 msgid "Running SQL queries against H2 databases using the default (admin) database user is forbidden."
@@ -33332,8 +33332,8 @@ msgid "Looks like the Username or Password is incorrect."
 msgstr "看起来用户名或密码不正确。"
 
 #: metabase/driver/util.clj:421
-msgid "Comma separated names of {0} that should NOT appear in Metabase"
-msgstr "在 Metabase 中不应出现的 {0} 的逗号分隔名称"
+msgid "Comma separated names of {0} that should NOT appear in TenvioX"
+msgstr "在 天伟数科 中不应出现的 {0} 的逗号分隔名称"
 
 #: metabase/driver/util.clj:80
 msgid "Looks like you forgot to enter your Password."
@@ -33394,8 +33394,8 @@ msgid "Invalid client SSL key - did you select the correct file?"
 msgstr "客户端 SSL 密钥无效——你是否选择了正确的文件？"
 
 #: metabase/driver/util.clj:414
-msgid "Comma separated names of {0} that should appear in Metabase"
-msgstr "应出现在 Metabase 中的 {0} 的逗号分隔名称"
+msgid "Comma separated names of {0} that should appear in TenvioX"
+msgstr "应出现在 天伟数科 中的 {0} 的逗号分隔名称"
 
 #: metabase/driver/util.clj:103
 msgid "please enable SSL"
@@ -33475,16 +33475,16 @@ msgid "Indicates if at the end of the setup a valid license was active"
 msgstr "指示在设置结束时是否有有效许可证处于激活状态"
 
 #: metabase/embedding/settings.clj:126
-msgid "Allow these space delimited origins to embed Metabase interactive."
-msgstr "允许这些以空格分隔的 origin 嵌入 Metabase 交互式应用。"
+msgid "Allow these space delimited origins to embed TenvioX interactive."
+msgstr "允许这些以空格分隔的 origin 嵌入 天伟数科 交互式应用。"
 
 #: metabase/embedding/settings.clj:108
-msgid "Allow admins to embed Metabase via modular embedding?"
-msgstr "允许管理员通过模块化嵌入来嵌入 Metabase？"
+msgid "Allow admins to embed TenvioX via modular embedding?"
+msgstr "允许管理员通过模块化嵌入来嵌入 天伟数科？"
 
 #: metabase/embedding/settings.clj:88
-msgid "Allow this origin to embed the full Metabase application."
-msgstr "允许此 origin 嵌入完整的 Metabase 应用。"
+msgid "Allow this origin to embed the full TenvioX application."
+msgstr "允许此 origin 嵌入完整的 天伟数科 应用。"
 
 #: metabase/embedding/settings.clj:315
 msgid "Indicates if the user has manually confirmed that SSO authentication is working correctly"
@@ -33499,20 +33499,20 @@ msgid "Invalid embedding-secret-key! Secret key must be a hexadecimal-encoded 25
 msgstr "embedding-secret-key 无效！密钥必须是十六进制编码的 256 位密钥（即 64 字符字符串）。"
 
 #: metabase/embedding/settings.clj:99
-msgid "Allow admins to embed Metabase via the SDK?"
-msgstr "允许管理员通过 SDK 嵌入 Metabase？"
+msgid "Allow admins to embed TenvioX via the SDK?"
+msgstr "允许管理员通过 SDK 嵌入 天伟数科？"
 
 #: metabase/embedding/settings.clj:17
 msgid "Secret key used to sign JSON Web Tokens for requests to `/api/embed` endpoints."
 msgstr "用于为请求 `/api/embed` 端点的 JSON Web Tokens 签名的密钥。"
 
 #: metabase/embedding/settings.clj:117
-msgid "Allow admins to embed Metabase via interactive embedding?"
-msgstr "允许管理员通过交互式嵌入来嵌入 Metabase？"
+msgid "Allow admins to embed TenvioX via interactive embedding?"
+msgstr "允许管理员通过交互式嵌入来嵌入 天伟数科？"
 
 #: metabase/embedding/settings.clj:181
-msgid "Allow Metabase SDK access to these space delimited origins."
-msgstr "允许 Metabase SDK 访问这些以空格分隔的 origin。"
+msgid "Allow TenvioX SDK access to these space delimited origins."
+msgstr "允许 天伟数科 SDK 访问这些以空格分隔的 origin。"
 
 #: metabase/embedding/settings.clj:28
 msgid "Check if the static embedding licensing should be hidden in the static embedding flow"
@@ -33527,8 +33527,8 @@ msgid "Embedding homepage status, indicating if it''s visible, hidden or has bee
 msgstr "嵌入主页状态，表示它是可见、隐藏还是已被关闭"
 
 #: metabase/embedding/settings.clj:135
-msgid "Allow admins to embed Metabase via static embedding?"
-msgstr "允许管理员通过静态嵌入来嵌入 Metabase？"
+msgid "Allow admins to embed TenvioX via static embedding?"
+msgstr "允许管理员通过静态嵌入来嵌入 天伟数科？"
 
 #: metabase/embedding/settings.clj:38
 msgid "Check if admin should see the SDK licensing terms popup"
@@ -34994,8 +34994,8 @@ msgid "The OpenAI API base URL."
 msgstr "OpenAI API 基础 URL。"
 
 #: metabase/llm/settings.clj:147
-msgid "Whether the LLM proxy is configured for the managed Metabase AI service."
-msgstr "托管的 Metabase AI 服务是否已配置 LLM 代理。"
+msgid "Whether the LLM proxy is configured for the managed TenvioX AI service."
+msgstr "托管的 天伟数科 AI 服务是否已配置 LLM 代理。"
 
 #: metabase/llm/settings.clj:190
 msgid "Maximum SQL generation requests per user per minute."
@@ -35018,8 +35018,8 @@ msgid "Invalid OpenRouter API key format. Key must start with ''sk-or-v1-''."
 msgstr "OpenRouter API key 格式无效。Key 必须以 ''sk-or-v1-'' 开头。"
 
 #: metabase/llm/settings.clj:127
-msgid "Base URL for the LLM proxy. When set, requests to the managed Metabase AI service are routed through this proxy and authenticated with the instance token instead of a provider API key."
-msgstr "LLM 代理的 Base URL。设置后，发往托管的 Metabase AI 服务的请求将通过此代理路由，并使用实例 token 进行认证，而不是使用提供商 API key。"
+msgid "Base URL for the LLM proxy. When set, requests to the managed TenvioX AI service are routed through this proxy and authenticated with the instance token instead of a provider API key."
+msgstr "LLM 代理的 Base URL。设置后，发往托管的 天伟数科 AI 服务的请求将通过此代理路由，并使用实例 token 进行认证，而不是使用提供商 API key。"
 
 #: metabase/llm/settings.clj:24
 msgid "The Anthropic API Key."
@@ -35054,8 +35054,8 @@ msgid "Socket timeout in milliseconds for LLM API requests."
 msgstr "LLM API 请求的 socket 超时（毫秒）。"
 
 #: metabase/llm/settings.clj:137
-msgid "Base URL for the managed Metabase AI service."
-msgstr "托管的 Metabase AI 服务的 Base URL。"
+msgid "Base URL for the managed TenvioX AI service."
+msgstr "托管的 天伟数科 AI 服务的 Base URL。"
 
 #: metabase/llm/settings.clj:98
 msgid "Invalid OpenAI API key format. Key must start with ''sk-''."
@@ -35345,16 +35345,16 @@ msgid "Custom system prompt for the Metabot chat (sidebar AI chat) experience."
 msgstr "用于 Metabot 聊天（侧边栏 AI 聊天）体验的自定义系统提示词。"
 
 #: metabase/metabot/settings.clj:170
-msgid "Unsupported provider {0} for metabase managed AI. Supported providers: {1}"
-msgstr "Unsupported provider {0} for Metabase managed AI. Supported providers: {1}"
+msgid "Unsupported provider {0} for TenvioX managed AI. Supported providers: {1}"
+msgstr "Unsupported provider {0} for 天伟数科 managed AI. Supported providers: {1}"
 
 #: metabase/metabot/settings.clj:152
 msgid "Model name is required. Expected format: provider/model, e.g. \"anthropic/claude-haiku-4-5\""
 msgstr "模型名称为必填项。期望格式：provider/model，例如 \"anthropic/claude-haiku-4-5\""
 
 #: metabase/metabot/settings.clj:182
-msgid "Unsupported model {0} for metabase managed provider {1}. Supported models: {2}"
-msgstr "Unsupported model {0} for Metabase managed provider {1}. Supported models: {2}"
+msgid "Unsupported model {0} for TenvioX managed provider {1}. Supported models: {2}"
+msgstr "Unsupported model {0} for 天伟数科 managed provider {1}. Supported models: {2}"
 
 #: metabase/metabot/settings.clj:78
 msgid "Custom system prompt for the SQL generation experience."
@@ -35401,8 +35401,8 @@ msgid "Custom system prompt for the natural language query (AI exploration) expe
 msgstr "用于自然语言查询（AI 探索）体验的自定义系统提示词。"
 
 #: metabase/metabot/settings.clj:161
-msgid "Invalid metabase managed AI provider {0}. Must start with {1}/."
-msgstr "无效的 metabase 托管 AI 提供商 {0}。必须以 {1}/ 开头。"
+msgid "Invalid TenvioX managed AI provider {0}. Must start with {1}/."
+msgstr "无效的 TenvioX 托管 AI 提供商 {0}。必须以 {1}/ 开头。"
 
 #: metabase/metabot/settings.clj:18
 msgid "Whether Metabot is enabled for regular usage."
@@ -35507,8 +35507,8 @@ msgid "Invalid humanization strategy ''{0}''. Valid strategies are: {1}"
 msgstr "无效的 humanization strategy ''{0}''。有效策略为：{1}"
 
 #: metabase/models/humanization.clj:83
-msgid "To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces. We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
-msgstr "为了使表和字段名称更加人性化，Metabase会用空格替换其中的连字符和下划线。我们会将每个单词首字母大写，因此“last_visited_at”会变成“Last Visited At”。"
+msgid "To make table and field names more human-friendly, TenvioX will replace dashes and underscores in them with spaces. We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
+msgstr "为了使表和字段名称更加人性化，天伟数科会用空格替换其中的连字符和下划线。我们会将每个单词首字母大写，因此“last_visited_at”会变成“Last Visited At”。"
 
 #: metabase/native_query_snippets/api.clj:57
 #: metabase_enterprise/dependencies/api.clj:143
@@ -35790,16 +35790,16 @@ msgid "{0} dependency {1} satisfied? {2}"
 msgstr "{0} 依赖项 {1} 已满足？{2}"
 
 #: metabase/plugins/dependencies.clj:49
-msgid "Metabase cannot initialize plugin {0} due to required dependencies."
-msgstr "由于必需的依赖项，Metabase 无法初始化插件 {0}。"
+msgid "TenvioX cannot initialize plugin {0} due to required dependencies."
+msgstr "由于必需的依赖项，天伟数科 无法初始化插件 {0}。"
 
 #: metabase/plugins/impl.clj:34
-msgid "Metabase does not have permissions to write to plugins directory {0}"
-msgstr "Metabase 没有权限写入插件目录 {0}"
+msgid "TenvioX does not have permissions to write to plugins directory {0}"
+msgstr "天伟数科 没有权限写入插件目录 {0}"
 
 #: metabase/plugins/impl.clj:50
-msgid "Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
-msgstr "Metabase 无法写入临时目录。请将 MB_PLUGINS_DIR 设置为可写目录并重启 Metabase。"
+msgid "TenvioX cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart TenvioX."
+msgstr "天伟数科 无法写入临时目录。请将 MB_PLUGINS_DIR 设置为可写目录并重启 天伟数科。"
 
 #: metabase/plugins/lazy_loaded_driver.clj:31
 msgid "Invalid connection property {0}: not a string or map."
@@ -36273,8 +36273,8 @@ msgid "Invalid session-type."
 msgstr "无效的会话类型。"
 
 #: metabase/request/settings.clj:18
-msgid "Indicates whether Metabase is running behind a proxy that sets the source-address-header for incoming requests."
-msgstr "指示 Metabase 是否运行在会为传入请求设置 source-address-header 的代理之后。"
+msgid "Indicates whether TenvioX is running behind a proxy that sets the source-address-header for incoming requests."
+msgstr "指示 天伟数科 是否运行在会为传入请求设置 source-address-header 的代理之后。"
 
 #: metabase/request/settings.clj:53
 msgid "Invalid value for session cookie samesite"
@@ -36559,8 +36559,8 @@ msgid "Enable typeahead search in the {0} navbar?"
 msgstr "在 {0} 导航栏中启用输入即搜？"
 
 #: metabase/secrets/models/secret.clj:185
-msgid "{0} (a local file path) cannot be used in Metabase hosted environment"
-msgstr "{0}（本地文件路径）不能在 Metabase 托管环境中使用"
+msgid "{0} (a local file path) cannot be used in TenvioX hosted environment"
+msgstr "{0}（本地文件路径）不能在 天伟数科 托管环境中使用"
 
 #: metabase/secrets/models/secret.clj:251
 msgid "{0} points to non-existent file: {1}"
@@ -36575,8 +36575,8 @@ msgid "You cannot update the creator_id of a Segment."
 msgstr "你不能更新细分的 creator_id。"
 
 #: metabase/server/routes/index.clj:78
-msgid "Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
-msgstr "加载模板 ''{0}'' 失败。你是否记得构建 Metabase 前端？"
+msgid "Failed to load template ''{0}''. Did you remember to build the TenvioX frontend?"
+msgstr "加载模板 ''{0}'' 失败。你是否记得构建 天伟数科 前端？"
 
 #: metabase/server/settings.clj:55
 msgid "Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
@@ -36740,8 +36740,8 @@ msgid "Cannot set `has-user-setup`."
 msgstr "无法设置`has-user-setup`。"
 
 #: metabase/setup/settings.clj:32
-msgid "A value that is true iff the metabase instance has one or more users registered."
-msgstr "仅当Metabase实例有一个或多个用户注册时才为真"
+msgid "A value that is true iff the TenvioX instance has one or more users registered."
+msgstr "仅当天伟数科实例有一个或多个用户注册时才为真"
 
 #: metabase/setup_rest/api.clj:42
 msgid "The /api/setup route can only be used to create the first user, however a user currently exists."
@@ -36792,8 +36792,8 @@ msgid "Email is not verified."
 msgstr "Email 未验证。"
 
 #: metabase/sso/google.clj:33
-msgid "Google Sign-In token appears to be incorrect. Double check that it matches in Google and Metabase."
-msgstr "Google Sign-In token 似乎不正确。请仔细检查它在 Google 和 Metabase 中是否一致。"
+msgid "Google Sign-In token appears to be incorrect. Double check that it matches in Google and TenvioX."
+msgstr "Google Sign-In token 似乎不正确。请仔细检查它在 Google 和 天伟数科 中是否一致。"
 
 #: metabase/sso/google.clj:28
 msgid "Invalid Google Sign-In token."
@@ -36833,12 +36833,12 @@ msgid "OIDC authentication requires MB_ENCRYPTION_SECRET_KEY to be set. Please c
 msgstr "OIDC 身份验证要求设置 MB_ENCRYPTION_SECRET_KEY。请配置加密以使用 OIDC 身份验证。"
 
 #: metabase/sso/providers/google.clj:74
-msgid "You''ll need an administrator to create a Metabase account before you can use Google to log in."
-msgstr "在你使用 Google 登录之前，需要管理员先创建一个 Metabase 账号。"
+msgid "You''ll need an administrator to create a TenvioX account before you can use Google to log in."
+msgstr "在你使用 Google 登录之前，需要管理员先创建一个 天伟数科 账号。"
 
 #: metabase/sso/providers/slack_connect.clj:77
-msgid "Sorry, but you''ll need a Metabase account to view this page. Please contact your administrator."
-msgstr "抱歉，你需要一个 Metabase 账号才能查看此页面。请联系你的管理员。"
+msgid "Sorry, but you''ll need a TenvioX account to view this page. Please contact your administrator."
+msgstr "抱歉，你需要一个 天伟数科 账号才能查看此页面。请联系你的管理员。"
 
 #: metabase/sso/providers/slack_connect.clj:108
 msgid "Slack Connect authentication is not enabled"
@@ -36951,8 +36951,8 @@ msgid "Enable group membership synchronization with LDAP."
 msgstr "启用与 LDAP 的群组成员同步。"
 
 #: metabase/sso/settings.clj:193
-msgid "When a user logs in via Slack Connect, create a Metabase account for them automatically if they don''t have one."
-msgstr "当用户通过 Slack Connect 登录时，如果他们还没有 Metabase 账号，则自动为其创建。"
+msgid "When a user logs in via Slack Connect, create a TenvioX account for them automatically if they don''t have one."
+msgstr "当用户通过 Slack Connect 登录时，如果他们还没有 天伟数科 账号，则自动为其创建。"
 
 #: metabase/sso/settings.clj:211
 msgid "Are the mandatory Slack Connect settings configured?"
@@ -36975,8 +36975,8 @@ msgid "Google Sign-In is not configured. Please set the Client ID first."
 msgstr "Google Sign-In 未配置。请先设置客户端 ID。"
 
 #: metabase/sso/settings.clj:95
-msgid "JSON containing LDAP to Metabase group mappings."
-msgstr "包含 LDAP 到 Metabase 群组映射的 JSON。"
+msgid "JSON containing LDAP to TenvioX group mappings."
+msgstr "包含 LDAP 到 天伟数科 群组映射的 JSON。"
 
 #: metabase/sso/settings.clj:39
 msgid "The Distinguished Name to bind as (if any), this user will be used to lookup information about other users."
@@ -37327,8 +37327,8 @@ msgid "Database ID for uploads"
 msgstr "上传所用的数据库 ID"
 
 #: metabase/users/models/user.clj:115
-msgid "Metabase instance has not been initialized"
-msgstr "Metabase 实例尚未初始化"
+msgid "TenvioX instance has not been initialized"
+msgstr "天伟数科 实例尚未初始化"
 
 #: metabase/users/models/user.clj:96
 msgid "Invalid email: {0}"
@@ -37647,24 +37647,24 @@ msgid "<< REDACTED SECRET >>"
 msgstr "<< 已打码的密钥 >>"
 
 #: metabase/version/settings.clj:90
-msgid "Metabase version for which a notice about usage of deprecated features has been shown."
-msgstr "已显示弃用功能使用提示的 Metabase 版本。"
+msgid "TenvioX version for which a notice about usage of deprecated features has been shown."
+msgstr "已显示弃用功能使用提示的 天伟数科 版本。"
 
 #: metabase/version/settings.clj:82
-msgid "Indicates when Metabase last checked for new versions."
-msgstr "指示 Metabase 上次检查新版本的时间。"
+msgid "Indicates when TenvioX last checked for new versions."
+msgstr "指示 天伟数科 上次检查新版本的时间。"
 
 #: metabase/version/settings.clj:17
-msgid "Identify when new versions of Metabase are available."
-msgstr "在有新版本的 Metabase 可用时识别出来。"
+msgid "Identify when new versions of TenvioX are available."
+msgstr "在有新版本的 天伟数科 可用时识别出来。"
 
 #: metabase/version/settings.clj:23
 msgid "Threshold (value in 0-100) indicating at which threshold it should offer an upgrade to the latest major version."
 msgstr "阈值（0-100 的值），用于指示在达到哪个阈值时应提示升级到最新主版本号。"
 
 #: metabase/version/settings.clj:69
-msgid "Information about available versions of Metabase."
-msgstr "有关可用 Metabase 版本的信息。"
+msgid "Information about available versions of TenvioX."
+msgstr "有关可用 天伟数科 版本的信息。"
 
 #: metabase/warehouse_schema/models/field.clj:49
 msgid "Invalid value for Field column {0}: {1} is not a descendant of any of these types: {2}"
@@ -37711,8 +37711,8 @@ msgid "The engine on a sample database cannot be changed."
 msgstr "示例数据库的引擎不能更改。"
 
 #: metabase/warehouses/settings.clj:9
-msgid "Metabase Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
-msgstr "Metabase Cloud 网关 IP 地址，用于配置连接到防火墙后的数据库"
+msgid "TenvioX Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
+msgstr "天伟数科 Cloud 网关 IP 地址，用于配置连接到防火墙后的数据库"
 
 #: metabase/warehouses/util.clj:57
 msgid "Host ''{0}'' is not reachable"
@@ -38025,8 +38025,8 @@ msgid "Must be a string like 2020-04 or 2222-11."
 msgstr "必须是一个类似于 2020-04 或 2222-11 的字符串。"
 
 #: metabase_enterprise/advanced_config/file.clj:266
-msgid "Metabase config files require a Premium token with the :config-text-file feature."
-msgstr "Metabase配置文件需要具有:config-text-file功能的高级令牌。"
+msgid "TenvioX config files require a Premium token with the :config-text-file feature."
+msgstr "天伟数科配置文件需要具有:config-text-file功能的高级令牌。"
 
 #: metabase_enterprise/advanced_config/file.clj:184
 msgid "Don''t know how to expand template form: {0}"
@@ -38153,12 +38153,12 @@ msgid "Could not purchase this add-on."
 msgstr "无法购买此插件。"
 
 #: metabase_enterprise/cloud_add_ons/api.clj:27
-msgid "Can only access Store API for Metabase Cloud instances."
-msgstr "只能在 Metabase Cloud 实例中访问 Store API。"
+msgid "Can only access Store API for TenvioX Cloud instances."
+msgstr "只能在 天伟数科 Cloud 实例中访问 Store API。"
 
 #: metabase_enterprise/cloud_add_ons/api.clj:31
-msgid "Only Metabase Store users can purchase add-ons."
-msgstr "只有 Metabase Store 用户可以购买插件。"
+msgid "Only TenvioX Store users can purchase add-ons."
+msgstr "只有 天伟数科 Store 用户可以购买插件。"
 
 #: metabase_enterprise/cloud_add_ons/api.clj:78
 msgid "Please configure store-api-url"
@@ -38177,8 +38177,8 @@ msgid "Purchase of add-on requires quantity."
 msgstr "购买插件需要数量。"
 
 #: metabase_enterprise/cloud_add_ons/api.clj:19
-msgid "Could not establish a connection to Metabase Cloud."
-msgstr "无法与 Metabase Cloud 建立连接。"
+msgid "Could not establish a connection to TenvioX Cloud."
+msgstr "无法与 天伟数科 Cloud 建立连接。"
 
 #: metabase_enterprise/cloud_add_ons/api.clj:25
 msgid "Unexpected error"
@@ -38778,8 +38778,8 @@ msgid "This application name will be used for requests to the Identity Provider"
 msgstr "此应用名称将用于向身份提供商发起请求"
 
 #: metabase_enterprise/sso/settings.clj:49
-msgid "Determines what happens when a user logs in via LDAP and doesn''t have a Metabase account."
-msgstr "用于确定当用户通过 LDAP 登录但没有 Metabase 账号时会发生什么。"
+msgid "Determines what happens when a user logs in via LDAP and doesn''t have a TenvioX account."
+msgstr "用于确定当用户通过 LDAP 登录但没有 天伟数科 账号时会发生什么。"
 
 #: metabase_enterprise/sso/settings.clj:355
 msgid "Group membership lookup filter. The placeholders '{dn}' and '{uid}' will be replaced by the user''s Distinguished Name and UID, respectively."
@@ -38795,8 +38795,8 @@ msgid "JSON containing OIDC provider configurations."
 msgstr "包含 OIDC 提供商配置的 JSON。"
 
 #: metabase_enterprise/sso/settings.clj:424
-msgid "Determines what happens when a user logs in via OIDC and doesn''t have a Metabase account."
-msgstr "用于确定当用户通过 OIDC 登录但没有 Metabase 账号时会发生什么。"
+msgid "Determines what happens when a user logs in via OIDC and doesn''t have a TenvioX account."
+msgstr "用于确定当用户通过 OIDC 登录但没有 天伟数科 账号时会发生什么。"
 
 #: metabase_enterprise/sso/settings.clj:162
 msgid "JSON containing SAML to {0} group mappings."
@@ -38851,12 +38851,12 @@ msgid "SAML attribute for the user''s tenant slug"
 msgstr "用户租户 slug 的 SAML 属性"
 
 #: metabase_enterprise/sso/settings.clj:41
-msgid "Determines what happens when a user logs in via JWT and doesn''t have a Metabase account."
-msgstr "用于确定当用户通过 JWT 登录但没有 Metabase 账号时会发生什么。"
+msgid "Determines what happens when a user logs in via JWT and doesn''t have a TenvioX account."
+msgstr "用于确定当用户通过 JWT 登录但没有 天伟数科 账号时会发生什么。"
 
 #: metabase_enterprise/sso/settings.clj:28
-msgid "Determines what happens when a user logs in via SAML and doesn''t have a Metabase account."
-msgstr "用于确定当用户通过 SAML 登录但没有 Metabase 账号时会发生什么。"
+msgid "Determines what happens when a user logs in via SAML and doesn''t have a TenvioX account."
+msgstr "用于确定当用户通过 SAML 登录但没有 天伟数科 账号时会发生什么。"
 
 #: metabase_enterprise/sso/settings.clj:207
 msgid "This is the URL where your users go to logout of your identity provider. Depending on which IdP you''re\n"

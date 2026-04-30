@@ -42,10 +42,10 @@ export const EmbeddingLegaleseModal = ({
       <Text mt="xs">{getTitle(setting)}</Text>
       <List mt="xs">
         <List.Item mr="md">
-          <Text>{t`Sharing Metabase accounts is a security risk. Even if you filter data on the client side, each user could use their token to view any data visible to that shared user account.`}</Text>
+          <Text>{t`Sharing TenvioX accounts is a security risk. Even if you filter data on the client side, each user could use their token to view any data visible to that shared user account.`}</Text>
         </List.Item>
         <List.Item mr="md">
-          <Text>{t`That, and we consider shared accounts to be unfair usage. Fair usage involves giving each end-user of the embedded analytics their own Metabase account.`}</Text>
+          <Text>{t`That, and we consider shared accounts to be unfair usage. Fair usage involves giving each end-user of the embedded analytics their own TenvioX account.`}</Text>
         </List.Item>
       </List>
       <Group justify="right" mt="lg">
@@ -70,12 +70,12 @@ const getTitle = (key: SettingKey) =>
     .with(
       "enable-embedding-sdk",
       () =>
-        t`When using the Embedded analytics SDK for React, each end user should have their own Metabase account.`,
+        t`When using the Embedded analytics SDK for React, each end user should have their own TenvioX account.`,
     )
     .with(
       "enable-embedding-simple",
       () =>
-        t`When using modular embedding, each end user must have their own Metabase account.`,
+        t`When using modular embedding, each end user must have their own TenvioX account.`,
     )
     .exhaustive();
 

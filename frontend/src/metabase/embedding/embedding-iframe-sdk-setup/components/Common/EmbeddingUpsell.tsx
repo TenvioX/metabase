@@ -41,7 +41,7 @@ const EmbeddingUpsellInner = ({ campaign }: Props) => {
       campaign={campaign}
       location={UTM_LOCATION}
       /* eslint-disable-next-line metabase/no-literal-metabase-strings -- Button text */
-      buttonText={t`Upgrade to Metabase Pro`}
+      buttonText={t`Upgrade to TenvioX Pro`}
       fullWidth
       maxWidth="initial"
     >

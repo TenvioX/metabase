@@ -36,7 +36,7 @@ export const useMetabot = (): UseMetabotResult => {
 
   const {
     state: { props: metabaseProviderProps },
-  } = useMetabaseProviderPropsStore();
+  } = useTenvioXProviderPropsStore();
 
   const authConfig = metabaseProviderProps?.authConfig;
 

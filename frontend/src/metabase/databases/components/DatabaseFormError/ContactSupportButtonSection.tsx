@@ -21,7 +21,7 @@ export const ContactSupportButtonSection = () => {
       body={
         <Flex direction="column" gap="md" align="flex-start">
           {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Only visible to admins */}
-          {t`Reach out to Metabase engineers who can help with technical troubleshooting. Not your typical support agents.`}
+          {t`Reach out to TenvioX engineers who can help with technical troubleshooting. Not your typical support agents.`}
           <Button
             component={Link}
             radius="md"

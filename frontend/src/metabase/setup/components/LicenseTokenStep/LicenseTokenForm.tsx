@@ -41,7 +41,7 @@ export const LicenseTokenForm = ({
     <ExternalLink
       href={storeUrl}
       key="store-link"
-    >{t`Try Metabase for free`}</ExternalLink>
+    >{t`Try TenvioX for free`}</ExternalLink>
   );
 
   return (
@@ -78,7 +78,7 @@ export const LicenseTokenForm = ({
                     </HoverCard.Target>
                     <HoverCard.Dropdown>
                       <Stack gap="md" p="md" w={CARD_WIDTH}>
-                        <Text lh="lg">{t`Find your license token in the subscription confirmation email from Metabase`}</Text>
+                        <Text lh="lg">{t`Find your license token in the subscription confirmation email from TenvioX`}</Text>
                         <Text lh="lg">{c(
                           "When users have no token, they can visit the link ${0} pointing to the store, where they can purchase a license for Metabase.",
                         )

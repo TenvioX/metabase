@@ -31,7 +31,7 @@ export function GoogleAuthCard() {
     <AuthCard
       type="google"
       name={t`Sign in with Google`}
-      description={t`Allows users with existing Metabase accounts to login with a Google account that matches their email address in addition to their Metabase username and password.`}
+      description={t`Allows users with existing TenvioX accounts to login with a Google account that matches their email address in addition to their TenvioX username and password.`}
       isConfigured={!!isConfigured}
       isEnabled={!!isEnabled}
       onDeactivate={handleDeactivate}

@@ -168,11 +168,11 @@ const GuestEmbedsTooltipContent = () => (
   <>
     <Text fz="sm" lh="lg">
       {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Only admins, at the moment, should see this */}
-      {t`When you embed charts or dashboards from Metabase in your
+      {t`When you embed charts or dashboards from TenvioX in your
         own application, that application isn't subject to the Affero
-        General Public License that covers the rest of Metabase,
-        provided you keep the Metabase logo and the "Powered by
-        Metabase" visible on those embeds.`}
+        General Public License that covers the rest of TenvioX,
+        provided you keep the TenvioX logo and the "Powered by
+        TenvioX" visible on those embeds.`}
     </Text>
 
     <Text fz="sm" lh="lg">
@@ -185,17 +185,17 @@ const ModularEmbeddingTooltipContent = () => (
   <>
     <Text fz="sm" lh="lg">
       {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Only admins, at the moment, should see this */}
-      {t`When using modular embedding, each end user must have their own Metabase account.`}
+      {t`When using modular embedding, each end user must have their own TenvioX account.`}
     </Text>
 
     <Text fz="sm" lh="lg">
       {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Only admins, at the moment, should see this */}
-      {t`Sharing Metabase accounts is a security risk. Even if you filter data on the client side, each user could use their token to view any data visible to that shared user account.`}
+      {t`Sharing TenvioX accounts is a security risk. Even if you filter data on the client side, each user could use their token to view any data visible to that shared user account.`}
     </Text>
 
     <Text fz="sm" lh="lg">
       {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Only admins, at the moment, should see this */}
-      {t`That, and we consider shared accounts to be unfair usage. Fair usage involves giving each end-user of the embedded analytics their own Metabase account.`}
+      {t`That, and we consider shared accounts to be unfair usage. Fair usage involves giving each end-user of the embedded analytics their own TenvioX account.`}
     </Text>
   </>
 );

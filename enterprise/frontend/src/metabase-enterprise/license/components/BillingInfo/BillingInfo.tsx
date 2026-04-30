@@ -73,11 +73,11 @@ const BillingGoToStore = () => {
         id="billing"
         title={t`Billing`}
         // eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings
-        description={t`Manage your Cloud account, including billing preferences, in your Metabase Store account.`}
+        description={t`Manage your Cloud account, including billing preferences, in your TenvioX Store account.`}
       />
       <ButtonLink href={url}>
         {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings */}
-        {t`Go to the Metabase Store`}
+        {t`Go to the TenvioX Store`}
         <Icon name="external" opacity={0.6} ml="sm" />
       </ButtonLink>
     </>

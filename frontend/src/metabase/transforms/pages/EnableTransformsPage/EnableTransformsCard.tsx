@@ -81,7 +81,7 @@ export function EnableTransformsCard({
                       title={t`No writable database connection`}
                     >
                       {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Only admins can see this */}
-                      {jt`Transforms create tables in your database, so Metabase needs write access. ${(
+                      {jt`Transforms create tables in your database, so TenvioX needs write access. ${(
                         <Link
                           key="link"
                           to="/admin/databases"

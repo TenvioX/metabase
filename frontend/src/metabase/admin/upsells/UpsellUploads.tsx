@@ -26,7 +26,7 @@ export const UpsellUploads = ({ location }: { location: string }) => {
   const upgrade = (
     <strong key="upgrade">{c(
       "in the sentence 'Upgrade to Metabase Pro to manage your uploaded files and available storage space.'",
-    ).t`Upgrade to Metabase Pro`}</strong>
+    ).t`Upgrade to TenvioX Pro`}</strong>
   );
 
   return (

@@ -37,7 +37,7 @@ export function EmailSettingsPage() {
             <AdminSettingInput
               name="email-from-name"
               title={t`From Name`}
-              placeholder="Metabase"
+              placeholder="TenvioX"
               inputType="text"
             />
             <EmailFromAddressWidget />

@@ -41,12 +41,12 @@ export const MigrationSuccess = ({
             </Text>
             <Text size="sm">{t`On ${uploadedAt}`}</Text>
             <Text my="2rem">
-              {t`To complete the migration, set up your account in the Metabase Store`}
+              {t`To complete the migration, set up your account in the TenvioX Store`}
             </Text>
 
             <Box mt="1.5rem">
               <ExternalLink href={migrationUrl}>
-                <Button variant="filled">{t`Go to Metabase Store`}</Button>
+                <Button variant="filled">{t`Go to TenvioX Store`}</Button>
               </ExternalLink>
             </Box>
           </Box>

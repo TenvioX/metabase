@@ -24,7 +24,7 @@ function PausedModal({ onClose }: { onClose: () => void }) {
         <Text c="text-secondary">
           {isAdmin
             ? // eslint-disable-next-line metabase/no-literal-metabase-strings -- admin only
-              t`Add more storage to your Metabase or connect a database to store the uploaded files.`
+              t`Add more storage to your TenvioX or connect a database to store the uploaded files.`
             : t`Please contact your admin to add more storage.`}
         </Text>
 

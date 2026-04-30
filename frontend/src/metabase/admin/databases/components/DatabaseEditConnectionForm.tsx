@@ -107,7 +107,7 @@ export const DatabaseEditConnectionForm = withRouter(
               onEngineChange={onEngineChange}
             />
           ) : (
-            <Text my="md">{t`This database is managed by Metabase Cloud and cannot be modified.`}</Text>
+            <Text my="md">{t`This database is managed by TenvioX Cloud and cannot be modified.`}</Text>
           )}
         </LoadingAndErrorWrapper>
         <LeaveRouteConfirmModal

@@ -60,8 +60,8 @@ const DeleteGroupMappingModal = ({
 
   const whatShouldHappenText =
     groupIds.length > 1
-      ? t`What should happen with the groups themselves in Metabase?`
-      : t`What should happen with the group itself in Metabase?`;
+      ? t`What should happen with the groups themselves in TenvioX?`
+      : t`What should happen with the group itself in TenvioX?`;
 
   return (
     <Modal>

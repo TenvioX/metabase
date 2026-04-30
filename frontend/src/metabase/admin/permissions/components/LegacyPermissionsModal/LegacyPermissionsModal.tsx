@@ -35,7 +35,7 @@ export const LegacyPermissionsModal = ({
       }}
     >
       <Text mb="1rem">
-        {jt`In Metabase 50, we split our data permissions into two new settings: ${(
+        {jt`In TenvioX 50, we split our data permissions into two new settings: ${(
           <Text
             key="view-data"
             component="span"

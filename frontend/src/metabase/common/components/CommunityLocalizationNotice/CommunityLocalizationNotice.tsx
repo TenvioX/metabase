@@ -15,7 +15,7 @@ export function getLocalizationNoticeText({
 }) {
   return mentionMetabase
     ? // eslint-disable-next-line metabase/no-literal-metabase-strings -- For admin screens we want to original app name
-      t`Some translations are created by the Metabase community, and might not be perfect.`
+      t`Some translations are created by the TenvioX community, and might not be perfect.`
     : t`Some translations are created by the community, and might not be perfect.`;
 }
 

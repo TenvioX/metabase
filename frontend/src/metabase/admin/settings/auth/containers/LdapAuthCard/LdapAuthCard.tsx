@@ -31,7 +31,7 @@ export function LdapAuthCard() {
     <AuthCard
       type="ldap"
       name={t`LDAP`}
-      description={t`Allows users within your LDAP directory to log in to Metabase with their LDAP credentials, and allows automatic mapping of LDAP groups to Metabase groups.`}
+      description={t`Allows users within your LDAP directory to log in to TenvioX with their LDAP credentials, and allows automatic mapping of LDAP groups to TenvioX groups.`}
       isEnabled={!!isEnabled}
       onChange={(newValue) =>
         updateSetting({

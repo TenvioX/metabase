@@ -16,8 +16,8 @@ export function WhiteLabelConcealSettingsPage() {
   return (
     <SettingsPageWrapper
       data-testid="conceal-metabase-settings"
-      title={t`Conceal Metabase`}
-      description={t`Configure your instance to conceal references to Metabase and customize illustrations.`}
+      title={t`Conceal TenvioX`}
+      description={t`Configure your instance to conceal references to TenvioX and customize illustrations.`}
     >
       <SettingsSection title={t`Names`}>
         <AdminSettingInput
@@ -31,11 +31,11 @@ export function WhiteLabelConcealSettingsPage() {
           title={t`Documentation and references`}
           switchLabel={
             <Text size="md">
-              {t`Show links and references to Metabase` + " "}
+              {t`Show links and references to TenvioX` + " "}
               <MetabaseLinksToggleDescription />
             </Text>
           }
-          description={t`Control the display of Metabase documentation and Metabase references in your instance.`}
+          description={t`Control the display of TenvioX documentation and TenvioX references in your instance.`}
           inputType="boolean"
         />
 
@@ -43,8 +43,8 @@ export function WhiteLabelConcealSettingsPage() {
       </SettingsSection>
 
       <SettingsSection
-        title={t`Metabase illustrations`}
-        description={t`Customize each of the illustrations in Metabase`}
+        title={t`TenvioX illustrations`}
+        description={t`Customize each of the illustrations in TenvioX`}
       >
         <MetabotToggleWidget />
 

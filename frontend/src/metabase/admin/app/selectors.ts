@@ -16,8 +16,10 @@ export const hasDeprecatedDatabase = (state: State, props: Props): boolean => {
   );
 };
 
+const EMPTY_ARRAY: string[] = [];
+
 export const getAdminPaths = (state: State) => {
-  return state.admin?.app?.paths ?? [];
+  return state.admin?.app?.paths ?? EMPTY_ARRAY;
 };
 
 export const isDeprecationNoticeEnabled = (state: State): boolean => {

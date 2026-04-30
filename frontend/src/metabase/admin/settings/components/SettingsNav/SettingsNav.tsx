@@ -84,7 +84,7 @@ export function SettingsNav() {
           <SettingsNavItem
             key="conceal"
             path="whitelabel/conceal-metabase"
-            label={t`Conceal Metabase`}
+            label={t`Conceal TenvioX`}
           />,
         ]}
       </SettingsNavItem>

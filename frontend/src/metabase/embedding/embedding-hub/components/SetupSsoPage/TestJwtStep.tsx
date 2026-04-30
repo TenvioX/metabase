@@ -40,7 +40,7 @@ export const TestJwtStep = () => {
       <Title order={3}>{t`Try logging in with SSO. Did it work?`}</Title>
 
       <Text size="md" c="text-secondary" lh="lg">
-        {t`To check if JWT authentication was configured successfully, open Metabase in a different browser or in a private tab and try logging in to your account using single sign-on (SSO). Is login working correctly?`}
+        {t`To check if JWT authentication was configured successfully, open TenvioX in a different browser or in a private tab and try logging in to your account using single sign-on (SSO). Is login working correctly?`}
       </Text>
 
       <Group justify="flex-end">
@@ -88,7 +88,7 @@ const SsoTroubleshootingView = ({ onDone }: { onDone: () => void }) => {
           >{t`JWT decryption error: "Message seems corrupt"`}</Text>
 
           <Text size="md" c="text-secondary" lh="lg">
-            {t`If after being redirected from your app to Metabase, you see "Message seems corrupt or manipulated" there was an issue decrypting signed JWT. Ensure METABASE_JWT_SHARED_SECRET has the right value.`}
+            {t`If after being redirected from your app to TenvioX, you see "Message seems corrupt or manipulated" there was an issue decrypting signed JWT. Ensure METABASE_JWT_SHARED_SECRET has the right value.`}
           </Text>
         </div>
 
@@ -96,7 +96,7 @@ const SsoTroubleshootingView = ({ onDone }: { onDone: () => void }) => {
           <Text fw={700} mb="xs">{t`Tenant ID mismatch error`}</Text>
 
           <Text size="md" c="text-secondary" lh="lg">
-            {t`If after being redirected from your app to Metabase, you see an error message "Tenant ID mismatch with existing user", your application is trying to sign in a the user with the wrong tenant slug. Review @tenant claim in the JWT and ensure it matches the tenant this tenant user belongs to.`}
+            {t`If after being redirected from your app to TenvioX, you see an error message "Tenant ID mismatch with existing user", your application is trying to sign in a the user with the wrong tenant slug. Review @tenant claim in the JWT and ensure it matches the tenant this tenant user belongs to.`}
           </Text>
         </div>
 
@@ -107,7 +107,7 @@ const SsoTroubleshootingView = ({ onDone }: { onDone: () => void }) => {
           >{t`User provisioning disabled for JWT SSO`}</Text>
 
           <Text size="md" c="text-secondary" lh="lg">
-            {t`If after being redirected from your app to Metabase, you see an error message "Sorry, but you'll need a $SITENAME account to view this page, contact your administrator. User provisioning is turned off for JWT SSO in admin settings/authentication. Either turn this feature on to have users be provisioned if they don't exist yet, or ensure users exist before signing them in via JWT SSO.`}
+            {t`If after being redirected from your app to TenvioX, you see an error message "Sorry, but you'll need a $SITENAME account to view this page, contact your administrator. User provisioning is turned off for JWT SSO in admin settings/authentication. Either turn this feature on to have users be provisioned if they don't exist yet, or ensure users exist before signing them in via JWT SSO.`}
           </Text>
         </div>
       </Stack>

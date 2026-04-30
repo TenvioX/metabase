@@ -37,7 +37,7 @@ export const useTroubleshootingTips = (
 
     const cloudIPLinkContent = getDocsLinkConditionally(
       // eslint-disable-next-line metabase/no-literal-metabase-strings -- Only visible to admins
-      t`Metabase Cloud IP addresses`,
+      t`TenvioX Cloud IP addresses`,
       getDocPageUrl("cloud/ip-addresses-to-whitelist"),
       showMetabaseLinks,
     );
@@ -56,7 +56,7 @@ export const useTroubleshootingTips = (
       {
         key: "ip-addresses" as const,
         // eslint-disable-next-line metabase/no-literal-metabase-strings -- Only visible to admins
-        title: t`Try allowing Metabase IP addresses`,
+        title: t`Try allowing TenvioX IP addresses`,
         body: (
           <>
             {
@@ -81,12 +81,12 @@ export const useTroubleshootingTips = (
       {
         key: "permissions" as const,
         // eslint-disable-next-line metabase/no-literal-metabase-strings -- Only visible to admins
-        title: t`Check Metabase user permissions`,
+        title: t`Check TenvioX user permissions`,
         body: (() => {
           // unchained `c` -> `jt` call to avoid prettier moving no-literal-metabase-strings comment up
           const ctx = c("{0} refers to 'correct permissions'");
           // eslint-disable-next-line metabase/no-literal-metabase-strings -- Only visible to admins
-          return ctx.jt`Check that Metabase has the ${permissionsLinkContent} or user role for your database.`;
+          return ctx.jt`Check that TenvioX has the ${permissionsLinkContent} or user role for your database.`;
         })(),
       },
       {

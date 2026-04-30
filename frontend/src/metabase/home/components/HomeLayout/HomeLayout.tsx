@@ -2,16 +2,13 @@ import type { ReactNode } from "react";
 import { useState } from "react";
 import { t } from "ttag";
 
-import { LighthouseIllustration } from "metabase/common/components/LighthouseIllustration";
 import { useHasTokenFeature, useSetting } from "metabase/common/hooks";
 import { useSelector } from "metabase/redux";
 import { getUser, getUserIsAdmin } from "metabase/selectors/user";
-import { getLandingPageIllustration } from "metabase/selectors/whitelabel";
 import { Box, Button, Icon, Tooltip } from "metabase/ui";
 
 import { CustomHomePageModal } from "../CustomHomePageModal";
 import { EmbeddingHubHomePage } from "../EmbeddingHubHomePage";
-import { HomeGreeting } from "../HomeGreeting";
 
 interface HomeLayoutProps {
   children?: ReactNode;
@@ -20,7 +17,6 @@ interface HomeLayoutProps {
 export const HomeLayout = ({ children }: HomeLayoutProps): ReactNode => {
   const [showModal, setShowModal] = useState(false);
   const isAdmin = useSelector(getUserIsAdmin);
-  const landingPageIllustration = useSelector(getLandingPageIllustration);
 
   const user = useSelector(getUser);
   const embeddingHomepage = useSetting("embedding-homepage");
@@ -39,31 +35,14 @@ export const HomeLayout = ({ children }: HomeLayoutProps): ReactNode => {
       data-testid="home-page"
       pos="relative"
       p={{
-        base: "1rem",
-        md: "3rem 4rem",
-        lg: "4rem 7rem 2rem",
-        xl: "10rem 15rem 4rem",
+        base: "1.25rem",
+        md: "2rem 2.5rem",
+        lg: "2.5rem 3rem",
+        xl: "3rem 4rem",
       }}
       mih="100%"
-      bg="background-secondary"
+      style={{ backgroundColor: "#F8FAFC" }}
     >
-      {landingPageIllustration &&
-        (landingPageIllustration.isDefault ? (
-          <LighthouseIllustration />
-        ) : (
-          <Box
-            data-testid="landing-page-illustration"
-            pos="absolute"
-            inset={0}
-            bgsz="100% auto"
-            bgr="no-repeat"
-            bgp="bottom"
-            style={{
-              backgroundImage: `url(${landingPageIllustration.src})`,
-            }}
-          />
-        ))}
-      <HomeGreeting />
       {isAdmin && (
         <Tooltip label={t`Pick a dashboard to serve as the homepage`}>
           <Button
@@ -81,9 +60,9 @@ export const HomeLayout = ({ children }: HomeLayoutProps): ReactNode => {
       <Box
         pos="relative"
         mt={{
-          base: "2.5rem",
-          md: "4rem",
-          lg: "6rem",
+          base: "1.5rem",
+          md: "2rem",
+          lg: "2.5rem",
         }}
       >
         {children}

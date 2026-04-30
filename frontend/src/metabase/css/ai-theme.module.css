@@ -1,0 +1,136 @@
+/* TenvioX AI Theme Utilities — Modern Intelligence Design System */
+
+/* === AI Visual Language === */
+
+/* AI Glow — Used on AI-augmented elements (icons, cards, tags) */
+.aiGlow {
+  box-shadow: 0 0 8px 0px rgba(0, 224, 255, 0.4);
+  border: 1px solid rgba(0, 224, 255, 0.6);
+}
+
+/* AI Text Glow — Used on AI icon labels */
+.aiGlowText {
+  text-shadow: 0 0 4px rgba(0, 224, 255, 0.5);
+}
+
+/* Glass Panel — Used for AI Insight panels, floating bars */
+.glassPanel {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Card Shadow — Standard card elevation (Level 1) */
+.cardShadow {
+  box-shadow: 0 4px 12px rgba(0, 62, 199, 0.05);
+  border: 1px solid #E2E8F0;
+}
+
+/* === AI Insight Panel === */
+
+/* Left-bordered insight container with glass effect */
+.aiInsightPanel {
+  composes: glassPanel;
+  border-left: 4px solid #00E0FF;
+  border-radius: 0 0.5rem 0.5rem 0;
+  padding: 1rem;
+}
+
+/* === Elevated Card === */
+
+/* Cards with subtle gradient background (Level 1) */
+.elevatedCard {
+  background: linear-gradient(to bottom, #FFFFFF, rgba(248, 250, 252, 0.5));
+  box-shadow: 0 4px 12px rgba(0, 62, 199, 0.05);
+  border: 1px solid #E2E8F0;
+  border-radius: 0.75rem;
+}
+
+/* === AI Action Button === */
+
+/* Shimmer effect for AI-specific CTAs */
+.aiActionButton {
+  position: relative;
+  overflow: hidden;
+}
+
+.aiActionButton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 218, 248, 0.1),
+    transparent
+  );
+  transform: translateX(-100%);
+  transition: transform 1s;
+}
+
+.aiActionButton:hover::after {
+  transform: translateX(100%);
+}
+
+/* === KPI Metric Card === */
+
+.kpiCard {
+  composes: elevatedCard;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.kpiLabel {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #737688;
+}
+
+.kpiValue {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: #0B1C30;
+  margin-top: 4px;
+}
+
+.kpiTrend {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 1rem;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.kpiTrendPositive {
+  color: #006877;
+}
+
+.kpiTrendNegative {
+  color: #BA1A1A;
+}
+
+/* === Surface Backgrounds === */
+
+.surfaceBackground {
+  background-color: #F8F9FF;
+}
+
+.surfaceContainerLow {
+  background-color: #EFF4FF;
+}
+
+.surfaceContainer {
+  background-color: #E5EEFF;
+}
+
+.surfaceContainerHigh {
+  background-color: #DCE9FF;
+}

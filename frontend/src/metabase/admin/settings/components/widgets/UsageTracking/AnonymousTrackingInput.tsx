@@ -8,7 +8,7 @@ export function AnonymousTrackingInput() {
   return (
     <BaseUsageTrackingSettingToggle
       settingName="anon-tracking-enabled"
-      title={t`Send anonymous tracking data to Metabase`}
+      title={t`Send anonymous tracking data to TenvioX`}
       trackChange={trackTrackingPermissionChanged}
     />
   );

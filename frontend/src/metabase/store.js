@@ -14,14 +14,15 @@ export function getStore(reducers, history, initialState) {
   return configureStore({
     reducer,
     preloadedState: initialState,
-    middleware: (getDefaultMiddleware) =>
-      getDefaultMiddleware({
+    middleware: (getDefaultMiddleware) => {
+      return getDefaultMiddleware({
         immutableCheck: false,
         serializableCheck: false,
       }).concat([
         Api.middleware,
         ...(history ? [routerMiddleware(history)] : []),
         ...PLUGIN_REDUX_MIDDLEWARES,
-      ]),
+      ]);
+    },
   });
 }

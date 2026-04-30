@@ -43,7 +43,7 @@ export const FeedbackModal = ({
       <Title pb="sm" order={2}>{t`How can we improve embedding?`}</Title>
       <Stack gap="lg">
         {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- only admins can see this component */}
-        <Text>{t`Please let us know what happened. We’re always looking for ways to improve Metabase.`}</Text>
+        <Text>{t`Please let us know what happened. We’re always looking for ways to improve TenvioX.`}</Text>
 
         <Textarea
           label={t`Feedback`}

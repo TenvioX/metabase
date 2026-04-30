@@ -109,6 +109,10 @@ module.exports = (env) => {
           type: "asset/resource",
           resourceQuery: { not: [/component|source/] },
         },
+        {
+          test: /\.(png|jpe?g|gif|webp|avif|ico)$/i,
+          type: "asset/resource",
+        },
       ],
     },
     resolve: {

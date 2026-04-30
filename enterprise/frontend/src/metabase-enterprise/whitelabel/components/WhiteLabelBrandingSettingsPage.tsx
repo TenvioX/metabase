@@ -25,7 +25,7 @@ export function WhiteLabelBrandingSettingsPage() {
           <SettingHeader
             id="color-palette"
             title={t`Color palette`}
-            description={t`Choose the colors used in the user interface throughout Metabase and others specifically for the charts. You need to refresh your browser to see your changes take effect.`}
+            description={t`Choose the colors used in the user interface throughout TenvioX and others specifically for the charts. You need to refresh your browser to see your changes take effect.`}
           />
         </Box>
 

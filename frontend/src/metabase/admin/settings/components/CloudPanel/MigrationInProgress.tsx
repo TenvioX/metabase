@@ -30,8 +30,8 @@ interface MigrationInProgressProps {
 }
 
 const progressMessage: Record<InProgressStates, string> = {
-  init: t`Talking to Metabase Cloud...`,
-  setup: t`Talking to Metabase Cloud...`,
+  init: t`Talking to TenvioX Cloud...`,
+  setup: t`Talking to TenvioX Cloud...`,
   dump: t`Taking a snapshot of this instance...`,
   upload: t`Uploading the snapshot to the cloud...`,
 };
@@ -56,7 +56,7 @@ export const MigrationInProgress = ({
     dispatch(
       addUndo({
         icon: "info",
-        message: t`Migration to Metabase Cloud has been canceled.`,
+        message: t`Migration to TenvioX Cloud has been canceled.`,
         undo: false,
       }),
     );
@@ -78,14 +78,14 @@ export const MigrationInProgress = ({
             <Icon name="cloud_filled" size="2.375rem" c="brand" />
           </Flex>
           <Box style={{ flex: "1 0 0" }}>
-            <Text fw="bold">{t`Migrating to Metabase Cloud…`}</Text>
+            <Text fw="bold">{t`Migrating to TenvioX Cloud…`}</Text>
             {readOnly ? (
               <List size="md" mt="md">
-                <List.Item>{t`To complete the migration, set up your account in the Metabase Store`}</List.Item>
-                <List.Item>{t`While we snapshot your Metabase data, people will be able to view questions and dashboards, but they won't be able to edit or create anything new. It should only take up to 30 minutes`}</List.Item>
+                <List.Item>{t`To complete the migration, set up your account in the TenvioX Store`}</List.Item>
+                <List.Item>{t`While we snapshot your TenvioX data, people will be able to view questions and dashboards, but they won't be able to edit or create anything new. It should only take up to 30 minutes`}</List.Item>
               </List>
             ) : (
-              <Text mt="md">{t`To complete the migration, set up your account in the Metabase Store`}</Text>
+              <Text mt="md">{t`To complete the migration, set up your account in the TenvioX Store`}</Text>
             )}
 
             <Box mt="lg" mb="md">
@@ -106,7 +106,7 @@ export const MigrationInProgress = ({
                 component={ExternalLink}
                 href={migrationUrl}
                 variant="filled"
-              >{t`Go to Metabase Store`}</Button>
+              >{t`Go to TenvioX Store`}</Button>
             </Flex>
           </Box>
         </Flex>

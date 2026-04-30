@@ -52,7 +52,7 @@ export function SharedCombinedEmbeddingSettings({
 
       {!isSimpleEmbedFeatureAvailable && (
         <UpsellBanner
-          title={t`Upgrade to Metabase Pro for more powerful embedding methods`}
+          title={t`Upgrade to TenvioX Pro for more powerful embedding methods`}
           campaign="embedding-methods"
           location="embedding-page"
           buttonText={t`Upgrade`}

@@ -78,14 +78,14 @@ export const ImpersonationModalView = ({
 
   const modalTitle = impersonationUsesUsers
     ? // eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings
-      t`Map a Metabase user attribute to database users`
+      t`Map a TenvioX user attribute to database users`
     : t`Map a user attribute to database roles`;
 
   const modalMessage = impersonationUsesUsers
     ? // eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings
-      t`When the person runs a query (including native queries), Metabase will impersonate the privileges of the database user you associate with the user attribute.`
+      t`When the person runs a query (including native queries), TenvioX will impersonate the privileges of the database user you associate with the user attribute.`
     : // eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings
-      t`When the person runs a query (including native queries), Metabase will impersonate the privileges of the database role you associate with the user attribute.`;
+      t`When the person runs a query (including native queries), TenvioX will impersonate the privileges of the database role you associate with the user attribute.`;
 
   return (
     <ImpersonationModalViewRoot>

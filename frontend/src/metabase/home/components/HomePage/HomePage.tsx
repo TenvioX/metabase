@@ -9,7 +9,7 @@ import { updateUserSetting } from "metabase/redux/settings";
 import { addUndo } from "metabase/redux/undo";
 import { getHasDismissedCustomHomePageToast } from "metabase/selectors/app";
 
-import { HomeContent } from "../HomeContent";
+import { AILandingDashboard } from "../AILandingDashboard";
 import { HomeLayout } from "../HomeLayout";
 
 export const HomePage = (): JSX.Element => {
@@ -20,7 +20,7 @@ export const HomePage = (): JSX.Element => {
 
   return (
     <HomeLayout>
-      <HomeContent />
+      <AILandingDashboard />
     </HomeLayout>
   );
 };

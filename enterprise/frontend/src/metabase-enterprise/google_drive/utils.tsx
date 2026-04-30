@@ -91,7 +91,7 @@ export const useDeleteGdriveFolderLink = (options?: {
         const error = getErrorMessage(
           response,
           // eslint-disable-next-line metabase/no-literal-metabase-strings -- admin only ui
-          t`Please check that the folder is shared with the Metabase Service Account.`,
+          t`Please check that the folder is shared with the TenvioX Service Account.`,
         );
         setErrorMessage(error);
         options?.onError?.(error);

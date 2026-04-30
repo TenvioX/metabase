@@ -25,24 +25,35 @@
 }
 
 .greetingMessage {
-  color: var(--mb-color-text-primary);
-  font-weight: bold;
-  line-height: 1.5rem;
+  color: #0B1C30;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 
   &.withLogo {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     margin-left: 0.5rem;
 
     @media (--breakpoint-min-xl) {
-      font-size: 1.25rem;
+      font-size: 2rem;
     }
   }
 
   &.withoutLogo {
-    font-size: 1.25rem;
+    font-size: 2rem;
 
     @media (--breakpoint-min-xl) {
-      font-size: 1.5rem;
+      font-size: 2.25rem;
     }
   }
 }
+
+/* Subtitle text below greeting */
+.greetingSubtitle {
+  color: #434656;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+

@@ -10,7 +10,7 @@ import { TreeNode } from "metabase/common/components/tree/TreeNode";
 import { NAV_SIDEBAR_WIDTH } from "metabase/nav/constants";
 import type { IconProps } from "metabase/ui";
 import { Icon, Tooltip } from "metabase/ui";
-import { alpha } from "metabase/ui/colors";
+
 import type { ColorName } from "metabase/ui/colors/types";
 import { color } from "metabase/ui/utils/colors";
 
@@ -27,13 +27,13 @@ export const SidebarIcon = styled(
   ${(props) =>
     !props.color &&
     css`
-      color: var(--mb-color-brand);
+      color: #94a3b8;
     `}
 `;
 
 export const ExpandToggleButton = styled(TreeNode.ExpandToggleButton)`
   padding: 4px 0 4px 2px;
-  color: var(--mb-color-brand);
+  color: #94a3b8;
 `;
 
 const activeColorCSS = css`
@@ -41,7 +41,7 @@ const activeColorCSS = css`
 `;
 
 function getTextColor(isSelected: boolean) {
-  return isSelected ? color("brand") : color("text-primary");
+  return isSelected ? color("brand") : "#64748b";
 }
 
 type NodeRootProps = ComponentProps<typeof TreeNode.Root> & {
@@ -51,9 +51,23 @@ type NodeRootProps = ComponentProps<typeof TreeNode.Root> & {
 export const NodeRoot = styled(TreeNode.Root)<NodeRootProps>`
   color: ${(props) => getTextColor(props.isSelected)};
   background-color: ${(props) =>
-    props.isSelected ? alpha("brand", 0.2) : "unset"};
+    props.isSelected ? "rgba(239, 246, 255, 0.5)" : "transparent"};
   padding-left: ${(props) => props.depth}rem;
-  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 8px;
+  transition: all 200ms ease;
+  margin-bottom: 2px;
+  ${(props) =>
+    props.isSelected &&
+    css`
+      border-right: 4px solid #2563eb;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      margin-right: -1px;
+      box-shadow: inset 0 1px 3px rgba(0, 82, 255, 0.05);
+      font-weight: 500;
+    `}
 
   &:focus-within {
     outline: 2px solid var(--mb-color-focus);
@@ -65,8 +79,9 @@ export const NodeRoot = styled(TreeNode.Root)<NodeRootProps>`
   }
 
   &:hover {
-    background-color: ${() => alpha("brand", 0.35)};
+    background-color: #f1f5f9;
     color: var(--mb-color-brand);
+    padding-left: ${(props) => (props.depth || 0)}rem;
 
     ${ExpandToggleButton} {
       color: var(--mb-color-brand);

@@ -7,7 +7,8 @@
 }
 
 .scrollShow::-webkit-scrollbar {
-  width: 15px;
+  width: 6px;
+  height: 6px;
   min-height: 10px;
 }
 
@@ -20,10 +21,10 @@
 }
 
 .scrollShow::-webkit-scrollbar-thumb {
-  border: 4px solid transparent;
-  border-radius: 7px;
-  background-clip: padding-box;
+  border: none;
+  border-radius: 4px;
   background-color: var(--mb-color-background-tertiary);
+  transition: all 0.3s ease;
 }
 
 .scrollShow::-webkit-scrollbar-button {
@@ -37,30 +38,35 @@
 }
 
 .scrollShow:hover::-webkit-scrollbar-thumb {
-  background-color: var(--mb-color-background-tertiary-inverse);
+  background-color: #94a3b8;
 }
 
 .scrollShow::-webkit-scrollbar-thumb:horizontal:hover,
 .scrollShow::-webkit-scrollbar-thumb:vertical:hover {
-  background-color: var(--mb-color-background-tertiary-inverse);
+  background-color: var(--mb-color-brand);
 }
 
 .scrollShow::-webkit-scrollbar-thumb:horizontal:active,
 .scrollShow::-webkit-scrollbar-thumb:vertical:active {
-  background-color: var(--mb-color-background-tertiary-inverse);
+  background-color: #00e0ff;
+  box-shadow: 0 0 10px #00e0ff, inset 0 0 10px #00e0ff;
 }
 
 /* scroll light */
 .scrollShow.scrollLight::-webkit-scrollbar-thumb {
-  border-radius: 0;
+  border-radius: 4px;
   background-color: var(--mb-color-background-tertiary);
 }
 
 .scrollShow.scrollLight::-webkit-scrollbar-thumb:horizontal:hover,
-.scrollShow.scrollLight::-webkit-scrollbar-thumb:vertical:hover,
+.scrollShow.scrollLight::-webkit-scrollbar-thumb:vertical:hover {
+  background-color: var(--mb-color-brand);
+}
+
 .scrollShow.scrollLight::-webkit-scrollbar-thumb:horizontal:active,
 .scrollShow.scrollLight::-webkit-scrollbar-thumb:vertical:active {
-  background-color: var(--mb-color-background-tertiary);
+  background-color: #00e0ff;
+  box-shadow: 0 0 10px #00e0ff, inset 0 0 10px #00e0ff;
 }
 
 .scrollHide {
@@ -82,4 +88,28 @@
 .scrollHideAll::-webkit-scrollbar,
 .scrollHideAll *::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
+}
+
+/* Global scrollbar for any element not explicitly using .scrollShow */
+:global(::-webkit-scrollbar) {
+  width: 6px;
+  height: 6px;
+}
+
+:global(::-webkit-scrollbar-track) {
+  background: transparent;
+}
+
+:global(::-webkit-scrollbar-thumb) {
+  border-radius: 4px;
+  background-color: var(--mb-color-background-tertiary);
+}
+
+:global(::-webkit-scrollbar-thumb:hover) {
+  background-color: var(--mb-color-brand);
+}
+
+:global(::-webkit-scrollbar-thumb:active) {
+  background-color: #00e0ff;
+  box-shadow: 0 0 10px #00e0ff, inset 0 0 10px #00e0ff;
 }

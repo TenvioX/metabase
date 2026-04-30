@@ -29,17 +29,17 @@ export const UpsellSSO = ({ location }: { location: string }) => {
     <UpsellCard
       title={t`Tired of manually managing people and groups?`}
       campaign={campaign}
-      buttonText={t`Try Metabase Pro`}
+      buttonText={t`Try TenvioX Pro`}
       buttonLink={UPGRADE_URL}
       location={location}
       style={{ maxWidth: 242 }}
       onClick={triggerUpsellFlow}
     >
       <Box px=".5rem">
-        {t`Metabase Pro and Enterprise plans include:`}
+        {t`TenvioX Pro and Enterprise plans include:`}
         <List size="sm">
           <List.Item>{t`SSO with SAML and JWT`}</List.Item>
-          <List.Item>{t`Metabase group sync with SAML, JWT, and LDAP`}</List.Item>
+          <List.Item>{t`TenvioX group sync with SAML, JWT, and LDAP`}</List.Item>
           <List.Item>{t`User provisioning with SCIM`}</List.Item>
         </List>
       </Box>

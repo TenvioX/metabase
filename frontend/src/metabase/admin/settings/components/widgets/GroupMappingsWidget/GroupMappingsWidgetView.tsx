@@ -28,9 +28,9 @@ const groupIsMappable = (group: Group) => !isDefaultGroup(group);
 
 const helpText = (mappingSetting: string) => {
   if (mappingSetting === "jwt-group-mappings") {
-    return t`Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the directory server. If no mappings are defined, groups will automatically be assigned based on exactly matching names.`;
+    return t`Mappings allow TenvioX to automatically add and remove users from groups based on the membership information provided by the directory server. If no mappings are defined, groups will automatically be assigned based on exactly matching names.`;
   }
-  return t`Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the directory server. If a group isn‘t mapped, its membership won‘t be synced.`;
+  return t`Mappings allow TenvioX to automatically add and remove users from groups based on the membership information provided by the directory server. If a group isn‘t mapped, its membership won‘t be synced.`;
 };
 
 const noMappingText = (mappingSetting: string, syncSwitchValue: boolean) => {

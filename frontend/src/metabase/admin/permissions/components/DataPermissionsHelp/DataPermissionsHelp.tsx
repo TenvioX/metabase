@@ -38,7 +38,7 @@ export const DataPermissionsHelp = () => {
     <Flex direction="column" py={rem(22)} px="1rem">
       <Box px={rem(12)}>
         <Title order={3}>{t`Data permissions`}</Title>
-        <Text my="1rem">{t`People can be members of multiple groups, and Metabase grants them the most permissive level of access across all of a person's groups.`}</Text>
+        <Text my="1rem">{t`People can be members of multiple groups, and TenvioX grants them the most permissive level of access across all of a person's groups.`}</Text>
       </Box>
       <Accordion
         chevron={<Icon name="chevrondown" size={12} />}

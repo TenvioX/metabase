@@ -90,7 +90,7 @@ export const HelpLinkSettings = () => {
           inputType="radio"
           value={helpLinkSetting}
           options={[
-            { label: t`Link to Metabase help`, value: "metabase" },
+            { label: t`Link to TenvioX help`, value: "metabase" },
             { label: t`Hide it`, value: "hidden" },
             { label: t`Go to a custom destination...`, value: "custom" },
           ]}

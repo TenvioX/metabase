@@ -58,7 +58,7 @@ export function AdvisoryList({
         <Text maw={256} ta="center">
           {
             // eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings
-            t`No known security issues that impact your Metabase version`
+            t`No known security issues that impact your TenvioX version`
           }
         </Text>
       </Card>

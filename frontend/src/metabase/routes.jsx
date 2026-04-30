@@ -8,6 +8,8 @@ import { ForgotPassword } from "metabase/auth/components/ForgotPassword";
 import { Login } from "metabase/auth/components/Login";
 import { Logout } from "metabase/auth/components/Logout";
 import { ResetPassword } from "metabase/auth/components/ResetPassword";
+import { AIChatPage } from "metabase/ai/chat/AIChatPage";
+import { AISettingsPage } from "metabase/ai/settings/AISettingsPage";
 import {
   BrowseDatabases,
   BrowseMetrics,
@@ -156,6 +158,10 @@ export const getRoutes = (store) => {
               }
             }}
           />
+
+          {/* TENVIOX AI ROUTES */}
+          <Route path="ai-chat" component={AIChatPage} />
+          <Route path="ai-settings" component={AISettingsPage} />
 
           <Route path="getting-started" component={CanAccessOnboarding}>
             <IndexRoute component={Onboarding} />

@@ -1,5 +1,5 @@
 import type { Location } from "history";
-import { useMemo } from "react";
+import { useMemo, useRef } from "react";
 import { withRouter } from "react-router";
 import _ from "underscore";
 
@@ -29,7 +29,11 @@ const mapStateToProps = (state: State) => ({
   adminPaths: getAdminPaths(state),
 });
 
+
+
 function Navbar({ isOpen, user, location, params, adminPaths }: NavbarProps) {
+
+
   const isAdminApp = useMemo(
     () => location.pathname.startsWith("/admin/"),
     [location.pathname],

@@ -27,7 +27,7 @@ export const AddEndpointStep = ({ onDone }: { onDone: () => void }) => {
           {c("{0} is '/sso/metabase'")
             .jt`Next, set up an endpoint on your backend (e.g., ${(
             <Code key="endpoint">/sso/metabase</Code>
-          )}) that uses your Metabase JWT shared secret to generate a JWT for the authenticated user. `}
+          )}) that uses your TenvioX JWT shared secret to generate a JWT for the authenticated user. `}
           <strong>
             {c("{0} is 'jwt'")
               .jt`This endpoint must return a JSON object with a ${(

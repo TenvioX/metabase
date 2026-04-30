@@ -64,7 +64,7 @@ function EmbeddingSettingsEE() {
 
       <EmbeddingSettingsCard
         title={t`Enable modular embedding`}
-        description={t`The simplest way to embed Metabase. Embed dashboards, questions, the query builder, natural language querying with AI, and more in your app with components. Built on the SDK with per-component controls and theming.`}
+        description={t`The simplest way to embed TenvioX. Embed dashboards, questions, the query builder, natural language querying with AI, and more in your app with components. Built on the SDK with per-component controls and theming.`}
         settingKey="enable-embedding-simple"
         links={[
           {
@@ -103,7 +103,7 @@ function EmbeddingSettingsEE() {
             </Text>
 
             <Text c="text-secondary" lh="lg" mb="sm">
-              {t`Metabase Cloud instances are automatically upgraded to new releases. SDK packages are strictly compatible with specific version of Metabase. You can request to pin your Metabase to a major version and upgrade your Metabase and SDK dependency in a coordinated fashion.`}
+              {t`TenvioX Cloud instances are automatically upgraded to new releases. SDK packages are strictly compatible with specific version of TenvioX. You can request to pin your TenvioX to a major version and upgrade your TenvioX and SDK dependency in a coordinated fashion.`}
             </Text>
 
             <ExternalLink href="mailto:help@metabase.com">

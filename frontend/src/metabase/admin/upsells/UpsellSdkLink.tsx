@@ -33,7 +33,7 @@ export function UpsellSdkLink() {
         fw="bold"
         fz="inherit"
       >
-        {t`upgrade to Metabase Pro`}
+        {t`upgrade to TenvioX Pro`}
       </UnstyledButton>
     );
   }
@@ -44,7 +44,7 @@ export function UpsellSdkLink() {
       href={upgradeUrl}
       className={cx(CS.textBold, linkStyles.link)}
     >
-      {t`upgrade to Metabase Pro`}
+      {t`upgrade to TenvioX Pro`}
     </ExternalLink>
   );
 }

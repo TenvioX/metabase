@@ -2,6 +2,7 @@
 /* eslint-env node */
 
 const fs = require("fs");
+const path = require("path");
 
 const rspack = require("@rspack/core");
 const ReactRefreshPlugin = require("@rspack/plugin-react-refresh");
@@ -31,7 +32,7 @@ const BUILD_PATH = __dirname + "/resources/frontend_client";
 
 // For sharing the embedding snippets in the docs with the embedding
 // onboarding flow in the app to keep the snippets always in sync.
-const SDK_DOCS_SNIPPETS_PATH = __dirname + "/docs/embedding/sdk/snippets";
+const SDK_DOCS_SNIPPETS_PATH = path.resolve(__dirname, "docs/embedding/sdk/snippets");
 
 const PORT = process.env.MB_FRONTEND_DEV_PORT || 8080;
 const isDevMode = IS_DEV_MODE;

@@ -11,7 +11,7 @@ export const CollectionPermissionsHelp = () => {
   return (
     <Flex direction="column" py={rem(22)} px="lg">
       <Title order={3}>{t`Collection permissions`}</Title>
-      <Text my="1rem">{t`People can be members of multiple groups, and Metabase grants them the most permissive level of access across all of a person's groups.`}</Text>
+      <Text my="1rem">{t`People can be members of multiple groups, and TenvioX grants them the most permissive level of access across all of a person's groups.`}</Text>
 
       <Title order={6} my="sm">{t`Collections Permission Levels`}</Title>
 

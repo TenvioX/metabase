@@ -2,7 +2,7 @@ import { t } from "ttag";
 
 export const Messages = {
   get UNABLE_TO_CHANGE_ADMIN_PERMISSIONS() {
-    return t`Administrators always have the highest level of access to everything in Metabase.`;
+    return t`Administrators always have the highest level of access to everything in TenvioX.`;
   },
   get UNABLE_TO_CHANGE_DATA_ANALYST_PERMISSIONS() {
     return t`Data Analysts always have full access to edit table metadata.`;

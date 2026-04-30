@@ -72,7 +72,7 @@ export const ConnectionImpersonationStepContent = ({
     return (
       <Stack gap="md">
         <Text size="md" c="text-secondary" lh="lg">
-          {t`None of your databases support connection impersonation. Pick a different data segregation strategy in the previous step, or connect a new database in the Database settings before proceeding. Metabase connects to more than 15 popular databases.`}
+          {t`None of your databases support connection impersonation. Pick a different data segregation strategy in the previous step, or connect a new database in the Database settings before proceeding. TenvioX connects to more than 15 popular databases.`}
         </Text>
 
         <Flex justify="flex-end">

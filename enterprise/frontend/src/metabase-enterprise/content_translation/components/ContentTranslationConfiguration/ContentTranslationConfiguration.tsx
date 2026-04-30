@@ -120,7 +120,7 @@ export const ContentTranslationConfiguration = () => {
   );
 
   // eslint-disable-next-line metabase/no-literal-metabase-strings -- This string only shows for admins.
-  const uploadDescription = t`Upload a translation dictionary to translate strings both in Metabase content (like dashboard titles) and in the data itself (like column names and values). The dictionary must be a CSV with these columns: **Locale Code**, **String**, **Translation**.`;
+  const uploadDescription = t`Upload a translation dictionary to translate strings both in TenvioX content (like dashboard titles) and in the data itself (like column names and values). The dictionary must be a CSV with these columns: **Locale Code**, **String**, **Translation**.`;
 
   return (
     <ErrorBoundary>

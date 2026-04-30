@@ -59,7 +59,7 @@ function getData({
     { value: "ingested" as const, label: t`Ingested` },
     showMetabaseTransform
       ? // eslint-disable-next-line metabase/no-literal-metabase-strings -- shown in Data Studio only
-        { value: "metabase-transform" as const, label: t`Metabase transform` }
+        { value: "metabase-transform" as const, label: t`TenvioX transform` }
       : undefined,
     { value: "transform" as const, label: t`Transform` },
     { value: "source-data" as const, label: t`Source data` },

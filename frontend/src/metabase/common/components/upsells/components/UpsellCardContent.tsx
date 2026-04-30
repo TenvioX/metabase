@@ -150,7 +150,7 @@ const UpsellCardLeftColumnContent = ({
       <Flex align="center" gap="xs">
         <UpsellGem.New size={16} />
         {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- This string only shows for admins. */}
-        <Text c="text-brand">{t`Metabase Pro`}</Text>
+        <Text c="text-brand">{t`TenvioX Pro`}</Text>
       </Flex>
       <Stack gap="md" py="sm" mb="sm">
         <Title order={3}>{title}</Title>
@@ -173,9 +173,9 @@ const UpsellCardLeftColumnContent = ({
           <Text>
             {anyStoreUserEmailAddress
               ? // eslint-disable-next-line metabase/no-literal-metabase-strings -- This string only shows for admins.
-                t`Please ask a Metabase Store Admin (${anyStoreUserEmailAddress}) to upgrade your plan.`
+                t`Please ask a TenvioX Store Admin (${anyStoreUserEmailAddress}) to upgrade your plan.`
               : // eslint-disable-next-line metabase/no-literal-metabase-strings -- This string only shows for admins.
-                t`Please ask a Metabase Store Admin to upgrade your plan.`}
+                t`Please ask a TenvioX Store Admin to upgrade your plan.`}
           </Text>
         )}
         {isTrialAvailable && (

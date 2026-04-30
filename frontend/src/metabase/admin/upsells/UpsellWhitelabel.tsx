@@ -38,7 +38,7 @@ export const UpsellWhitelabel = ({ source }: { source: string }) => {
 
   return (
     <UpsellBigCard
-      title={t`Make Metabase look like you`}
+      title={t`Make TenvioX look like you`}
       campaign={campaign}
       buttonText={t`Try for free`}
       buttonLink={UPGRADE_URL}
@@ -46,7 +46,7 @@ export const UpsellWhitelabel = ({ source }: { source: string }) => {
       illustrationSrc="app/assets/img/upsell-whitelabel.png"
       onClick={triggerUpsellFlow}
     >
-      {t`Customize your internal or customer-facing analytics with your brand name, logo, colors, font and more, and hide giveaway Metabase elements.`}
+      {t`Customize your internal or customer-facing analytics with your brand name, logo, colors, font and more, and hide giveaway TenvioX elements.`}
       <ExternalLink className={S.SecondaryCTALink} href={url}>
         {t`Learn more`}
       </ExternalLink>

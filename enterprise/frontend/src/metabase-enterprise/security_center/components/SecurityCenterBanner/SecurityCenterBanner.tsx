@@ -73,7 +73,7 @@ export function SecurityCenterBanner() {
   );
 
   // eslint-disable-next-line metabase/no-literal-metabase-strings -- only visible to admins on self-hosted instances
-  const body = jt`Please configure notification channels in the ${securityCenterLink} so that you get notified about security vulnerabilities in your Metabase instance`;
+  const body = jt`Please configure notification channels in the ${securityCenterLink} so that you get notified about security vulnerabilities in your TenvioX instance`;
 
   if (hasActiveAdvisory) {
     return (

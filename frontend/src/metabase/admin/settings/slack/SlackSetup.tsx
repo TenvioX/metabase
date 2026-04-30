@@ -120,7 +120,7 @@ export const SlackSetup = () => {
       <SettingsSection title={t`Create a Slack app and connect to it.`}>
         <Stack gap="md">
           <Markdown>
-            {t`First, **click the button below** to create your Slack App using the Metabase configuration.`}
+            {t`First, **click the button below** to create your Slack App using the TenvioX configuration.`}
           </Markdown>
           <Box>
             <ButtonLink href={`https://api.slack.com${link}`}>

@@ -100,7 +100,7 @@ export const DatabaseCacheScheduleField = ({
       {scheduleMode === "on-demand" && (
         <Box c="text-secondary" fz="sm" maw={rem(620)} mt="sm">
           {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings */}
-          {t`When a user adds a new filter to a dashboard or a SQL question, Metabase will scan the field(s) mapped to that filter in order to show the list of selectable values.`}
+          {t`When a user adds a new filter to a dashboard or a SQL question, TenvioX will scan the field(s) mapped to that filter in order to show the list of selectable values.`}
         </Box>
       )}
     </FormField>

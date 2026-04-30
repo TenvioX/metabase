@@ -35,7 +35,7 @@ export const DatabaseNameField = ({
       )}
       rightSection={
         // eslint-disable-next-line metabase/no-literal-metabase-strings -- Admin settings
-        <Tooltip label={t`Choose what this data will be called in Metabase.`}>
+        <Tooltip label={t`Choose what this data will be called in TenvioX.`}>
           <Icon name="info" />
         </Tooltip>
       }

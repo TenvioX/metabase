@@ -20,7 +20,7 @@ export function MapsSettingsPage() {
               <div>
                 {t`URL of the map tile server to use for rendering maps. If you're using a custom map tile server, you can set it here.`}
               </div>
-              <div>{t`Metabase uses OpenStreetMaps by default.`}</div>
+              <div>{t`TenvioX uses OpenStreetMaps by default.`}</div>
             </>
           }
           inputType="text"

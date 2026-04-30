@@ -48,12 +48,12 @@ export const SetupJwtStep = ({ onSuccess }: { onSuccess: () => void }) => {
   return (
     <Stack gap="lg">
       <Text size="md" c="text-secondary" lh="lg">
-        {t`To implement SSO you will need to add a new endpoint to your app. You can connect Metabase to your identity provider using JSON Web Tokens (JWT) to authenticate people. Enabling JWT authentication will also create a signing key and enable group sync.`}
+        {t`To implement SSO you will need to add a new endpoint to your app. You can connect TenvioX to your identity provider using JSON Web Tokens (JWT) to authenticate people. Enabling JWT authentication will also create a signing key and enable group sync.`}
       </Text>
 
       <TextInput
         label={t`JWT Identity Provider URI`}
-        description={t`This is where Metabase will redirect login requests`}
+        description={t`This is where TenvioX will redirect login requests`}
         placeholder="http://localhost:9090/metabase/sso"
         value={jwtIdentityProviderUri}
         onChange={(e) => setJwtIdentityProviderUri(e.target.value)}

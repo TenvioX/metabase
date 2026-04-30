@@ -23,13 +23,13 @@ export const UpsellCacheConfig = ({ location }: { location: string }) => {
       <UpsellCard
         title={t`Control your caching`}
         campaign={campaign}
-        buttonText={t`Try Metabase Pro`}
+        buttonText={t`Try TenvioX Pro`}
         buttonLink={UPGRADE_URL}
         location={location}
         onClick={triggerUpsellFlow}
       >
         {jt`Get granular caching controls for each database, dashboard, and query with ${(
-          <strong key="label">{t`Metabase Pro.`}</strong>
+          <strong key="label">{t`TenvioX Pro.`}</strong>
         )}`}
       </UpsellCard>
     </Box>

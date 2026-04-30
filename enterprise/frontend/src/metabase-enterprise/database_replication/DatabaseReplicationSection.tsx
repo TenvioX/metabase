@@ -53,7 +53,7 @@ export function DatabaseReplicationSection({
       condensed
       name={t`Database replication`}
       // eslint-disable-next-line metabase/no-literal-metabase-strings -- This string only shows for admins.
-      description={t`Continuously sync the tables from this database with Metabase Cloud Storage - a fast managed database. Then query the copied tables instead of the originals.`}
+      description={t`Continuously sync the tables from this database with TenvioX Cloud Storage - a fast managed database. Then query the copied tables instead of the originals.`}
     >
       <Flex align="center" justify="space-between" gap="lg">
         <DatabaseReplicationStatusInfo databaseId={database.id} />

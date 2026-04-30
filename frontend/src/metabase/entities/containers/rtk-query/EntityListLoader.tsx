@@ -1,6 +1,6 @@
 import { bindActionCreators } from "@reduxjs/toolkit";
 import type { ComponentType, ReactNode } from "react";
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import { match } from "ts-pattern";
 import _ from "underscore";
 
@@ -171,7 +171,7 @@ export function EntityListLoader<Entity, EntityWrapper>({
         );
       })
       .exhaustive();
-  });
+  }, _.isEqual);
 
   const fetched = useSelector((state) => {
     const value = entityDefinition.selectors.getFetched(state, entityOptions);
@@ -227,6 +227,8 @@ export function EntityListLoader<Entity, EntityWrapper>({
     [entityDefinition, entityQuery],
   );
 
+
+
   const listStatePath = useMemo(() => {
     return entityDefinition.getListStatePath(entityQuery);
   }, [entityDefinition, entityQuery]);
@@ -247,8 +249,11 @@ export function EntityListLoader<Entity, EntityWrapper>({
     }
   }, [dispatch, rtkError, requestStatePath, queryKey]);
 
+  const lastFetchedDataRef = useRef<any>(null);
+
   useEffect(() => {
-    if (data && !isFetching) {
+    if (data && !isFetching && !_.isEqual(data, lastFetchedDataRef.current)) {
+      lastFetchedDataRef.current = data;
       const { results, metadata } = transformResponse(data);
 
       if (isPaginationMetadata(metadata)) {

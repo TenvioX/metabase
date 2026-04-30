@@ -29,7 +29,7 @@ export const MigrationError = ({
             <Icon size="1.5rem" name="warning" />
           </LargeIconContainer>
           <Box>
-            <Text fw="bold">{t`Migration to Metabase Cloud failed`}</Text>
+            <Text fw="bold">{t`Migration to TenvioX Cloud failed`}</Text>
             <Text mt="1rem">
               {c("{0} is an email address")
                 .jt`Please try again later, and reach out to us at ${
@@ -49,7 +49,7 @@ export const MigrationError = ({
             <Text
               size="sm"
               mt=".5rem"
-            >{t`Migration to Metabase Cloud failed on ${failedAt}.`}</Text>
+            >{t`Migration to TenvioX Cloud failed on ${failedAt}.`}</Text>
           </Box>
         </Flex>
       </MigrationCard>

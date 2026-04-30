@@ -52,7 +52,7 @@ export const DatabaseModelFeaturesSection = ({
   return (
     <DatabaseInfoSection
       name={t`Model features`}
-      description={t`Choose whether to enable features related to Metabase models. These will often require a write connection.`}
+      description={t`Choose whether to enable features related to TenvioX models. These will often require a write connection.`}
       data-testid="database-model-features-section"
     >
       <Flex direction="column" gap="md">

@@ -54,14 +54,14 @@ export const DatabaseConnectionInfoSection = ({
     <DatabaseInfoSection
       condensed
       name={t`Connection and sync`}
-      description={t`Manage details about the database connection and when Metabase ingests new data.`}
+      description={t`Manage details about the database connection and when TenvioX ingests new data.`}
       data-testid="database-connection-info-section"
     >
       <Flex align="center" justify="space-between" gap="lg">
         <DatabaseConnectionHealthInfo databaseId={database.id} />
         <Tooltip
           disabled={isDbModifiable(database)}
-          label={t`This database is managed by Metabase Cloud and cannot be modified.`}
+          label={t`This database is managed by TenvioX Cloud and cannot be modified.`}
         >
           <Button
             onClick={openDbDetailsModal}

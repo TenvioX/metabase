@@ -71,7 +71,7 @@ export const GdriveSyncStatus = () => {
         getErrorMessage(
           apiError,
           // eslint-disable-next-line metabase/no-literal-metabase-strings -- admin only ui
-          t`Please check that the folder is shared with the Metabase Service Account.`,
+          t`Please check that the folder is shared with the TenvioX Service Account.`,
         ),
       );
     }
@@ -114,7 +114,7 @@ function GsheetsSyncStatusView({
       "error",
       () =>
         // eslint-disable-next-line metabase/no-literal-metabase-strings -- admin UI
-        t`Please check that the folder is shared with the Metabase Service Account.`,
+        t`Please check that the folder is shared with the TenvioX Service Account.`,
     )
     .otherwise(() => undefined);
 

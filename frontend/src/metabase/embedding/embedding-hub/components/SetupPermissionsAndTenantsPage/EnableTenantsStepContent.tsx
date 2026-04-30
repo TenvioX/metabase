@@ -71,7 +71,7 @@ export const EnableTenantsStepContent = ({
       />
 
       <Text size="md" c="text-secondary" lh="lg">
-        {t`A tenant is a set of attributes assigned to a user to isolate them from other tenants. For example, in a SaaS app with embedded Metabase dashboards, you can assign each customer to a tenant.`}
+        {t`A tenant is a set of attributes assigned to a user to isolate them from other tenants. For example, in a SaaS app with embedded TenvioX dashboards, you can assign each customer to a tenant.`}
       </Text>
 
       <Text size="md" c="text-secondary" lh="lg">

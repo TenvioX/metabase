@@ -28,7 +28,7 @@ export function UpgradeModalLoading({
     const title = isTrial
       ? t`Setting up your free trial, please wait`
       : // eslint-disable-next-line metabase/no-literal-metabase-strings -- Upsell for Metabase Pro, only visible to admins
-        t`Setting up Metabase Pro, please wait`;
+        t`Setting up TenvioX Pro, please wait`;
 
     return (
       <Stack align="center" gap="lg" py="xl">
@@ -56,7 +56,7 @@ export function UpgradeModalLoading({
   const successTitle = isTrial
     ? t`Your free trial is ready`
     : // eslint-disable-next-line metabase/no-literal-metabase-strings -- Upsell for Metabase Pro, only visible to admins
-      t`Metabase Pro is ready to use`;
+      t`TenvioX Pro is ready to use`;
 
   return (
     <Stack align="center" gap="lg" py="xl">

@@ -67,7 +67,7 @@ export const McpAppsSettings = ({ id }: { id?: string }) => {
       }
       description={
         // eslint-disable-next-line metabase/no-literal-metabase-strings -- admin UI
-        jt`Allow MCP clients to connect to your Metabase instance. ${(
+        jt`Allow MCP clients to connect to your TenvioX instance. ${(
           <ExternalLink key="docs" href={mcpDocsUrl}>
             {t`Learn more`}
           </ExternalLink>

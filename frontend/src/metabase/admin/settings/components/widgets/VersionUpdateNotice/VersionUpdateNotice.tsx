@@ -40,7 +40,7 @@ function OnLatestVersion({ currentVersion }: { currentVersion: string }) {
     <div>
       <div className={S.message}>
         {c(`{0} is a version number`)
-          .t`You're running Metabase ${currentVersion} which is the latest and greatest!`}
+          .t`You're running TenvioX ${currentVersion} which is the latest and greatest!`}
       </div>
     </div>
   );
@@ -51,7 +51,7 @@ function DefaultUpdateMessage({ currentVersion }: { currentVersion: string }) {
     <div>
       <div className={S.message}>
         {c(`{0} is a version number`)
-          .t`You're running Metabase ${currentVersion}`}
+          .t`You're running TenvioX ${currentVersion}`}
       </div>
     </div>
   );
@@ -80,7 +80,7 @@ function NewVersionAvailable({
         )}
       >
         <span className={cx(CS.textWhite, CS.textBold)}>
-          {t`Metabase ${formatVersion(latestVersion)} is available. You're running ${currentVersion}.`}
+          {t`TenvioX ${formatVersion(latestVersion)} is available. You're running ${currentVersion}.`}
         </span>
         <ExternalLink
           className={cx(

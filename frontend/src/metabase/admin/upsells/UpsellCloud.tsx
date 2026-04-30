@@ -20,7 +20,7 @@ export const UpsellCloud = ({
 
   return (
     <UpsellBigCard
-      title={t`Migrate to Metabase Cloud`}
+      title={t`Migrate to TenvioX Cloud`}
       campaign="cloud"
       buttonText={t`Try for free`}
       source={source}
@@ -30,7 +30,7 @@ export const UpsellCloud = ({
       {c("'restores' and 'upgrades' are nouns in plural in this context")
         .t`Get automatic backups, restores, and upgrades, built-in network monitoring, unlimited expert help from engineers and more.`}{" "}
       <strong>{t`All your dashboards and questions will be copied to your Cloud instance.`}</strong>{" "}
-      {t`Get your first 14 days of Metabase Cloud for free.`}
+      {t`Get your first 14 days of TenvioX Cloud for free.`}
       <ExternalLink
         className={S.SecondaryCTALink}
         href="https://www.metabase.com/cloud"

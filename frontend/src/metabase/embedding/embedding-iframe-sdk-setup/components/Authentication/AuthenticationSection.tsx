@@ -70,7 +70,7 @@ export const AuthenticationSection = () => {
               value="sso"
               label={
                 // eslint-disable-next-line metabase/no-literal-metabase-strings -- Public Facing string
-                t`Metabase account (SSO)`
+                t`TenvioX account (SSO)`
               }
               disabled={!isSimpleEmbedFeatureAvailable}
             />

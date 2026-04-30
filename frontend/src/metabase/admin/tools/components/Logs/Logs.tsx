@@ -121,7 +121,7 @@ const LogsBase = ({
                     <Option
                       value="ALL"
                       key="ALL"
-                    >{t`All Metabase processes`}</Option>
+                    >{t`All TenvioX processes`}</Option>
                     {processUUIDs.map((uuid) => (
                       <Option key={uuid} value={uuid}>
                         <code>{uuid}</code>

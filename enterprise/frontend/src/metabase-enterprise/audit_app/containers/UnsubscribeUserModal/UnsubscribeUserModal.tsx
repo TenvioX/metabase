@@ -66,7 +66,7 @@ export const UnsubscribeUserModal = ({
           </Text>
           <Text>
             {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings */}
-            {t`This does not affect email distribution lists that are managed outside of Metabase.`}
+            {t`This does not affect email distribution lists that are managed outside of TenvioX.`}
           </Text>
         </Stack>
       }

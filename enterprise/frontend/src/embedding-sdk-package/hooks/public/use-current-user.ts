@@ -9,5 +9,5 @@ import { getWindow } from "embedding-sdk-shared/lib/get-window";
  * @function
  * @category useCurrentUser
  */
-export const useCurrentUser: () => MetabaseUser | null = () =>
+export const useCurrentUser: () =>TenvioXUser | null = () =>
   useLazySelector(getWindow()?.METABASE_EMBEDDING_SDK_BUNDLE?.getUser) ?? null;

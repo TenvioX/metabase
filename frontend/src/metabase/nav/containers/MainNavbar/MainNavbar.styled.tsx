@@ -22,13 +22,14 @@ export const Sidebar = styled.aside<{
   position: relative;
   flex-shrink: 0;
   align-items: center;
-  background-color: var(--mb-color-background-primary);
+  background-color: #F8FAFC;
   z-index: 4;
   width: ${(props) => props.width ?? NAV_SIDEBAR_WIDTH};
+  box-shadow: 4px 0 24px rgba(0, 82, 255, 0.05);
   ${(props) =>
     props.side === "left"
-      ? "border-inline-end: 1px solid var(--mb-color-border);"
-      : "border-inline-start: 1px solid var(--mb-color-border);"}
+      ? "border-inline-end: 1px solid #e2e8f0;"
+      : "border-inline-start: 1px solid #e2e8f0;"}
 
   ${breakpointMaxSmall} {
     width: 90vw;
@@ -67,7 +68,9 @@ export const SidebarContentRoot = styled.div`
 
 export const SidebarSection = styled(Box)<BoxProps>`
   margin-top: var(--mantine-spacing-sm);
-  margin-bottom: var(--mantine-spacing-md);
+  margin-bottom: var(--mantine-spacing-sm);
+  padding-top: var(--mantine-spacing-xs);
+  padding-bottom: var(--mantine-spacing-sm);
   padding-inline-start: var(--mantine-spacing-md);
   padding-inline-end: var(--mantine-spacing-md);
 ` as unknown as typeof Box;
@@ -79,11 +82,11 @@ export const TrashSidebarSection = styled(SidebarSection)`
 ` as unknown as typeof Box;
 
 export const SidebarHeading = styled.h4`
-  color: var(--mb-color-text-secondary);
+  color: #94a3b8;
   font-weight: 700;
-  font-size: 11px;
+  font-size: 10px;
   text-transform: uppercase;
-  letter-spacing: 0.45px;
+  letter-spacing: 0.1em;
   padding-inline-start: var(--mantine-spacing-md);
 `;
 

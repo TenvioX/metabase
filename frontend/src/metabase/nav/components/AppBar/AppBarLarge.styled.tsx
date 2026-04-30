@@ -17,7 +17,10 @@ export const AppBarRoot = styled.div<AppBarRootProps>`
   border-bottom: 1px solid
     ${(props) =>
       props.hasSidebarOpen ? "var(--mb-color-border)" : "transparent"};
-  background-color: var(--mb-color-background-primary);
+  background-color: rgba(248, 249, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 1px 4px rgba(0, 62, 199, 0.04);
   transition: border-bottom-color 200ms ease;
 `;
 

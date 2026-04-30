@@ -20,10 +20,10 @@ export const ImpersonationWarning = ({
   const isRedshift = database.engine === "redshift";
 
   // eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings
-  const emptyText = t`Make sure the main database credential has access to everything different user groups may need access to. It's what Metabase uses to sync table information.`;
+  const emptyText = t`Make sure the main database credential has access to everything different user groups may need access to. It's what TenvioX uses to sync table information.`;
 
   // eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings
-  const redshiftWarning = jt`You’re connecting Metabase to the ${(
+  const redshiftWarning = jt`You’re connecting TenvioX to the ${(
     <Code c="brand" key="1" fw="bold" fz={13}>
       {database.name}
     </Code>
@@ -42,7 +42,7 @@ export const ImpersonationWarning = ({
     <Code c="brand" key="1" fw="bold" fz={13}>
       {String(databaseUser)}
     </Code>
-  )} is the database user Metabase is using to connect to your  ${(
+  )} is the database user TenvioX is using to connect to your  ${(
     <Code c="brand" key="2" fw="bold" fz={13}>
       {database.name}
     </Code>
@@ -54,7 +54,7 @@ export const ImpersonationWarning = ({
     <Code c="brand" key="4" fw="bold" fz={13}>
       {database.name}
     </Code>
-  )} that all Metabase groups may need access to, as that database user account is what Metabase uses to sync table information.`;
+  )} that all TenvioX groups may need access to, as that database user account is what TenvioX uses to sync table information.`;
 
   const warningText = isRedshift ? redshiftWarning : regularWarning;
 

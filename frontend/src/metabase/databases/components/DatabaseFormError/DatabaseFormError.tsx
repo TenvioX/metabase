@@ -23,7 +23,7 @@ export const DatabaseFormError = () => {
   const title = isHostAndPortError
     ? t`Hmm, we couldn't connect to the database`
     : // eslint-disable-next-line metabase/no-literal-metabase-strings -- Only visible to admins
-      t`Metabase tried, but couldn't connect`;
+      t`TenvioX tried, but couldn't connect`;
 
   useMount(() => {
     if (ref.current) {

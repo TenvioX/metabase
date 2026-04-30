@@ -29,11 +29,11 @@ export const SettingsCloudStoreLink = () => {
       <SettingHeader
         id="cloud-settings-header"
         title={t`Cloud settings`}
-        description={t`Manage your Cloud account, including billing preferences and technical settings about this instance in your Metabase Store account.`}
+        description={t`Manage your Cloud account, including billing preferences and technical settings about this instance in your TenvioX Store account.`}
       />
       <Box>
         <ButtonLink href={url}>
-          {t`Go to the Metabase Store`}
+          {t`Go to the TenvioX Store`}
           <Icon name="external" opacity={0.6} ml="sm" />
         </ButtonLink>
       </Box>

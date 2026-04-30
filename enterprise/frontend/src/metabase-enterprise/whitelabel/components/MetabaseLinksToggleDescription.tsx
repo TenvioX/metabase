@@ -26,7 +26,7 @@ export function MetabaseLinksToggleDescription() {
       <Popover.Dropdown>
         <Stack p="md" gap="sm" maw="26rem">
           <Text size="sm">
-            {t`This affects all links in the product experience (outside of the admin panel) that point to Metabase.com URLs.`}
+            {t`This affects all links in the product experience (outside of the admin panel) that point to TenvioX.com URLs.`}
           </Text>
           <Text size="sm">
             {t`When hidden, your users will lose the ability to troubleshoot and learn how to use features such as the Query and SQL Editors, among others.`}

@@ -36,6 +36,7 @@
 
     &:focus {
       border-color: var(--mb-color-brand);
+      box-shadow: 0 0 0 2px rgba(0, 62, 199, 0.15);
     }
 
     &[data-error] {

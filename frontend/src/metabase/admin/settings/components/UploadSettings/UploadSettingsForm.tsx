@@ -296,7 +296,7 @@ const H2PersistenceWarning = ({ isHosted }: { isHosted: boolean }) => (
                 {t`By enabling uploads to the Sample Database, you agree that you will not upload or otherwise transmit any individually identifiable information, including without limitation Personal Data (as defined by the General Data Protection Regulation) or Personally Identifiable Information (as defined by the California Consumer Privacy Act and California Privacy Rights Act).`}
               </Text>
               <Text c="inherit">
-                {t`Additionally, you acknowledge and agree that the ability to upload to the Sample Database is provided “as is” and without warranty of any kind, and Metabase disclaims all warranties, express or implied, and all liability in connection with the uploads to the Sample Database or the data stored within it.`}
+                {t`Additionally, you acknowledge and agree that the ability to upload to the Sample Database is provided “as is” and without warranty of any kind, and TenvioX disclaims all warranties, express or implied, and all liability in connection with the uploads to the Sample Database or the data stored within it.`}
               </Text>
             </>
           }
@@ -321,7 +321,7 @@ const NoValidDatabasesMessage = () => (
       {t`None of your databases are compatible with this version of the uploads feature.`}
     </p>
     <p>
-      {jt`Metabase currently supports ${(
+      {jt`TenvioX currently supports ${(
         <strong key="db-types">{t`Postgres, MySQL, and H2`}</strong>
       )} for uploads and needs a connection with write privileges.`}
     </p>

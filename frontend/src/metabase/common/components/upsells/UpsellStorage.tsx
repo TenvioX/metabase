@@ -30,7 +30,7 @@ export const UpsellStorage = ({ location }: { location: string }) => {
       buttonLink={storeUrl}
       location={location}
       // eslint-disable-next-line metabase/no-literal-metabase-strings -- Upsell for Metabase Storage, only visible to admins
-      title={t`Add Metabase Storage`}
+      title={t`Add TenvioX Storage`}
       large
     >
       <List
@@ -40,7 +40,7 @@ export const UpsellStorage = ({ location }: { location: string }) => {
         styles={{ root: { paddingInlineStart: "var(--mantine-spacing-sm)" } }}
       >
         {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Upsell for Metabase Storage, only visible to admins */}
-        <List.Item>{t`Secure, fully managed by Metabase`}</List.Item>
+        <List.Item>{t`Secure, fully managed by TenvioX`}</List.Item>
         <List.Item>{t`Upload CSV files`}</List.Item>
         <List.Item>{t`Sync with Google Sheets`}</List.Item>
       </List>

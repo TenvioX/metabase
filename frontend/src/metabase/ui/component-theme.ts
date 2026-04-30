@@ -228,9 +228,9 @@ export const DEFAULT_METABASE_COMPONENT_THEME: MetabaseComponentTheme = {
     },
   },
   dashboard: {
-    backgroundColor: "var(--mb-color-background-primary)",
+    backgroundColor: "#F8FAFC",
     card: {
-      backgroundColor: "var(--mb-color-background-primary)",
+      backgroundColor: "#FFFFFF",
     },
   },
   question: {
@@ -238,9 +238,10 @@ export const DEFAULT_METABASE_COMPONENT_THEME: MetabaseComponentTheme = {
   },
 
   table: {
+    stickyBackgroundColor: "#F1F5F9",
     cell: {
       fontSize: FONT_SIZES.tableCell.px,
-      textColor: "var(--mb-color-text-primary)",
+      textColor: "#0B1C30",
     },
     idColumn: {
       textColor: "var(--mb-color-brand)",

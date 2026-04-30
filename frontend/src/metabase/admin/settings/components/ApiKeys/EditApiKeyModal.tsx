@@ -72,7 +72,7 @@ const RegenerateKeyModal = ({
                 {apiKey.group.name}
               </Text>
             </Stack>
-            <Text>{t`Metabase will replace the existing API key with a new key. You won't be able to recover the old key.`}</Text>
+            <Text>{t`TenvioX will replace the existing API key with a new key. You won't be able to recover the old key.`}</Text>
             <FormErrorMessage />
             <Group justify="flex-end">
               <Button

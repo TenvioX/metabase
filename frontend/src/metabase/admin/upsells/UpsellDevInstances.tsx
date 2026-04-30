@@ -25,7 +25,7 @@ export function UpsellDevInstances({ location }: { location: LOCATION }) {
       dismissible
     >
       <Text c="text-secondary" lh="md">
-        {t`Test out code in staging in a separate Metabase instance before deploying to production.`}
+        {t`Test out code in staging in a separate TenvioX instance before deploying to production.`}
       </Text>
     </UpsellBanner>
   );

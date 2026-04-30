@@ -1,7 +1,5 @@
 import type { ReactNode } from "react";
 
-import { LighthouseIllustration } from "metabase/common/components/LighthouseIllustration";
-import { LogoIcon } from "metabase/common/components/LogoIcon";
 import { useSelector } from "metabase/redux";
 import { getLoginPageIllustration } from "metabase/selectors/whitelabel";
 
@@ -20,17 +18,10 @@ export const AuthLayout = ({ children }: AuthLayoutProps): JSX.Element => {
 
   return (
     <LayoutRoot data-testid="login-page">
-      {loginPageIllustration &&
-        (loginPageIllustration.isDefault ? (
-          <LighthouseIllustration />
-        ) : (
-          <LayoutIllustration
-            data-testid="login-page-illustration"
-            backgroundImageSrc={loginPageIllustration.src}
-          />
-        ))}
       <LayoutBody>
-        <LogoIcon height={65} />
+        {/* We place the logo directly inside the card in the modern design, 
+            or handled by the child component. But we can leave an anchor here if needed. 
+            For the modern look, we let Login.tsx render the title. */}
         <LayoutCard>{children}</LayoutCard>
       </LayoutBody>
     </LayoutRoot>

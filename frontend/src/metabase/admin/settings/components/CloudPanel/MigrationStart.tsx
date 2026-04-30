@@ -36,10 +36,10 @@ export const MigrationStart = ({
       >
         <Box mt="md" pb="4rem" px="6rem" ta="center">
           <Icon name="cloud_filled" size="3rem" c="brand" />
-          <Modal.Title mt="1.5rem">{t`Get started with Metabase Cloud`}</Modal.Title>
+          <Modal.Title mt="1.5rem">{t`Get started with TenvioX Cloud`}</Modal.Title>
 
           <Text mt="1.5rem">
-            {t`Just a heads up: your Metabase will be read-only for up to 30
+            {t`Just a heads up: your TenvioX will be read-only for up to 30
               minutes while we prep it for migration.`}{" "}
             <ExternalLink href="https://www.metabase.com/cloud/">{t`Learn More.`}</ExternalLink>
           </Text>

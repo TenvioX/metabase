@@ -61,7 +61,7 @@ export const DatabaseRoutingSection = ({
   const dbRoutingInfo =
     engine?.["extra-info"]?.["db-routing-info"]?.text ??
     // eslint-disable-next-line metabase/no-literal-metabase-strings -- This string only shows for admins.
-    t`When someone views a question using data from this database, Metabase will send the queries to the destination database set by the person's user attribute. Each destination database must have identical schemas.`;
+    t`When someone views a question using data from this database, TenvioX will send the queries to the destination database set by the person's user attribute. Each destination database must have identical schemas.`;
   const shouldHideSection =
     database.is_attached_dwh || database.is_sample || !dbSupportsRouting;
 

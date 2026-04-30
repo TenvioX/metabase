@@ -42,7 +42,7 @@ const TasksTabsBase = ({ children, location }: TasksTabsProps) => {
         <Flex align="center" gap="sm">
           <Title order={1}>{t`Troubleshooting logs`}</Title>
           <Tooltip
-            label={t`Trying to get to the bottom of something? This section shows logs of Metabase's background tasks, which can help shed light on what's going on.`}
+            label={t`Trying to get to the bottom of something? This section shows logs of TenvioX's background tasks, which can help shed light on what's going on.`}
           >
             <Icon name="info" />
           </Tooltip>

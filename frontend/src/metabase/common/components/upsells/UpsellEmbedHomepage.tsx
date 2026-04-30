@@ -13,7 +13,7 @@ export const UpsellEmbedHomepage = ({ location }: { location: string }) => {
       title={t`More advanced embeds`}
       campaign={campaign}
       // eslint-disable-next-line metabase/no-literal-metabase-strings -- Upsell for Metabase Pro, only visible to admins
-      buttonText={t`Try Metabase Pro`}
+      buttonText={t`Try TenvioX Pro`}
       buttonLink={UPGRADE_URL}
       location={location}
       style={{
@@ -23,7 +23,7 @@ export const UpsellEmbedHomepage = ({ location }: { location: string }) => {
     >
       <Text size="sm" lh="md" ta="center">
         {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Upsell for Metabase Pro, only visible to admins */}
-        {t`Give your customers the full power of Metabase in your own app, with SSO, advanced permissions, customization, and more.`}
+        {t`Give your customers the full power of TenvioX in your own app, with SSO, advanced permissions, customization, and more.`}
       </Text>
     </UpsellCard>
   );

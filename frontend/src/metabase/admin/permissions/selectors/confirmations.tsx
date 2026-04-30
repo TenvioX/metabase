@@ -80,7 +80,7 @@ export function getPermissionWarning(
   }
 
   if (value === DataPermissionValue.LEGACY_NO_SELF_SERVICE) {
-    return t`In a future release, if a group's View data access for a database (or any of its schemas or tables) is still set to No self-service (Deprecated), Metabase will automatically change that group's View data access for the entire database to Blocked. We'll be defaulting to Blocked, the least permissive View data access, to prevent any unintended access to data.`;
+    return t`In a future release, if a group's View data access for a database (or any of its schemas or tables) is still set to No self-service (Deprecated), TenvioX will automatically change that group's View data access for the entire database to Blocked. We'll be defaulting to Blocked, the least permissive View data access, to prevent any unintended access to data.`;
   }
 
   if (hasGreaterPermissions(defaultGroupValue, value, descendingPermissions)) {
@@ -243,8 +243,8 @@ export function getViewDataPermissionsTooRestrictiveWarningModal(
     const entityType = isSchema ? t`schema` : t`database`;
 
     const coreMessage = isSchema
-      ? t`This schema contains one or more tables with “Blocked” permissions, which prevents access to the query builder. To grant Create query permissions for this schema, Metabase will also change the View data permissions on this schema to “Can view”.`
-      : t`This database contains one or more schemas and tables with “Blocked” permissions, which prevents access to the query builder. To grant Create query permissions for this database, Metabase will also change the View data permissions on this database to “Can view”.`;
+      ? t`This schema contains one or more tables with “Blocked” permissions, which prevents access to the query builder. To grant Create query permissions for this schema, TenvioX will also change the View data permissions on this schema to “Can view”.`
+      : t`This database contains one or more schemas and tables with “Blocked” permissions, which prevents access to the query builder. To grant Create query permissions for this database, TenvioX will also change the View data permissions on this database to “Can view”.`;
 
     const resetGranularSettingsWarnging = t`Updating access will reset your granular settings for this ${entityType}. To keep those settings, you’ll need to manually change the View data permissions for the schemas or tables that are set to “Blocked”.`;
 

@@ -73,7 +73,7 @@ export const AdminNavbar = ({
         <AdminLogoContainer>
           <LogoIcon dark />
           {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings */}
-          <AdminLogoText>{t`Metabase Admin`}</AdminLogoText>
+          <AdminLogoText>{t`TenvioX Admin`}</AdminLogoText>
         </AdminLogoContainer>
       </AdminLogoLink>
 

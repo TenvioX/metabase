@@ -272,7 +272,7 @@ const BehaviorSection = () => {
           </Text>
           {!isSimpleEmbedFeatureAvailable && (
             // eslint-disable-next-line metabase/no-literal-metabase-strings -- Only admins can see the EmbedJS Wizard
-            <Tooltip label={t`Available on Metabase Pro plans`}>
+            <Tooltip label={t`Available on TenvioX Pro plans`}>
               <Flex align="center">
                 <UpsellGem />
               </Flex>

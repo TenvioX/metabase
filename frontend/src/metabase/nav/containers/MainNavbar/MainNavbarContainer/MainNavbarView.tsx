@@ -192,6 +192,26 @@ export function MainNavbarView({
             </PaddedSidebarLink>
           </SidebarSection>
 
+          <SidebarSection>
+            <SidebarHeading>TenvioX AI</SidebarHeading>
+            <PaddedSidebarLink
+              isSelected={nonEntityItem?.url === "/ai-chat"}
+              icon="star"
+              onClick={onItemSelect}
+              url="/ai-chat"
+            >
+              {t`AI Chat`}
+            </PaddedSidebarLink>
+            <PaddedSidebarLink
+              isSelected={nonEntityItem?.url === "/ai-settings"}
+              icon="gear"
+              onClick={onItemSelect}
+              url="/ai-settings"
+            >
+              {t`AI Settings`}
+            </PaddedSidebarLink>
+          </SidebarSection>
+
           {shouldDisplayGettingStarted && (
             <SidebarSection>
               <ErrorBoundary>
