@@ -80,7 +80,7 @@ export function EnableTransformsCard({
                       icon={<Icon name="warning" size={16} />}
                       title={t`No writable database connection`}
                     >
-                      {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Only admins can see this */}
+                      { }
                       {jt`Transforms create tables in your database, so TenvioX needs write access. ${(
                         <Link
                           key="link"

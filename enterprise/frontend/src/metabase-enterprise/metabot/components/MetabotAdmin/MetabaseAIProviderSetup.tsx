@@ -203,11 +203,11 @@ export function MetabaseAIProviderSetup() {
         <>
           <Stack gap="md">
             <Title order={4}>{
-              // eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase AI service
+               
               t`About TenvioX AI service`
             }</Title>
             <Text>{
-              // eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase AI service
+               
               t`The simplest way to get started with AI in TenvioX. We pick a benchmarked, cost effective model for you, and billing is managed through your TenvioX account.`
             }</Text>
             {isLoadingMetabaseManagedAiPricing ? (
@@ -242,7 +242,7 @@ export function MetabaseAIProviderSetup() {
             .with({ hasMetabaseManagedAiProviderFeature: true }, () => null)
             .with({ isStoreUser: false }, () => (
               <Text fw="bold">
-                {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- This string only shows for admins. */}
+                { }
                 {t`Please ask a TenvioX Store Admin${anyStoreUserEmailAddress && ` (${anyStoreUserEmailAddress})`} of your organization to enable this for you.`}
               </Text>
             ))
@@ -253,7 +253,7 @@ export function MetabaseAIProviderSetup() {
                 onChange={(event) =>
                   setHasAcceptedTerms(event.currentTarget.checked)
                 }
-                // eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase AI service
+                 
                 label={jt`I agree with the TenvioX AI Service ${(
                   <Anchor
                     key="metabase-ai-terms-link"

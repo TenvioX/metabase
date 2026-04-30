@@ -4,12 +4,12 @@ import App from "metabase/App.tsx";
 import { getAccountRoutes } from "metabase/account/routes";
 import CollectionPermissionsModal from "metabase/admin/permissions/components/CollectionPermissionsModal/CollectionPermissionsModal";
 import { getRoutes as getAdminRoutes } from "metabase/admin/routes";
+import { AIChatPage } from "metabase/ai/chat/AIChatPage";
+import { AISettingsPage } from "metabase/ai/settings/AISettingsPage";
 import { ForgotPassword } from "metabase/auth/components/ForgotPassword";
 import { Login } from "metabase/auth/components/Login";
 import { Logout } from "metabase/auth/components/Logout";
 import { ResetPassword } from "metabase/auth/components/ResetPassword";
-import { AIChatPage } from "metabase/ai/chat/AIChatPage";
-import { AISettingsPage } from "metabase/ai/settings/AISettingsPage";
 import {
   BrowseDatabases,
   BrowseMetrics,

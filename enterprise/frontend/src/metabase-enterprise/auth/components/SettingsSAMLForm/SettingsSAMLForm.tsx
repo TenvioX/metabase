@@ -112,7 +112,7 @@ export function SettingsSAMLForm() {
               </Text>
               <FormSection title={t`Configure your identity provider (IdP)`}>
                 <Text c="text-secondary" mb="xl">
-                  {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings */}
+                  { }
                   {t`Your identity provider will need the following info about TenvioX.`}
                 </Text>
 
@@ -167,11 +167,11 @@ export function SettingsSAMLForm() {
               </FormSection>
 
               <FormSection
-                // eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings
+                 
                 title={t`Tell TenvioX about your identity provider`}
               >
                 <Text mb="xl" mt="sm" c="text-secondary">
-                  {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings */}
+                  { }
                   {t`TenvioX will need the following info about your provider.`}
                 </Text>
                 <Stack gap="md">
@@ -246,7 +246,7 @@ export function SettingsSAMLForm() {
                 title={t`Synchronize group membership with your SSO`}
               >
                 <Text c="text-secondary" mb="lg">
-                  {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings */}
+                  { }
                   {t`To enable this, you'll need to create mappings to tell TenvioX which group(s) your users should
                 be added to based on the SSO group they're in.`}
                 </Text>

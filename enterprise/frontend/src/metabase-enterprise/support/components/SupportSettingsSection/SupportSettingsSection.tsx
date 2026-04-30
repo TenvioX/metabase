@@ -33,7 +33,7 @@ export function SupportSettingsSection() {
       description={
         <>
           <Text c="text-secondary" mt="sm">
-            {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- This string only shows for admins. */}
+            { }
             {t`Let a TenvioX Success Engineer log in to your instance with a troubleshooting account to help resolve problems for you.`}
           </Text>
           <Text c="text-secondary">

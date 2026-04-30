@@ -19,10 +19,10 @@ export const ImpersonationWarning = ({
   const databaseUser = database.details && database.details.user;
   const isRedshift = database.engine === "redshift";
 
-  // eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings
+   
   const emptyText = t`Make sure the main database credential has access to everything different user groups may need access to. It's what TenvioX uses to sync table information.`;
 
-  // eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings
+   
   const redshiftWarning = jt`You’re connecting TenvioX to the ${(
     <Code c="brand" key="1" fw="bold" fz={13}>
       {database.name}
@@ -37,7 +37,7 @@ export const ImpersonationWarning = ({
     </Code>
   )} must be a superuser in Redshift.`;
 
-  // eslint-disable-next-line metabase/no-literal-metabase-strings -- Metabase settings
+   
   const regularWarning = jt`${(
     <Code c="brand" key="1" fw="bold" fz={13}>
       {String(databaseUser)}

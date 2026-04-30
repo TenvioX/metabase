@@ -4,7 +4,7 @@
 
 /* AI Glow — Used on AI-augmented elements (icons, cards, tags) */
 .aiGlow {
-  box-shadow: 0 0 8px 0px rgba(0, 224, 255, 0.4);
+  box-shadow: 0 0 8px 0 rgba(0, 224, 255, 0.4);
   border: 1px solid rgba(0, 224, 255, 0.6);
 }
 
@@ -40,7 +40,7 @@
 
 /* Cards with subtle gradient background (Level 1) */
 .elevatedCard {
-  background: linear-gradient(to bottom, #FFFFFF, rgba(248, 250, 252, 0.5));
+  background: linear-gradient(to bottom, #FFF, rgba(248, 250, 252, 0.5));
   box-shadow: 0 4px 12px rgba(0, 62, 199, 0.05);
   border: 1px solid #E2E8F0;
   border-radius: 0.75rem;

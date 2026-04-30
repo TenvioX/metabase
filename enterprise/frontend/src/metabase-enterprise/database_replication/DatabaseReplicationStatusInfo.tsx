@@ -17,9 +17,9 @@ export const DatabaseReplicationStatusInfo = memo(
     const connections = useSetting("database-replication-connections");
     const hasConnection = connections?.[databaseId] != null;
     const message = hasConnection
-      ? // eslint-disable-next-line metabase/no-literal-metabase-strings -- This string only shows for admins.
+      ?  
         t`Replicating to TenvioX Cloud Storage`
-      : // eslint-disable-next-line metabase/no-literal-metabase-strings -- This string only shows for admins.
+      :  
         t`Not replicating to TenvioX Cloud Storage`;
     const color = hasConnection ? "success" : "text-tertiary";
 

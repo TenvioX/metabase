@@ -58,7 +58,7 @@ export const GettingStartedSection = ({
           isSelected={isOnboardingPageSelected}
           onClick={() => trackOnboardingChecklistOpened()}
         >
-          {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- We only show this to non-whitelabelled instances */}
+          { }
           {t`How to use TenvioX`}
         </PaddedSidebarLink>
 

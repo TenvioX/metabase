@@ -14,7 +14,7 @@ export const CardRoot = styled(Link)`
   padding: 1rem;
   border: 1px solid #E2E8F0;
   border-radius: 0.75rem;
-  background: linear-gradient(to bottom, #FFFFFF, rgba(248, 250, 252, 0.5));
+  background: linear-gradient(to bottom, #FFF, rgba(248, 250, 252, 0.5));
   box-shadow: 0 4px 12px rgba(0, 62, 199, 0.05);
   max-width: 100%;
   transition: box-shadow 200ms ease, transform 200ms ease;

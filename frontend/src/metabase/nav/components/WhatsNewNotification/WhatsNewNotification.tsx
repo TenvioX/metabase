@@ -66,7 +66,7 @@ export function WhatsNewNotification() {
           </IconButtonWrapper>
         </Flex>
 
-        {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- This only shows for admins */}
+        { }
         <Text fw="bold" size="sm">{t`TenvioX has been updated`}</Text>
 
         <Anchor

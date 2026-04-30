@@ -66,7 +66,7 @@ export const GrantAccessModal = ({ onClose }: GrantAccessModalProps) => {
       <Stack>
         <Box mt="sm">
           <Text display="inline">
-            {/* eslint-disable-next-line metabase/no-literal-metabase-strings -- This string only shows for admins. */}
+            { }
             {t`You are about to allow a TenvioX team member to access your instance.`}{" "}
           </Text>
           <Text fw="bold" display="inline">
